@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?theme_selector_group_item"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip" >
+
+        <TextView
+            android:id="@+id/talk_group_text"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="预设群组"
+            android:textColor="@color/white"
+            android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/talk_group_member_size"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/talk_group_text"
+            android:gravity="center_vertical"
+            android:text="（12）"
+            android:textColor="@color/radiobutton_text_gray"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/talk_group_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:clickable="false"
+            android:src="@drawable/rb_report_normal" />
+    </RelativeLayout>
+
+</LinearLayout>

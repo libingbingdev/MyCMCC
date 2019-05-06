@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal1.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_normal1.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\hangup_btn_pressed.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\hangup_btn_pressed.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal2.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_normal2.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\talk.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\talk.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_foreground.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\main_foreground.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exp_group.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\exp_group.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal_right.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_normal_right.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal_right_press.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_normal_right_press.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\system_msg.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\system_msg.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_pressed.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\button_pressed.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sms_embeded_text_editor_bg.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\sms_embeded_text_editor_bg.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_btn.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\login_btn.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_box_light.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\login_box_light.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pop_up_pannel_grey.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\pop_up_pannel_grey.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\hangup_btn.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\hangup_btn.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_btn_pressed.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\login_btn_pressed.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\hangup_btn_pressed.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\hangup_btn_pressed.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_box_light.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\login_box_light.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nav_title.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\nav_title.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\talk_pressed.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\talk_pressed.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pop_up_pannel_light.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\pop_up_pannel_light.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_normal.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\button_normal.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\error_hint_main_bg.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\error_hint_main_bg.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_box_dark.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\login_box_dark.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_pressed.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\button_pressed.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal1.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_normal1.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal_left.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_normal_left.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\msg_tip_bg.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\msg_tip_bg.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_foreground.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\main_foreground.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\grid1.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\grid1.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\talk_pressed.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\talk_pressed.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\playvideo_tools_background.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\playvideo_tools_background.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\media_session_speak.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\media_session_speak.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\media_session_speak.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\media_session_speak.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\playvideo_tools_background_light.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\playvideo_tools_background_light.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\playvideo_tools_background_light.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\playvideo_tools_background_light.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\text_box.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\text_box.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exp_group.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\exp_group.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_btn.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\login_btn.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal_left_press.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_normal_left_press.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\text_box.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\text_box.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nav_unread_bg_light.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\nav_unread_bg_light.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pop_up_pannel_light.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\pop_up_pannel_light.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\error_hint_main_bg.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\error_hint_main_bg.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal_right.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_normal_right.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\grid1.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\grid1.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_btn_pressed.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\login_btn_pressed.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal_right_press.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_normal_right_press.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\playvideo_tools_background.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\playvideo_tools_background.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nav_title.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\nav_title.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_normal.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\button_normal.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\slide_right_shadow.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\slide_right_shadow.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal_left.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_normal_left.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pop_up_pannel_grey.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\pop_up_pannel_grey.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\msg_tip_bg.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\msg_tip_bg.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal2.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_normal2.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nav_unread_bg_light.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\nav_unread_bg_light.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nav_unread_bg.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\nav_unread_bg.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_selected1.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_selected1.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_box_dark.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\login_box_dark.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\hangup_btn.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\hangup_btn.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_normal_left_press.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_normal_left_press.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nav_unread_bg.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\nav_unread_bg.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sms_embeded_text_editor_bg.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\sms_embeded_text_editor_bg.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pop_up_pannel.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\pop_up_pannel.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\slide_right_shadow.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\slide_right_shadow.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\system_msg.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\system_msg.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_selected1.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\btn_selected1.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\slide_left_shadow.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\slide_left_shadow.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\slide_left_shadow.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\slide_left_shadow.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\talk.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\talk.9.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pop_up_pannel.9.png",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\drawable-hdpi\\pop_up_pannel.9.png"
+    }
+]

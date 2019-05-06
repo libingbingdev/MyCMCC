@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\ptt_config.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\menu\\ptt_config.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\talk_menu.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\menu\\talk_menu.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\all_member_menu.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\menu\\all_member_menu.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\update_version_menu.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\menu\\update_version_menu.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\more_settings_menu_new.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\menu\\more_settings_menu_new.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\heart_beat_menu.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\menu\\heart_beat_menu.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\more_settings_menu.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\menu\\more_settings_menu.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\heart_beat_menu.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\menu\\heart_beat_menu.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\channels_listener_menu.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\menu\\channels_listener_menu.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\talk_menu.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\menu\\talk_menu.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\more_settings_menu_new.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\menu\\more_settings_menu_new.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\ptt_config.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\menu\\ptt_config.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\update_version_menu.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\menu\\update_version_menu.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\more_settings_menu.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\menu\\more_settings_menu.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\menu\\channels_listener_menu.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\menu\\channels_listener_menu.xml"
+    }
+]

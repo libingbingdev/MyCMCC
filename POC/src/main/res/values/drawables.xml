@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="edit_btn_press">#2f0d1923</item>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="image_default">#af000000</drawable>
+    <drawable name="btn_unselected">#f3f3f3</drawable>
+    <drawable name="btn_press">#161616</drawable>
+    <drawable name="btn_selected">#65c473</drawable>
+    <drawable name="tab_selected">#e5e5e5</drawable>
+    <drawable name="group_item_unselected">#e5e5e5</drawable>
+    <drawable name="group_item_selected">#f5f5f5</drawable>
+    <drawable name="black_alpha_transparent">#5f000000</drawable>
+    <drawable name="member_selected">#161616</drawable>
+    <drawable name="member_unselected">#00000000</drawable>
+   
+    
+    <drawable name="update_drawable_normal">#61c016</drawable>
+    <drawable name="update_drawable_pressed">#4fa80f</drawable>
+    <drawable name="update_drawable_disable">#aaaaaa</drawable>
+    
+    
+    
+  
+  
+    
+     
+</resources>

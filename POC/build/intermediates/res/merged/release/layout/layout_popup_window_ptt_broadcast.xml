@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_ptt_broadcast"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="170dp"
+            android:background="@drawable/bg_ptt_broadcast_top"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp" >
+
+                <ImageView
+                    android:id="@+id/iv_ptt_broadcast_doing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="4dp"
+                    android:layout_toLeftOf="@+id/ptt_broadcast_timer"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/ic_session_video_record"
+                    android:visibility="invisible" />
+
+                <Chronometer
+                    android:id="@id/ptt_broadcast_timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingTop="10dp"
+                    android:text="00:00"
+                    android:textColor="@color/black"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_close_ptt_broadcast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/icon_ptt_broadcast_close" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_ptt_broadcast_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/talk_ptt_broadcast_idle"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="15dp" >
+
+                <ImageView
+                    android:id="@+id/iv_ptt_broadcast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ptt_broadcast3" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ptt_broadcast_button"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="-5dp"
+            android:background="@drawable/bg_ptt_broadcast_bottom_stop"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/pb_ptt_broadcast"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:max="120"
+                android:progressDrawable="@drawable/progress_ptt_broadcast_start"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_ptt_broadcast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/talk_ptt_broadcast_start"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

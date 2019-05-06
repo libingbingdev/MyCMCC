@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility" severity="ignore" />
+    <issue id="DefaultLocale" severity="ignore" />
+    <issue id="HandlerLeak" severity="ignore" />
+    <issue id="InflateParams" severity="ignore" />
+    <issue id="InlinedApi" severity="ignore">
+        <ignore path="src/com/airtalkee/adapter/AdapterReport.java" />
+    </issue>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/com/airtalkee/Util/Util.java" />
+        <ignore path="src/com/airtalkee/adapter/AdapterReport.java" />
+    </issue>
+    <issue id="Override" severity="ignore" />
+    <issue id="ResourceAsColor" severity="ignore" />
+    <issue id="SdCardPath" severity="ignore" />
+    <issue id="SimpleDateFormat" severity="ignore" />
+    <issue id="UseSparseArrays" severity="ignore" />
+</lint>

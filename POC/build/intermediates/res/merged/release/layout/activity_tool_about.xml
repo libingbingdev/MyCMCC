@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/talk_layout_session_member"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_main_header" />
+    <!-- 关于版本 -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5px"
+             >
+
+            <!--<ImageView
+                android:id="@+id/icon_cmcc"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/icon_cmcc"
+                />-->
+
+            <TextView
+                android:id="@+id/tv_cmcc"
+                android:layout_width="wrap_content"
+                android:layout_height="20px"
+                android:text="@string/app_name_cmcc"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_normal_size" />
+
+            <TextView
+                android:id="@+id/talk_tv_version"
+                android:layout_width="wrap_content"
+                android:layout_height="20px"
+                android:layout_below="@+id/tv_cmcc"
+                android:text="VERSION"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_normal_size" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5px">
+            <TextView
+                android:id="@+id/software_number"
+                android:layout_width="wrap_content"
+                android:layout_height="20px"
+                android:textSize="@dimen/text_normal_size"
+                android:text="@string/software_number"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/software_number_info"
+                android:layout_width="wrap_content"
+                android:layout_height="20px"
+                android:textSize="@dimen/text_normal_size"
+                android:text="software version"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/layout_bottom" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dip"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/dicider_line2" />
+
+                    <LinearLayout
+                        android:id="@+id/talk_check_version"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?theme_sider_title_bg"
+                        android:gravity="center_vertical"
+                        android:paddingTop="10dip"
+                        android:paddingBottom="10dip"
+                         >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/talk_verion_check"
+                            android:textColor="?theme_color_text"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right" >
+
+                            <ImageView
+                                android:id="@+id/talk_iv_update_icon"
+                                android:layout_width="7dp"
+                                android:layout_height="7dp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="10dip"
+                                android:src="@drawable/ic_update"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:id="@+id/talk_tv_update_msg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dip"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/talk_tv_version_code"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_version_code"
+                                android:padding="5dp"
+                                android:text="VERSION"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!--<LinearLayout
+                        android:id="@id/talk_tv_statistic"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?theme_sider_title_bg"
+                        android:gravity="center_vertical"
+                        android:padding="10dip" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@id/talk_tv_statistic_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="10dip"
+                                android:text="@string/talk_statistic_time"
+                                android:textColor="@color/black_gray"
+                                android:textSize="13dip" />
+
+                            <TextView
+                                android:id="@id/talk_tv_statistic_bytes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="10dip"
+                                android:text="@string/talk_statistic_bytes"
+                                android:textColor="@color/black_gray"
+                                android:textSize="13dip" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/talk_iv_refresh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="10dip"
+                            android:background="?theme_button_refresh" />
+                    </LinearLayout>-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:id="@+id/system_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="@string/phone_system_info"
+                            android:textColor="@color/black_gray"/>
+                        <TextView
+                            android:id="@+id/system_tv_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="system version"
+                            android:textColor="@color/black_gray"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/dicider_line2" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/include_bottom_footer"/>
+</FrameLayout>

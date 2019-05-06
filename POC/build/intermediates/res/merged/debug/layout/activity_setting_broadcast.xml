@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#ffffff" >
+	<RadioGroup
+		android:id="@+id/rg_hb_frequence"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+
+		<RadioButton
+			android:id="@+id/open_broadcast"
+			style="@style/rb_style"
+			android:clickable="true"
+			android:text="@string/open_broadcast_listen" />
+
+		<RadioButton
+			android:id="@+id/close_broadcast"
+			style="@style/rb_style"
+			android:clickable="true"
+			android:text="@string/close_broadcast_listen" />
+
+	</RadioGroup>
+	
+	<include layout="@layout/include_bottom_footer"/>
+</FrameLayout>

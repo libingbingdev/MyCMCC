@@ -1,0 +1,1038 @@
+[
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\table_media_info_section.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\table_media_info_section.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_video_fps.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_video_fps.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_video_item.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_video_item.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_help.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_image_pager.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_image_pager.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_image.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_image.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_case_list.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_task_case_list.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_report.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_report.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_location.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_location.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_main_header.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\include_main_header.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_video_item.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_video_item.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_conversation_message_me.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_conversation_message_me.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_case_detail.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_task_case_detail.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_session_new.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_session_new.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_item_grid_keyboard_delete.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b297ddaedf3c0fa5952abb41ab89c04da4f852f9\\output\\res\\layout\\sso_item_grid_keyboard_delete.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_video_player_none.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_video_player_none.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_map_share.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_map_share.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_channel_attach.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_channel_attach.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\back_key.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\back_key.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_member_header.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_member_header.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\video_main.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\video_main.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_item_grid_keyboard_key.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b297ddaedf3c0fa5952abb41ab89c04da4f852f9\\output\\res\\layout\\sso_item_grid_keyboard_key.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\video_main.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\video_main.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_light.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_light.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_album.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_album.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_alert_layout_logout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\dialog_alert_layout_logout.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_location_share.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_location_share.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_image_pager.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_image_pager.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\toast_view.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\toast_view.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\symbol_softkeyboard.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\symbol_softkeyboard.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_main_header.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\include_main_header.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_location_search.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_location_search.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_member.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_member.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_session_dialog.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_session_dialog.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\session_header_item.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\session_header_item.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_conversation_message_util.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_conversation_message_util.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_video_rate.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_video_rate.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_listview_head.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\pull_to_refresh_listview_head.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_home.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_task_case.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_task_case.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_show_test.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_show_test.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_member_new.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_member_new.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\account_switch_listitem.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\account_switch_listitem.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_report.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_report.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\m_listview_head.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\m_listview_head.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_about.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_about.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_home_title.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\include_home_title.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_map.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_map.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\main_gv_item_layout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\main_gv_item_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_manual.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_manual.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_show_test.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_show_test.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_account.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_account.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_member_all.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_member_all.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_member_new.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_member_new.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_multichannel_list.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_multichannel_list.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\session_header_item.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\session_header_item.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\video_list.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\video_list.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_location_choose.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_location_choose.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\table_media_info.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\table_media_info.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_channel_list.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_channel_list.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_case_detail.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_task_case_detail.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\main_gv_item_layout.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\main_gv_item_layout.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_report_as_pic.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_report_as_pic.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_about.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_about.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\video_list.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\video_list.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\video_panel.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\video_panel.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\frag_im_layout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\frag_im_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_display.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_display.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_session_addmember.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_session_addmember.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_terminal_status.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_terminal_status.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_baidu_map.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_baidu_map.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_photo.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_photo.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_report_as_vid.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_report_as_vid.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_album.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_album.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_conversation_message_other.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_conversation_message_other.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_alert_layout.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\dialog_alert_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\frag_ptt_layout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\frag_ptt_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_video_player.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_video_player.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_map_marker.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_map_marker.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\frag_ptt_layout.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\frag_ptt_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_location_map.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_location_map.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_ptt_broadcast.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_ptt_broadcast.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_account.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_account.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\frag_member_layout.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\frag_member_layout.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_session.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_session.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_alert_version_update.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\dialog_alert_version_update.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_channels.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_channels.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_setting_session_video.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_setting_session_video.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_map_marker.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_map_marker.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_layout_sec_code_manager.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b297ddaedf3c0fa5952abb41ab89c04da4f852f9\\output\\res\\layout\\sso_layout_sec_code_manager.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_video_player.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_video_player.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_ptt_settings.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_ptt_settings.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_task_case.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_task_case.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_location_choose.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_location_choose.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\delete_key.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\delete_key.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_layout_security_code_popwind.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\layout\\sso_layout_security_code_popwind.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_map_share.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_map_share.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_alert_report.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\dialog_alert_report.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_layout_set_success_dialog.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\layout\\sso_layout_set_success_dialog.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\video_panel.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\video_panel.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_menu_setting_channel.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_menu_setting_channel.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_conversation_message_me.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_conversation_message_me.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_report.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_report.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\table_media_info_row2.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\table_media_info_row2.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_session_video.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_session_video.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_home_function.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\include_home_function.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\number_key.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\number_key.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_gps.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_gps.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_session_new.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_session_new.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_case_list.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_task_case_list.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_multichannel_settings.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_multichannel_settings.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_alert_report.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\dialog_alert_report.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_setting_session_video.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_setting_session_video.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_home_talkbtn.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\include_home_talkbtn.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_group_preset.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_group_preset.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_password.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_password.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_password_find.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_password_find.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_broadcast_layout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\dialog_broadcast_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_layout_nums_keyboard.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\layout\\sso_layout_nums_keyboard.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_video_rate.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_video_rate.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\loweren_key.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\loweren_key.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_help.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_preset.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_group_preset.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_channel.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_channel.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_account.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_account.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\horizontal_list_item.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\horizontal_list_item.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\exp_listitem_child_ipoc_top.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\exp_listitem_child_ipoc_top.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_channel_attach.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_channel_attach.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_video_player.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_video_player.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_call_receiver_layout.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\dialog_call_receiver_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\item_pager_image.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\item_pager_image.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_conversation_message_util.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_conversation_message_util.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_first.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_first.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_mac_recording.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\include_mac_recording.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_home.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_report_view.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_report_view.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_display.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_display.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_location_share.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_location_share.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\toast_layout.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\toast_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_member.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_member.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_alert_layout_logout.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\dialog_alert_layout_logout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_defect_report.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_defect_report.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_channel_list.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_channel_list.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\account_switch_listitem.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\account_switch_listitem.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_call_center_layout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\dialog_call_center_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_session_dialog.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_session_dialog.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_password.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_password.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_all_member.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_all_member.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\exp_listitem_child_ipoc_top.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\exp_listitem_child_ipoc_top.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_video_player_none.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_video_player_none.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_layout_secur_code_edit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b297ddaedf3c0fa5952abb41ab89c04da4f852f9\\output\\res\\layout\\sso_layout_secur_code_edit.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_location_search.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_location_search.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_session.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_session.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_album_choose.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_album_choose.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_video_fps.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_video_fps.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\table_media_info_row1.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\table_media_info_row1.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_setting_broadcast.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_setting_broadcast.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_report.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_report.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\upperen_key.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\upperen_key.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\m_listview_head.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\m_listview_head.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\toast_layout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\toast_layout.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\ptt_settings_item_layout.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\ptt_settings_item_layout.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_video_player.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_video_player.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\item_pager_image.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\item_pager_image.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_member_all.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_member_all.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_password_find.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_password_find.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\photo_camera.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\photo_camera.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_channels.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_channels.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\symbol_key.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\symbol_key.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_manual.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_manual.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_setting_ptt.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_setting_ptt.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_album_enter.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_album_enter.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_update.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_update.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_report_as_vid.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_report_as_vid.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_item_grid_keyboard_delete.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\layout\\sso_item_grid_keyboard_delete.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_multichannel.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_multichannel.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_video_list.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_video_list.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_member_header.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_member_header.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\video_camera.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\video_camera.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_baidu_map.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_baidu_map.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_input.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_input.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\number_softkeyboard.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\number_softkeyboard.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_member_list.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_member_list.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_video.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_video.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_channel.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_channel.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\photo_camera.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\photo_camera.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_bottom_footer.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\include_bottom_footer.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_map.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_map.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_layout_set_success_dialog.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b297ddaedf3c0fa5952abb41ab89c04da4f852f9\\output\\res\\layout\\sso_layout_set_success_dialog.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_login.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_member_list.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_member_list.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_video.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_video.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_layout_toast.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\layout\\sso_layout_toast.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_notice.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_notice.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_ptt_broadcast.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_ptt_broadcast.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_listview_head.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\pull_to_refresh_listview_head.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_defect_report.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_defect_report.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_call_center_layout.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\dialog_call_center_layout.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\video_camera.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\video_camera.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_home_function.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\include_home_function.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_home_title.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\include_home_title.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_report_view.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_report_view.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\frag_member_layout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\frag_member_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_warning_layout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\dialog_warning_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_alert_layout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\dialog_alert_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\upperen_softkeyboard.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\upperen_softkeyboard.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\ptt_settings_item_layout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\ptt_settings_item_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_location.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_location.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_album_enter.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_album_enter.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\frag_im_layout.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\frag_im_layout.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\video_list_item.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\video_list_item.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\table_media_info_row1.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\table_media_info_row1.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_notice.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_notice.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_album_choose.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_album_choose.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_task_case.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_task_case.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_group_preset.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_group_preset.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_function.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\include_function.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_item_grid_keyboard_key.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\layout\\sso_item_grid_keyboard_key.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_mac_recording.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\include_mac_recording.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_ptt_settings.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_ptt_settings.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_setting_ptt.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_setting_ptt.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_first.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_first.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_layout_secur_code_edit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\layout\\sso_layout_secur_code_edit.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_task_case.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_task_case.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_location_map.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_location_map.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_call_receiver_layout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\dialog_call_receiver_layout.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\video_list_item.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\video_list_item.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_report_as_pic.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_report_as_pic.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_video_setting.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_video_setting.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_menu_setting_channel.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_menu_setting_channel.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\dialog_alert_version_update.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\dialog_alert_version_update.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_conversation_message_other.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\listitem_conversation_message_other.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_frameanim.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_frameanim.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\loweren_softkeyboard.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\loweren_softkeyboard.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_terminal_status.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_terminal_status.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_video_list.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_video_list.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_preset.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_group_preset.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\table_media_info_section.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\table_media_info_section.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_account.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_account.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_function.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\include_function.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_session_addmember.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_session_addmember.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_video_setting.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_video_setting.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\table_media_info_row2.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\table_media_info_row2.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_tool_gps.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_tool_gps.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_reset_device.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_reset_device.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\include_home_talkbtn.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\include_home_talkbtn.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\table_media_info.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\table_media_info.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\layout_popup_window_image.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\layout_popup_window_image.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\horizontal_list_item.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\horizontal_list_item.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_layout_sec_code_manager.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\layout\\sso_layout_sec_code_manager.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_session_video.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\activity_session_video.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\ok_key.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\ok_key.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_layout_nums_keyboard.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b297ddaedf3c0fa5952abb41ab89c04da4f852f9\\output\\res\\layout\\sso_layout_nums_keyboard.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\sso_layout_toast.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b297ddaedf3c0fa5952abb41ab89c04da4f852f9\\output\\res\\layout\\sso_layout_toast.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\listitem_photo.xml",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\layout\\listitem_photo.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\activity_all_member.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\activity_all_member.xml"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\layout\\popupwindow_layout.xml",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\layout\\popupwindow_layout.xml"
+    }
+]

@@ -1,0 +1,37 @@
+-injars 'Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\build\intermediates\transforms\jarMerging\release\jars\1\1f\combined.jar'
+-outjars 'Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\build\intermediates\multi-dex\release\componentClasses.jar'
+
+-libraryjars 'C:\Users\Administrator\AppData\Local\Android\Sdk\build-tools\25.0.3\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\build\intermediates\multi-dex\release\components.flags'
+
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

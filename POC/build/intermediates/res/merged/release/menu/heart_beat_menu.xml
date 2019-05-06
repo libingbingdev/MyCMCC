@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/seconds_10" android:title="@string/heart_bt_10" android:showAsAction="never"/>
+    <item android:id="@+id/seconds_40" android:title="@string/heart_bt_40" android:showAsAction="never"/>
+    <item android:id="@+id/seconds_60" android:title="@string/heart_bt_60" android:showAsAction="never"/>
+</menu>

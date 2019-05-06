@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cmccpoc"
+    android:versionCode="1"
+    android:versionName="V1.0 R20190419" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="com.sonim.permission.USE_PTT_KEY" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <!-- M zlm 多终端集成 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+
+    <!-- M zlm 多终端集成 -->
+    <application
+        android:name="com.cmccpoc.application.MainApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon_cmcc"
+        android:label="@string/app_name_cmcc"
+        android:persistent="true"
+        android:theme="@style/AppTheme_Dark" >
+        <activity
+            android:name="com.cmccpoc.activity.AccountActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cmccpoc.activity.home.HomeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.SessionAddActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.SessionNewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.AlbumChooseActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name="com.cmccpoc.activity.AlbumEnterActivity" />
+        <activity
+            android:name="com.cmccpoc.activity.MoreActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuAboutActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuAccountActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuDisplayActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuPasswordActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuPasswordFindActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuDefectReportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuGpsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuReportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuReportViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuReportAsPicActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuReportAsVidActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuNoticeActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuManualActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuSettingPttActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuSettingSessionVideoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuHelpActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuTaskCaseListActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuTaskCaseDetailActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.ActivityImagePager"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.VideoSessionActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.cmccpoc.widget.VideoCamera"
+            android:label="@string/app_name_cmcc"
+            android:screenOrientation="sensor"
+            android:windowSoftInputMode="stateHidden" /> <!-- android:launchMode="singleTask" -->
+
+        <activity
+            android:name="com.cmccpoc.widget.PhotoCamera"
+            android:label="@string/app_name_cmcc"
+            android:screenOrientation="sensor"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.MapPointBaiduActivity"
+            android:label="@string/app_name_cmcc"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.ActivityLocationMap"
+            android:label="@string/app_name_cmcc"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.ActivityLocationSearch"
+            android:label="@string/app_name_cmcc"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity
+            android:name="com.cmccpoc.activity.MenuSettingChannelActivity"
+            android:label="@string/app_name_cmcc"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.ActivityVideoPlayer"
+            android:label="@string/app_name_cmcc"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.ActivityPresetGroup"
+            android:label="@string/app_name_cmcc"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cmccpoc.activity.MapShareActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cmccpoc.activity.FirstActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.SettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.home.ChannelListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.home.MultichannelSettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.home.MultichannelSettingList"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.ChargeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.LightActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.BroadcastSettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.NetWorkSettingsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.home.ResetDeviceActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.home.MemberListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.AllMemberActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.PttSettingsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.TerminalStatusActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.home.ShowTestActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.InputActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cmccpoc.activity.LoginActivity"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name="com.cmccpoc.services.AirServices"
+            android:enabled="true"
+            android:exported="false"
+            android:label="AirServices"
+            android:targetPackage="com.cmccpoc" >
+            <intent-filter android:priority="1000" >
+                <action android:name="com.cmccpoc.services.AirServices" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.cmccpoc.services.PttKeyServices"
+            android:enabled="true"
+            android:exported="false"
+            android:targetPackage="com.cmccpoc" >
+            <intent-filter android:priority="1000" >
+                <action android:name="com.cmccpoc.services.PttKeyServices" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+        <service
+            android:name="com.cmcc.sso.service.SsoService"
+            android:process=":CMCCSsoService" />
+
+        <!-- M zlm 多终端集成 -->
+        <!--
+            <service
+            android:name="cn.richinfo.mt.service.MTService"
+            android:exported="false"></service>
+
+        <receiver android:name="cn.richinfo.mt.receiver.MTBroadCastReceiver">
+            <intent-filter>
+                <action android:name="cn.richinfo.mutm.action.HEARTBEAT" />
+                <action android:name="android.richinfo.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        -->
+
+
+        <!-- M zlm 多终端集成 -->
+
+        <receiver android:name="com.airtalkee.sdk.engine.AirTimer" />
+        <receiver android:name="com.cmccpoc.util.AirMmiTimer" />
+        <!-- 创建Receive监控打电话和接电话 -->
+        <receiver android:name="com.cmccpoc.receiver.ReceiverPhoneState" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+        <!-- 创建 Receive监控耳机按键 -->
+        <receiver android:name="com.cmccpoc.receiver.ReceiverMediaButton" />
+
+        <!-- 创建 Receive监控开机启动 -->
+        <receiver android:name="com.cmccpoc.receiver.ReceiverBoot" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 监听屏幕 SCREEN ON OR OFF -->
+        <receiver android:name="com.cmccpoc.receiver.ReceiverScreenOff" >
+            <intent-filter android:priority="10000" >
+                <action android:name="android.intent.action.SCREEN_OFF" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.cmccpoc.receiver.ReceiverSprdUsb" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_STATE" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 监听屏幕锁定 -->
+        <receiver
+            android:name="com.cmccpoc.receiver.ReceiverDeviceAdmin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+                <action android:name="android.app.action.DEVICE_ADMIN_DISABLED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 三星机器常驻解决方案 -->
+        <receiver android:name="com.cmccpoc.receiver.ReceiverExtSamsung" >
+            <intent-filter>
+                <action android:name="edm.intent.action.license.status" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 监听Notification被点击 -->
+        <receiver android:name="com.cmccpoc.receiver.ReceiverNotification" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="53da15fd56240b75c500041d" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng" />
+        <!-- 百度地图KEY -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="1Syo9WmlsyQaRXQbaNETLWQIYeS7A1nO" />
+        <!-- 高德地图KEY -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="3245db0ae0f2e63bc29a58185e5933b4" />
+
+        <activity
+            android:name="com.cmcc.sso.sdk.securitycode.SsoSecurityCodeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+    </application>
+
+</manifest>

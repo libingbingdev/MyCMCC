@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?theme_sider_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-1dip"
+        android:orientation="vertical" >
+
+        <include layout="@layout/include_main_header" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/talk_report_list_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="top">
+
+            <ListView
+                android:id="@+id/talk_report_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000"
+                android:groupIndicator="@null"
+                android:listSelector="@android:color/transparent" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/talk_report_empty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dip"
+            android:gravity="center"
+            android:text="@string/talk_report_upload_list_empty"
+            android:textColor="#666666"
+            android:textSize="16dip"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/rl_report_panel"
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_report_del"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <CheckBox
+                android:id="@+id/cb_report_selectall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:button="?theme_btn_check"
+                android:paddingLeft="8dp"
+                android:text="全选"
+                android:textColor="@color/black_gray" />
+
+            <TextView
+                android:id="@+id/tv_report_select_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="40dp"
+                android:textColor="@color/black_gray" />
+
+            <LinearLayout
+                android:id="@+id/bt_report_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_report_gray"
+                android:gravity="center" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="删除"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/dicider_line2" />
+
+</LinearLayout>

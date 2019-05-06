@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/talk_layout_session_member"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?theme_sider_bg"
+    android:orientation="horizontal" >
+
+    <!-- 编辑名称 -->
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/include_main_header" />
+
+        <RelativeLayout
+            android:id="@+id/layout_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/layout_bottom" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dip"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/talk_lv_ipocid"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?theme_sider_title_bg"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="10dip" 
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="80dip"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="10dip"
+                            android:text="@string/talk_user_username"
+                            android:textColor="#787878"
+                            android:textSize="16dip" />
+
+                        <com.cmccpoc.activity.home.widget.MyEditText
+                            android:id="@id/talk_tv_user_name"
+                            android:layout_width="fill_parent"
+                            android:layout_height="50dp"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="20dip"
+                            android:textColor="#282828"
+                            android:textSize="16dip" 
+                            android:singleLine="true"
+							android:hint="@string/talk_input_name"                            
+                            android:background="@null"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/dicider_line2" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/talk_lv_tool_save"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="100dp"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?theme_button_new" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

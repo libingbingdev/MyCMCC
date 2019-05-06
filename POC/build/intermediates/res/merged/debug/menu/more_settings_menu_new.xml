@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/account_info" android:title="@string/more_account_info" android:orderInCategory="100" android:showAsAction="never"/>
+    <item android:id="@+id/finalport_status" android:title="@string/more_finalport_status" android:orderInCategory="100" android:showAsAction="never"/>
+    <item android:id="@+id/net_settings" android:title="@string/more_net_settings" android:orderInCategory="100" android:showAsAction="never"/>
+    <item android:id="@+id/ppt_talk_settings" android:title="@string/more_ptt_talk_settings" android:orderInCategory="100" android:showAsAction="never"/>
+    <item android:id="@+id/backup_default" android:title="@string/more_backup" android:orderInCategory="100" android:showAsAction="never"/>
+    <item android:id="@+id/about_version" android:title="@string/more_about_version" android:orderInCategory="100" android:showAsAction="never"/>
+    <item android:id="@+id/show_test_menu" android:title="@string/more_show_test_menu" android:orderInCategory="100" android:showAsAction="never"/>
+</menu>

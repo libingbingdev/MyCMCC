@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="-1dip"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/menu_left_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dip" >
+
+            <ImageView
+                android:id="@+id/btn_close"
+                android:layout_width="@dimen/main_menu_btn_width"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_close" />
+
+            <TextView
+                android:id="@+id/tv_new"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="新建会话"
+                android:textSize="22sp"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containner"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/bar_left"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name_cmcc"
+            android:scaleType="center"
+            android:src="@drawable/ic_fun_call_dis" />
+
+        <ImageView
+            android:id="@+id/bar_mid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name_cmcc"
+            android:scaleType="center"
+            android:src="@drawable/ic_fun_msg_dis" />
+
+        <ImageView
+            android:id="@+id/bar_right"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name_cmcc"
+            android:scaleType="center"
+            android:src="@drawable/ic_fun_cancel_dis" />
+    </LinearLayout>
+
+</LinearLayout>

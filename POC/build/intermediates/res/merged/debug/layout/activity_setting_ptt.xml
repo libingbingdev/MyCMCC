@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/include_main_header" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:id="@id/talk_setting_hb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@id/talk_setting_hb_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_marginBottom="3dip"
+                        android:layout_marginLeft="10dip"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/talk_tools_setting_hb"
+                        android:textColor="?theme_button_text_color"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_marginLeft="15dip"
+                        android:layout_marginRight="15dip"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/talk_tools_setting_hb_tip"
+                        android:textColor="#787878"
+                        android:textSize="14sp" />
+
+                    <RelativeLayout
+                        android:id="@+id/talk_hb_frequence_item"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RadioGroup
+                            android:id="@+id/rg_hb_frequence"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical" >
+
+                            <RadioButton
+                                android:id="@+id/rb_fast"
+                                style="@style/rb_style"
+                                android:clickable="true"
+                                android:text="10秒" />
+
+                            <RadioButton
+                                android:id="@+id/rb_normal"
+                                style="@style/rb_style"
+                                android:clickable="true"
+                                android:text="40秒" />
+
+                            <RadioButton
+                                android:id="@+id/rb_slow"
+                                style="@style/rb_style"
+                                android:clickable="true"
+                                android:text="60秒" />
+                        </RadioGroup>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@id/talk_setting_hb_line"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="?theme_divider_h" />
+        </LinearLayout>
+    </ScrollView>
+
+        <include layout="@layout/include_bottom_footer" />
+</FrameLayout>

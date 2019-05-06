@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/more_port_status">
+    <PreferenceCategory
+        android:key="port_status"
+        android:title="@string/more_port_status">
+        <Preference
+            android:key="device_model"
+            android:title="@string/port_model"
+            android:summary="@string/port_model"/>
+        <Preference
+            android:key="net_operate"
+            android:title="@string/port_network"
+            android:summary="@string/port_network"/>
+        <Preference
+            android:key="signal_strength"
+            android:title="@string/port_signal_strength"
+            android:summary="@string/port_signal_strength"/>
+        <Preference
+            android:key="net_model"
+            android:title="@string/port_mobile_net_model"
+            android:summary="@string/port_mobile_net_model"/>
+        <Preference
+            android:key="net_status"
+            android:title="@string/port_mobile_net_status"
+            android:summary="@string/port_mobile_net_status"/>
+        <Preference
+            android:key="phone_number"
+            android:title="@string/phone_number"
+            android:summary="@string/phone_number"/>
+        <Preference
+            android:key="imei_info"
+            android:title="@string/imei_info"
+            android:summary="@string/imei_info"/>
+        <Preference
+            android:key="serial_number"
+            android:title="@string/serial_number_info"
+            android:summary="@string/serial_number_info"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

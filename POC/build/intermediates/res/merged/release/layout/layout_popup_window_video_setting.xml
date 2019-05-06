@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/video_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <RadioGroup
+            android:id="@+id/rg_video_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/rb_video_best"
+                style="@style/RadioButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="超清" />
+
+            <View
+                android:id="@+id/rb_video_best_sp"
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="@drawable/ic_login_divider" />
+
+            <RadioButton
+                android:id="@+id/rb_video_high"
+                style="@style/RadioButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:gravity="center"
+                android:text="高清" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="@drawable/ic_login_divider" />
+
+            <RadioButton
+                android:id="@+id/rb_video_normal"
+                style="@style/RadioButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="标清" />
+            
+            <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="@drawable/ic_login_divider" />
+
+            <RadioButton
+                android:id="@+id/rb_video_low"
+                style="@style/RadioButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="极速" />
+            
+            <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="@drawable/ic_login_divider" />
+
+            <RadioButton
+                android:id="@+id/rb_video_custom"
+                style="@style/RadioButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="自定义" />
+        </RadioGroup>
+    </LinearLayout>
+
+</FrameLayout>

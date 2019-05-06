@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:background="?theme_main_bg">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/video"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:id="@id/talk_video_panel"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:visibility="gone">
+
+                <include layout="@layout/layout_popup_window_video_setting"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/video_panel" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="-1dip"
+            android:background="#80000000">
+
+            <LinearLayout
+                android:id="@+id/iv_video_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp"
+                    android:src="@drawable/btn_back"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_video_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="正在连接"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:visibility="gone"/>
+
+            <Chronometer
+                android:id="@+id/ch_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tv_video_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_video_setting_normal"
+                android:gravity="center"
+                android:text="标清"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/bitrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottom"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dip"
+            android:background="#5f000000"
+            android:padding="3dip"
+            android:text="0 kbps"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottom"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:background="#00000000"
+            android:contentDescription="Start/Stop Streaming"
+            android:src="@drawable/ic_switch_video"
+            android:text="Start/Stop Streaming"
+            android:visibility="gone"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:progressDrawable="@drawable/progress_large_white"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/talk_video_bottom_layout_land"
+        android:layout_width="100dip"
+        android:layout_height="fill_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/talk_btn_session_on_video_land"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_margin="20dip"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <RelativeLayout
+            android:id="@+id/video_identifier_voice_pannel_land"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/talk_btn_session_on_video_land"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/video_identifier_voice_land"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/selector_group_item_dark"
+                android:src="@drawable/ic_session_va_active"/>
+
+            <TextView
+                android:id="@+id/video_identifier_voice_text_land"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/video_identifier_voice_land"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="关闭环境音"
+                android:textSize="10sp"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/talk_btn_session_on_video_land">
+
+            <ImageView
+                android:id="@+id/video_record_land"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_session_video_start"/>
+
+            <TextView
+                android:id="@+id/tv_video_status_tip_land"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/video_record_land"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="开始录制"
+                android:textSize="10sp"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/video_list"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/bottombars"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#80000000"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/talk_video_bottom_layout"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp">
+
+                <ImageView
+                    android:id="@+id/talk_video_status_iv"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/media_talk" />
+
+                <TextView
+                    android:id="@id/talk_video_status_panel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dip"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@id/talk_video_bottom_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/talk_btn_session_on_video"
+                    android:layout_width="80dip"
+                    android:layout_height="80dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true" />
+
+                <RelativeLayout
+                    android:id="@+id/video_flash_pannel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="40dip"
+                    android:layout_toLeftOf="@id/talk_btn_session_on_video"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/video_flash"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_flash_off_holo_light" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/video_flash"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="闪光模式"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/video_identifier_voice_pannel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="40dip"
+                    android:layout_toLeftOf="@id/talk_btn_session_on_video"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:id="@+id/video_identifier_voice"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/selector_group_item_dark"
+                        android:src="@drawable/ic_session_va_active" />
+
+                    <TextView
+                        android:id="@+id/video_identifier_voice_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/video_identifier_voice"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="关闭环境音"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/video_identifier_capture_pannel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="40dip"
+                    android:layout_toLeftOf="@id/talk_btn_session_on_video"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/video_identifier_capture"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/selector_group_item_dark"
+                        android:src="@drawable/ic_capture_self" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/video_identifier_capture"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="本地抓拍"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="40dip"
+                    android:layout_toRightOf="@+id/talk_btn_session_on_video">
+
+                    <ImageView
+                        android:id="@+id/video_record"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_session_video_start" />
+
+                    <TextView
+                        android:id="@+id/tv_video_status_tip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/video_record"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="开始录制"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

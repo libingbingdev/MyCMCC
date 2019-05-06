@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_report_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="70dip"
+    android:background="?theme_sider_title_bg"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:padding="10dp" >
+
+    <CheckBox
+        android:id="@+id/cb_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:button="?theme_btn_check"
+        android:scaleType="center" />
+
+    <RelativeLayout
+        android:id="@+id/rl_report_panel"
+        android:layout_width="100dip"
+        android:layout_height="80dip"
+        android:layout_marginLeft="15dip"
+        android:layout_toRightOf="@id/cb_report" >
+
+        <ImageView
+            android:id="@+id/talk_report_icon"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/report_default_vid"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <VideoView
+            android:id="@+id/talk_report_video"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/talk_report_play"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:scaleType="center"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="0.5"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/talk_report_retry_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:scaleType="center" >
+
+            <ImageView
+                android:id="@+id/talk_report_retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/talk_report_progress"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/talk_report_retry_step"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/talk_tools_report_click"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@id/rl_report_panel"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="7dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/talk_report_task"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:singleLine="true"
+                android:text="Task"
+                android:textColor="@color/white"
+                android:textSize="10dip"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/talk_report_time"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="5dip"
+                    android:layout_weight="3"
+                    android:singleLine="true"
+                    android:text="Time"
+                    android:textColor="#787878"
+                    android:textSize="14dip" />
+
+                <ImageView
+                    android:id="@+id/iv_report_enter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_enter"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/talk_report_detail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:maxLines="2"
+                android:minLines="2"
+                android:text="Content"
+                android:textColor="#282828"
+                android:textSize="14dip" />
+
+            <TextView
+                android:id="@+id/talk_report_fail_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/bg_report_fail"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:text="@string/talk_tools_report_fail"
+                android:textColor="@color/white"
+                android:textSize="14dip"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dicider_line2"
+        android:padding="0dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

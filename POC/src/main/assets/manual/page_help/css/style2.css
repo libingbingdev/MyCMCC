@@ -1,0 +1,66 @@
+/* CSS Document */
+body {
+	background-color: #f0f0f0;
+	font-family: "Microsoft YaHei"
+}
+
+.box {
+	height: 116px;
+	width: 300px;
+	background-image: url(../img/box_bg_little.png);
+}
+
+p {
+	margin-left: 49px;
+	font-size: 14px;
+	color: gray;
+	margin-top: 6px;
+}
+
+.intro {
+	display: none;
+}
+
+.nav {
+	width: 100%;
+}
+
+.nav .nav-top {
+	overflow: hidden;
+	height: 44px;
+	background: #262626;
+	text-align: center;
+}
+
+.main {
+	min-height: 65%;
+}
+
+ul {
+	margin: 0;
+	padding: 0
+}
+
+ul li {
+	z-index: 2;
+	width: 300px;
+	margin: 0 auto;
+	list-style: none
+}
+
+.item-point {
+	padding-top: 57px;
+	margin-left: 20px;
+	font-size: 17px
+}
+
+.link {
+	margin-left: 10px
+}
+
+.arrow {
+	float: right;
+	margin: 5px 18px 0 10px;
+	width: 22px;
+	height: 11px;
+}

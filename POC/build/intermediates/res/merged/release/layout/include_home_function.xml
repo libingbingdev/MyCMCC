@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/function_btn_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/media_ptt_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.cmccpoc.activity.home.widget.StatusTalkBtn
+            android:id="@+id/status_talk_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/media_ptt_left"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="95dp"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/media_ptt_right"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="95dp"
+            android:orientation="vertical" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/tools_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="180dp"
+        android:orientation="vertical" />
+
+    <FrameLayout
+        android:id="@+id/indicator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" >
+
+        <com.cmccpoc.widget.PageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            app:indicator_spacing="5dp"
+            app:indicator_type="circle"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_im_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/circle_indicator_new"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_im_new"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="45dp"
+            android:src="@drawable/ic_im_new"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+</FrameLayout>

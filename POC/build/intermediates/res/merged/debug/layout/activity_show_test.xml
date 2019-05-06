@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?theme_sider_bg"
+    tools:context=".activity.home.ShowTestActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="?theme_color_text"
+        android:text="@string/show_test_title"
+        android:padding="2dp"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/text_gray" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+                android:id="@+id/lcd_info_catgroy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?theme_color_text"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:text="@string/lcd_info_title"/>
+            <TextView
+                android:id="@+id/lcd_info_resolution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_gray"
+                android:textSize="14sp"
+                android:text="@string/lcd_info_summary_res"/>
+            <TextView
+                android:id="@+id/lcd_info_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_gray"
+                android:textSize="14sp"
+                android:text="@string/lcd_info_summary_light"/>
+            <TextView
+                android:id="@+id/lcd_info_compar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_gray"
+                android:textSize="14sp"
+                android:text="@string/lcd_info_summary_compar"/>
+
+        </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="@color/text_gray" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+                <TextView
+                    android:id="@+id/cpu_info_catgroy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?theme_color_text"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:text="@string/cpu_info_tile"/>
+                <TextView
+                    android:id="@+id/cpu_info_factory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black_gray"
+                    android:textSize="14sp"
+                    android:text="@string/cpu_info_summary_factory"/>
+                <TextView
+                    android:id="@+id/cpu_info_model"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black_gray"
+                    android:textSize="14sp"
+                    android:text="@string/cpu_info_summary_model"/>
+                <TextView
+                    android:id="@+id/cpu_info_kenel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black_gray"
+                    android:textSize="14sp"
+                    android:text="@string/cpu_info_summary_kenels"/>
+                <TextView
+                    android:id="@+id/cpu_info_mainfq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black_gray"
+                    android:textSize="14sp"
+                    android:text="@string/cpu_info_summary_mainfq"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="@color/text_gray" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/volume_test"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?theme_color_text"
+                    android:textSize="18sp"
+                    android:padding="15dp"
+                    android:text="@string/volume_test_tile"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <Button
+                        android:id="@+id/start_volume_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/volume_test_start_btn" />
+                    <Button
+                        android:id="@+id/stop_volume_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/volume_test_stop_btn"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!--<View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="@color/text_gray" />-->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

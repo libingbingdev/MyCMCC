@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/note"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:padding="2dip" >
+
+    <include layout="@layout/listitem_conversation_message_util" />
+
+    <LinearLayout
+        android:id="@+id/body_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.6"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="10:00:00"
+                android:textColor="#838383"
+                android:textSize="10dip" />
+
+            <ImageView
+                android:id="@+id/user_head"
+                android:layout_width="42dip"
+                android:layout_height="42dip"
+                android:src="?theme_user_head" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/body_content2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="10dip"
+                android:singleLine="true"
+                android:text="fsdf"
+                android:textColor="#afffffff" />
+
+            <RelativeLayout
+                android:id="@+id/body_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_name"
+                android:background="?theme_msg_recv" >
+
+                <!-- text and picture Message -->
+
+                <RelativeLayout
+                    android:id="@+id/text_and_picture_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:minHeight="30dip" >
+
+                    <ImageView
+                        android:id="@+id/pic"
+                        android:layout_width="@dimen/msg_pic_widht"
+                        android:layout_height="@dimen/msg_pic_height"
+                        android:layout_centerVertical="true"
+                        android:scaleType="center"
+                        android:src="@drawable/msg_image" />
+
+                    <TextView
+                        android:id="@+id/body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:bufferType="spannable"
+                        android:gravity="center_vertical"
+                        android:minWidth="50dip"
+                        android:textColor="#cfffffff"
+                        android:textSize="14dip" />
+
+                    <ProgressBar
+                        android:id="@+id/pro_load"
+                        style="@style/CustomProgressStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/downlaod_btn"
+                        android:layout_width="60dip"
+                        android:layout_height="30dip"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="12dip"
+                        android:layout_toRightOf="@id/pic"
+                        android:background="@drawable/selector_button"
+                        android:gravity="center"
+                        android:text="@string/talk_download"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+                </RelativeLayout>
+                <!-- text and picture Message -->
+                <!-- Record Message -->
+
+                <RelativeLayout
+                    android:id="@+id/record_layout"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:minHeight="30dip"
+                    android:visibility="visible" >
+
+                    <TextView
+                        android:id="@+id/record_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dip"
+                        android:layout_toRightOf="@+id/record_pic"
+                        android:singleLine="true"
+                        android:text="8"
+                        android:textColor="#cfffffff" />
+
+                    <ImageView
+                        android:id="@+id/loading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="5dip"
+                        android:src="@drawable/loading"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/record_pic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:src="?theme_msg_audio_play" />
+
+                    <ProgressBar
+                        android:id="@+id/pro_loading"
+                        style="@style/CustomProgressStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:indeterminateDrawable="@drawable/pro_drawable"
+                        android:scaleType="fitCenter"
+                        android:visibility="gone" />
+                </RelativeLayout>
+                <!-- Record Message -->
+                <!-- session video Message -->
+
+                <RelativeLayout
+                    android:id="@+id/session_video_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:minWidth="30dp" >
+
+                    <ImageView
+                        android:id="@+id/video_pic"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:src="@drawable/ic_session_video" />
+
+                    <TextView
+                        android:id="@+id/video_body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/video_pic"
+                        android:bufferType="spannable"
+                        android:gravity="left"
+                        android:minWidth="50dip"
+                        android:paddingRight="10dp"
+                        android:textColor="#cfffffff"
+                        android:textSize="14dip" />
+                </RelativeLayout>
+                <!-- session video Message -->
+
+
+                <!-- location message -->
+
+                <RelativeLayout
+                    android:id="@+id/location_layout"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/mv_msg_location"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:padding="-1dp"
+                        android:src="@drawable/map_location" />
+
+                    <LinearLayout
+                        android:id="@+id/rl_loction_bottom"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@id/mv_msg_location"
+                        android:background="@color/black"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_msg_location_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:layout_marginTop="3dip"
+                            android:gravity="left"
+                            android:singleLine="true"
+                            android:text="@string/talk_gps_message"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tv_msg_location_detail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:layout_marginTop="3dip"
+                            android:gravity="left"
+                            android:singleLine="true"
+                            android:text="@string/talk_gps_message"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <!-- location message -->
+
+                <!-- location share message -->
+
+                <LinearLayout
+                    android:id="@+id/location_share_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_fun_gps"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/tv_location_share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="发起了位置共享"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <!-- location share message -->
+
+                <!-- video message -->
+
+                <RelativeLayout
+                    android:id="@+id/video_layout"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:layout_centerVertical="true" >
+
+                    <ImageView
+                        android:id="@+id/iv_msg_video"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/iv_msg_video_play"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/im_video_store" />
+                </RelativeLayout>
+                <!-- video message -->
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/un_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/body_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/body_content"
+                android:src="@drawable/msg_unread" />
+
+            <ImageView
+                android:id="@+id/msg_ptt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/body_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="95dip"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="35dip"
+                android:src="@drawable/msg_ptt"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <TextView
+        android:id="@+id/gv_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:textSize="@dimen/text_normal_size"
+        android:text="mm"
+        android:layout_marginLeft="20px"
+        android:gravity="center_vertical"
+        android:textColor="@color/focuse_item_color"
+        />
+    </RelativeLayout>
+</LinearLayout>

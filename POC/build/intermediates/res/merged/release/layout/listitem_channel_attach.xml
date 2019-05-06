@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?theme_sider_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip" >
+
+        <TextView
+            android:id="@id/talk_channel_text"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="频道名称"
+            android:textColor="@color/color_hint_dark"
+            android:textSize="18dip" />
+
+        <TextView android:id="@+id/talk_channel_current" 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/talk_channel_text"
+            android:text="（当前）"
+            android:textSize="12sp"
+            android:textColor="@color/black_gray"/>
+
+        <ImageView
+            android:id="@+id/talk_channel_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:clickable="false"
+            android:padding="5dip"
+            android:src="@drawable/rb_report_normal" />
+    </RelativeLayout>
+
+</LinearLayout>

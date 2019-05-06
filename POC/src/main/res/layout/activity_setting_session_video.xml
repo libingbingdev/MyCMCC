@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?theme_sider_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/include_main_header" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/talk_setting_hb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?theme_sider_title_bg"
+                android:clickable="false"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="3"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dip"
+                        android:layout_marginLeft="15dip"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/talk_setting_rate_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/talk_tools_video_quality"
+                            android:textColor="?theme_button_text_color"
+                            android:textSize="18dip" />
+
+                        <CheckBox
+                            android:id="@+id/cb_video_setting_type"
+                            android:layout_width="100dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginRight="15dip"
+                            android:layout_centerVertical="true"
+                            android:text="自定义"
+                            android:layout_alignParentRight="true"
+                            android:textColor="#787878"
+                            android:drawableRight="?theme_btn_check_new"
+                            android:button="@null" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:layout_marginRight="15dip"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/talk_tools_video_quality_tip"
+                        android:textColor="#787878"
+                        android:textSize="12dip" />
+
+                    <RelativeLayout
+                        android:id="@+id/talk_quality_item"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?theme_sider_title_bg"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="20dp" >
+
+                        <RadioGroup
+                            android:id="@+id/rg_quality_item"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/rb_quality_low"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:background="?theme_radio_check"
+                                android:button="@null" />
+
+                            <View
+                                android:layout_width="70dp"
+                                android:layout_height="5dp"
+                                android:background="@drawable/selector_radio_bg" />
+
+                            <RadioButton
+                                android:id="@+id/rb_quality_normal"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:background="?theme_radio_check"
+                                android:button="@null" />
+
+                            <View
+                                android:layout_width="70dp"
+                                android:layout_height="5dp"
+                                android:background="@drawable/selector_radio_bg" />
+
+                            <RadioButton
+                                android:id="@+id/rb_quality_high"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:background="?theme_radio_check"
+                                android:button="@null" />
+
+                            <View
+                                android:layout_width="70dp"
+                                android:layout_height="5dp"
+                                android:background="@drawable/selector_radio_bg" />
+
+                            <RadioButton
+                                android:id="@+id/rb_quality_best"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:background="?theme_radio_check"
+                                android:button="@null" />
+                        </RadioGroup>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@id/rg_quality_item"
+                            android:layout_below="@id/rg_quality_item"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="19dp"
+                                android:text="极速"
+                                android:textColor="@color/radiobutton_text_gray"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="60dp"
+                                android:layout_height="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="19dp"
+                                android:text="标清"
+                                android:textColor="@color/radiobutton_text_gray"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="60dp"
+                                android:layout_height="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="19dp"
+                                android:text="高清"
+                                android:textColor="@color/radiobutton_text_gray"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="60dp"
+                                android:layout_height="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="19dp"
+                                android:text="超清"
+                                android:textColor="@color/radiobutton_text_gray"
+                                android:textSize="15dp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="?theme_divider_h" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?theme_sider_title_bg"
+                android:clickable="false"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="3"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_setting_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dip"
+                        android:layout_marginLeft="15dip"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/talk_tools_video_rate"
+                        android:textColor="?theme_button_text_color"
+                        android:textSize="18dip" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:layout_marginRight="15dip"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/talk_tools_video_rate_tip"
+                        android:textColor="#787878"
+                        android:textSize="12dip" />
+
+                    <RelativeLayout
+                        android:id="@+id/talk_rate_item"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?theme_sider_title_bg"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="20dp" >
+
+                        <RadioGroup
+                            android:id="@+id/rg_rate_frequence"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/rb_rate_low"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:background="?theme_radio_check"
+                                android:button="@null" />
+
+                            <View
+                                android:layout_width="115dp"
+                                android:layout_height="5dp"
+                                android:background="@drawable/selector_radio_bg" />
+
+                            <RadioButton
+                                android:id="@+id/rb_rate_normal"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:background="?theme_radio_check"
+                                android:button="@null" />
+
+                            <View
+                                android:layout_width="115dp"
+                                android:layout_height="5dp"
+                                android:background="@drawable/selector_radio_bg" />
+
+                            <RadioButton
+                                android:id="@+id/rb_rate_high"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:background="?theme_radio_check"
+                                android:button="@null" />
+                        </RadioGroup>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@id/rg_rate_frequence"
+                            android:layout_below="@id/rg_rate_frequence"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="19dp"
+                                android:text="320p"
+                                android:textColor="@color/radiobutton_text_gray"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="105dp"
+                                android:layout_height="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="19dp"
+                                android:text="480p"
+                                android:textColor="@color/radiobutton_text_gray"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="105dp"
+                                android:layout_height="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="19dp"
+                                android:text="720p"
+                                android:textColor="@color/radiobutton_text_gray"
+                                android:textSize="15dp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="?theme_divider_h" />
+
+            <LinearLayout
+                android:id="@+id/talk_setting_fps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?theme_sider_title_bg"
+                android:clickable="false"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="3"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_setting_fps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dip"
+                        android:layout_marginLeft="15dip"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/talk_tools_video_fps"
+                        android:textColor="?theme_button_text_color"
+                        android:textSize="18dip" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:layout_marginRight="15dip"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/talk_tools_video_fps_tip"
+                        android:textColor="#787878"
+                        android:textSize="12dip" />
+
+                    <RelativeLayout
+                        android:id="@+id/talk_fps_item"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?theme_sider_title_bg"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="20dp" >
+
+                        <RadioGroup
+                            android:id="@+id/rg_fps_frequence"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/rb_fps_10"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:background="?theme_radio_check"
+                                android:button="@null" />
+
+                            <View
+                                android:layout_width="45dp"
+                                android:layout_height="5dp"
+                                android:background="@drawable/selector_radio_bg" />
+
+                            <RadioButton
+                                android:id="@+id/rb_fps_15"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:background="?theme_radio_check"
+                                android:button="@null" />
+
+                            <View
+                                android:layout_width="45dp"
+                                android:layout_height="5dp"
+                                android:background="@drawable/selector_radio_bg" />
+
+                            <RadioButton
+                                android:id="@+id/rb_fps_20"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:background="?theme_radio_check"
+                                android:button="@null" />
+
+                            <View
+                                android:layout_width="45dp"
+                                android:layout_height="5dp"
+                                android:background="@drawable/selector_radio_bg" />
+
+                            <RadioButton
+                                android:id="@+id/rb_fps_25"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:background="?theme_radio_check"
+                                android:button="@null" />
+
+                            <View
+                                android:layout_width="45dp"
+                                android:layout_height="5dp"
+                                android:background="@drawable/selector_radio_bg" />
+
+                            <RadioButton
+                                android:id="@+id/rb_fps_30"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:background="?theme_radio_check"
+                                android:button="@null" />
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/tv_fps_10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:layout_below="@id/rg_fps_frequence"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toLeftOf="@+id/tv_fps_15"
+                            android:text="10fps"
+                            android:textColor="@color/radiobutton_text_gray"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@id/tv_fps_15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:layout_below="@id/rg_fps_frequence"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toLeftOf="@+id/tv_fps_20"
+                            android:text="15fps"
+                            android:textColor="@color/radiobutton_text_gray"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/tv_fps_20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:layout_below="@id/rg_fps_frequence"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="20fps"
+                            android:textColor="@color/radiobutton_text_gray"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/tv_fps_25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:layout_below="@id/rg_fps_frequence"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@id/tv_fps_20"
+                            android:text="25fps"
+                            android:textColor="@color/radiobutton_text_gray"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/tv_fps_30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:layout_below="@id/rg_fps_frequence"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@id/tv_fps_25"
+                            android:text="30fps"
+                            android:textColor="@color/radiobutton_text_gray"
+                            android:textSize="15dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@id/talk_setting_hb_line"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="?theme_divider_h" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

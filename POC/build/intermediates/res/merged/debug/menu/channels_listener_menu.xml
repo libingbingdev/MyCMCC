@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/channel_listen" android:title="@string/channel_listen" android:showAsAction="never"/>
+    <item android:id="@+id/cancel_listen" android:title="@string/cancel_channel_listen" android:showAsAction="never"/>
+
+
+</menu>

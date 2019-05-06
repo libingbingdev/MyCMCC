@@ -1,0 +1,87 @@
+apply plugin: 'com.android.application'
+android {
+    signingConfigs {
+        poc {
+            keyAlias 'poc'
+            keyPassword '12345678'
+            storeFile file('poc.jks')
+            storePassword '12345678'
+        }
+    }
+    compileSdkVersion 19
+    buildToolsVersion '25.0.3'
+    defaultConfig {
+        applicationId "com.cmccpoc"
+        minSdkVersion 18
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+    lintOptions {
+        disable 'GoogleAppIndexingWarning'
+        baseline file("lint-baseline.xml")
+    }
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+
+    }
+    dexOptions {
+        //incremental = true;
+        preDexLibraries = false
+        javaMaxHeapSize "4g"
+
+
+        lintOptions {
+            checkReleaseBuilds false
+            // Or, if you prefer, you can continue to check for errors in release builds,
+            // but continue the build even when errors are found:
+            abortOnError false
+            disable "ResourceType"
+        }
+
+        buildTypes {
+            release {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            }
+            debug {
+                debuggable true
+                signingConfig signingConfigs.poc
+            }
+        }
+
+        repositories {
+            flatDir {
+                dirs 'libs'
+            }
+        }
+        sourceSets {
+            main {
+                jniLibs.srcDirs = ['libs']
+                // jni.srcDirs = []
+            }
+        }
+    }
+    //以下是为了找到android.os.SystemProperties这个隐藏的类
+    String SDK_DIR = System.getenv("ANDROID_SDK_HOME")
+    //("TAG", "SDK_DIR = " + SDK_DIR );
+    if (SDK_DIR == null) {
+        Properties props = new Properties()
+        props.load(new FileInputStream(project.rootProject.file("local.properties")))
+        SDK_DIR = props.get('sdk.dir');
+    }
+    dependencies {
+        provided files("${SDK_DIR}/platforms/android-21/data/layoutlib.jar")
+        compile(name: 'cmcc-sso-sdk', ext: 'aar')
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        compile 'com.android.support:multidex:1.0.1'
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.poc
+        }
+    }
+
+}
+
+

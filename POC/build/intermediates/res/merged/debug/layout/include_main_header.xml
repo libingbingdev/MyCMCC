@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_main"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/main_header_height"
+        android:background="?theme_bg_title"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="?theme_title_menu_pading" >
+
+        <RelativeLayout
+            android:id="@+id/menu_left_button"
+            android:layout_width="@dimen/main_menu_btn_width"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dip"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/bottom_left_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="?theme_menu_left_icon" />
+
+            <TextView
+                android:id="@+id/tv_new"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="?theme_nav_unread_bg"
+                android:gravity="center"
+                android:maxLength="3"
+                android:text="New"
+                android:textColor="@color/white"
+                android:textSize="8dip"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bottom_mid"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/talk_menu_right"
+            android:layout_toRightOf="@id/menu_left_button" >
+
+            <TextView
+                android:id="@+id/tv_main_title"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/main_speak_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="3dip"
+                android:background="@drawable/media_session_speak"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/main_speak_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/record_default" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/main_speak_group"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="Group"
+                        android:textColor="#ff000000"
+                        android:textSize="12dip" />
+
+                    <TextView
+                        android:id="@+id/main_speak_user"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="Speaker"
+                        android:textColor="#90000000"
+                        android:textSize="10dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@id/talk_menu_right"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@id/talk_menu_right_button"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/bottom_right_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="?theme_menu_right_icon" />
+
+                <TextView
+                    android:id="@+id/tv_new_notice"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dip"
+                    android:background="?theme_nav_unread_bg"
+                    android:gravity="center"
+                    android:maxLength="3"
+                    android:text="1"
+                    android:textColor="@color/white"
+                    android:textSize="11dip"
+                    android:visibility="gone" />
+                
+                <TextView
+                    android:id="@+id/tv_orange_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dip"
+                    android:background="@drawable/selector_button_map_search"
+                    android:gravity="center"
+                    android:maxLength="3"
+                    android:textColor="@color/white"
+                    android:textSize="11dip" 
+                    android:visibility="gone"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/network_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/error_hint_main_bg"
+        android:drawableLeft="@drawable/msg_state_send_error"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:text="@string/talk_network_warning"
+        android:textColor="#a3721d"
+        android:textSize="14dip"
+        android:visibility="gone" />
+
+</LinearLayout>

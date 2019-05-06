@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false"  >
+    <!-- 定义一个动画帧，持续时间1000毫秒 -->
+    <item android:drawable="@drawable/charge_01" android:duration="1000" />
+    <item android:drawable="@drawable/charge_02" android:duration="1000" />
+    <item android:drawable="@drawable/charge_03" android:duration="1000" />
+    <item android:drawable="@drawable/charge_04" android:duration="1000" />
+    <item android:drawable="@drawable/charge_05" android:duration="1000" />
+</animation-list>

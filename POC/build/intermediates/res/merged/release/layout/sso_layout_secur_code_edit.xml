@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:id="@+id/sso_tv_pay1"
+        style="@style/sso_style_security_code" />
+
+    <TextView
+        android:id="@+id/sso_tv_pay2"
+        style="@style/sso_style_security_code" />
+
+    <TextView
+        android:id="@+id/sso_tv_pay3"
+        style="@style/sso_style_security_code" />
+
+    <TextView
+        android:id="@+id/sso_tv_pay4"
+        style="@style/sso_style_security_code" />
+
+</LinearLayout>

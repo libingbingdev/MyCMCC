@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/sso_sec_code_set_success_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/sso_color_main_black"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/sso_sec_code_set_success_line"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/sso_sec_code_set_success_text"
+        android:background="@color/sso_color_light_gray"/>
+
+    <TextView
+        android:id="@+id/sso_sec_code_set_success_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sso_string_seccode_success_confirm"
+        android:clickable="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:layout_below="@id/sso_sec_code_set_success_line"
+        android:textColor="@color/sso_color_main_blue"/>
+
+</RelativeLayout>

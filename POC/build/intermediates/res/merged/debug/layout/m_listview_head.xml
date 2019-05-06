@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"  android:layout_width="fill_parent" android:layout_height="wrap_content"  android:orientation="vertical">
+	<LinearLayout  android:id="@id/talk_layout_channel_edit"  android:layout_width="fill_parent"  android:layout_height="wrap_content" android:orientation="vertical" android:gravity="top" android:layout_alignParentBottom="true">
+			<LinearLayout android:layout_width="fill_parent"  android:layout_height="60dip" android:orientation="horizontal">
+				<Button android:id="@id/talk_btn_channel_add" android:layout_weight="1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/talk_channel_add" android:background="@drawable/selector_btn" android:textColor="@color/button_text_color" android:textSize="18dip" android:shadowDx="0"  android:shadowDy="0.0"  android:shadowRadius="0.0"/>
+				<View  android:layout_width="1dip"  android:layout_height="fill_parent"    android:background="?theme_divider_v"/>
+				<Button android:id="@id/talk_btn_channel_edit_name" android:layout_weight="1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/talk_channel_edit_name" android:background="@drawable/selector_btn"  android:textColor="@color/button_text_color" android:textSize="18dip" android:shadowDx="0"  android:shadowDy="0.0"  android:shadowRadius="0.0"/>
+			</LinearLayout>
+			<View  android:layout_width="fill_parent"  android:layout_height="1dip"    android:background="?theme_divider_h" />
+	</LinearLayout>
+</LinearLayout>

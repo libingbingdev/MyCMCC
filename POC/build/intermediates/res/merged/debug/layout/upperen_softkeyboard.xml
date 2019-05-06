@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/upperen_softkeyboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonABC"
+            android:focusable ="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonA"
+                android:text="A"
+                android:textColor="@color/button_color"
+                android:gravity="right"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonB"
+                android:text="B"
+                android:textColor="@color/button_color"
+                android:gravity="center"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonC"
+                android:text="C"
+                android:textColor="@color/button_color"
+                android:gravity="left"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonDEF"
+            android:focusable ="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonD"
+                android:text="D"
+                android:textColor="@color/button_color"
+                android:gravity="right"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonE"
+                android:text="E"
+                android:textColor="@color/button_color"
+                android:gravity="center"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonF"
+                android:text="F"
+                android:textColor="@color/button_color"
+                android:gravity="left"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonGHI"
+            android:focusable ="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonG"
+                android:text="G"
+                android:textColor="@color/button_color"
+                android:gravity="right"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonH"
+                android:text="H"
+                android:textColor="@color/button_color"
+                android:gravity="center"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonI"
+                android:text="I"
+                android:textColor="@color/button_color"
+                android:gravity="left"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonJKL"
+            android:focusable ="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonJ"
+                android:text="J"
+                android:textColor="@color/button_color"
+                android:gravity="right"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonK"
+                android:text="K"
+                android:textColor="@color/button_color"
+                android:gravity="center"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonL"
+                android:text="L"
+                android:textColor="@color/button_color"
+                android:gravity="left"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonMNO"
+            android:focusable ="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonM"
+                android:text="M"
+                android:textColor="@color/button_color"
+                android:gravity="right"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonN"
+                android:text="N"
+                android:textColor="@color/button_color"
+                android:gravity="center"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonO"
+                android:text="O"
+                android:textColor="@color/button_color"
+                android:gravity="left"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonPQRS"
+            android:focusable ="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonP"
+                android:text="P"
+                android:textColor="@color/button_color"
+                android:gravity="right"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonQ"
+                android:text="Q"
+                android:textColor="@color/button_color"
+                android:gravity="center"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonR"
+                android:text="R"
+                android:textColor="@color/button_color"
+                android:gravity="center"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonS"
+                android:text="S"
+                android:textColor="@color/button_color"
+                android:gravity="left"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonTUV"
+            android:focusable ="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonT"
+                android:text="T"
+                android:textColor="@color/button_color"
+                android:gravity="right"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonU"
+                android:text="U"
+                android:textColor="@color/button_color"
+                android:gravity="center"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonV"
+                android:text="V"
+                android:textColor="@color/button_color"
+                android:gravity="left"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonWXYZ"
+            android:focusable ="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonW"
+                android:text="W"
+                android:textColor="@color/button_color"
+                android:gravity="right"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonX"
+                android:text="X"
+                android:textColor="@color/button_color"
+                android:gravity="center"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonY"
+                android:text="Y"
+                android:textColor="@color/button_color"
+                android:gravity="center"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/buttonZ"
+                android:text="Z"
+                android:textColor="@color/button_color"
+                android:gravity="left"
+                android:focusable ="true"
+                android:focusableInTouchMode="true"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include layout="@layout/loweren_key"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/buttonLowerenU"/>
+
+        <include layout="@layout/number_key"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/buttonNumberU"/>
+
+        <include layout="@layout/symbol_key"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/buttonSymbolU"/>
+
+        <include layout="@layout/delete_key"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/buttonDeleteU"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include layout="@layout/ok_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonOkU"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/buttonInvalidU1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/buttonInvalidU2"/>
+
+        <include layout="@layout/back_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBackU"/>
+
+    </LinearLayout>
+
+</LinearLayout>

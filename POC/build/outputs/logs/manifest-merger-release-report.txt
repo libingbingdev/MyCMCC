@@ -1,0 +1,837 @@
+-- Merging decision tree log ---
+manifest
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:2:1-403:12
+	package
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:4:5-26
+		INJECTED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml
+		INJECTED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:6:5-41
+		INJECTED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml
+		INJECTED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml
+		INJECTED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:8:5-11:52
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Administrator\.android\build-cache\6b346b6088e303ace0a55c41eafc0c6fd067baa1\output\AndroidManifest.xml:18:5-42
+MERGED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:11:9-49
+	android:targetSdkVersion
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:10:9-38
+	android:minSdkVersion
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml
+		INJECTED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECORD_VIDEO
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.CAMERA
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:14:22-62
+uses-feature#android.hardware.camera
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:16:5-60
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:16:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:17:5-70
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:17:19-67
+uses-permission#android.permission.INTERNET
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:19:5-67
+MERGED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:19:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:20:5-71
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:20:22-68
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:23:22-63
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:24:5-79
+MERGED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:25:5-79
+MERGED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:26:5-76
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:26:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:27:5-76
+MERGED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:27:22-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:28:5-78
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:28:22-75
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:29:22-72
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:30:5-80
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:30:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:31:5-75
+MERGED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:31:22-72
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:32:5-81
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:32:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:33:5-84
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:33:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:34:5-81
+MERGED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:34:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:35:5-80
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:35:22-77
+uses-permission#android.permission.SEND_SMS
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:36:5-67
+MERGED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:36:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:37:5-72
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:37:22-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:38:5-69
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:38:22-66
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:39:5-81
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:39:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:40:5-79
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:40:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:41:5-89
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:41:22-86
+uses-permission#android.permission.READ_LOGS
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:42:5-68
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:42:22-65
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:43:5-73
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:43:22-70
+uses-permission#android.permission.BLUETOOTH
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:44:5-68
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:44:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:45:5-74
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:45:22-71
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:46:5-88
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:46:22-85
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:47:5-75
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:47:22-72
+uses-permission#com.sonim.permission.USE_PTT_KEY
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:48:5-72
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:48:22-69
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:49:5-85
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:49:22-82
+uses-permission#android.permission.GET_TASKS
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:50:5-68
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:50:22-65
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:51:5-80
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:51:22-77
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:56:5-58:47
+	tools:ignore
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:58:9-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:57:9-62
+application
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:61:5-401:19
+MERGED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:19:5-34:19
+	android:label
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:66:9-46
+	android:hardwareAccelerated
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:64:9-43
+	android:allowBackup
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:63:9-36
+	android:icon
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:65:9-43
+	android:persistent
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:67:9-34
+	android:theme
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:68:9-45
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:62:9-52
+activity#com.cmccpoc.activity.AccountActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:69:9-81:20
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:73:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:72:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:71:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:70:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.HOME+android.intent.category.LAUNCHER
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:74:13-80:29
+action#android.intent.action.MAIN
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:75:17-69
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:75:25-66
+category#android.intent.category.LAUNCHER
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:77:17-77
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:77:27-74
+category#android.intent.category.HOME
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:78:17-73
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:78:27-70
+category#android.intent.category.DEFAULT
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:79:17-76
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:79:27-73
+activity#com.cmccpoc.activity.home.HomeActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:82:9-86:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:86:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:85:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:84:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:83:13-55
+activity#com.cmccpoc.activity.SessionAddActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:87:9-91:70
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:90:13-44
+	android:windowSoftInputMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:91:13-67
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:89:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:88:13-56
+activity#com.cmccpoc.activity.SessionNewActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:92:9-96:70
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:95:13-44
+	android:windowSoftInputMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:96:13-67
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:94:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:93:13-56
+activity#com.cmccpoc.activity.AlbumChooseActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:97:9-99:66
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:99:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:98:13-57
+activity#com.cmccpoc.activity.AlbumEnterActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:100:9-65
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:100:19-62
+activity#com.cmccpoc.activity.MoreActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:101:9-104:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:104:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:103:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:102:13-50
+activity#com.cmccpoc.activity.MenuAboutActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:105:9-108:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:108:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:107:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:106:13-55
+activity#com.cmccpoc.activity.MenuAccountActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:109:9-111:66
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:111:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:110:13-57
+activity#com.cmccpoc.activity.MenuDisplayActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:112:9-114:66
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:114:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:113:13-57
+activity#com.cmccpoc.activity.MenuPasswordActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:115:9-118:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:118:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:117:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:116:13-58
+activity#com.cmccpoc.activity.MenuPasswordFindActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:119:9-122:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:122:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:121:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:120:13-62
+activity#com.cmccpoc.activity.MenuDefectReportActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:123:9-126:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:126:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:125:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:124:13-62
+activity#com.cmccpoc.activity.MenuGpsActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:127:9-130:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:130:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:129:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:128:13-53
+activity#com.cmccpoc.activity.MenuReportActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:131:9-134:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:134:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:133:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:132:13-56
+activity#com.cmccpoc.activity.MenuReportViewActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:135:9-138:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:138:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:137:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:136:13-60
+activity#com.cmccpoc.activity.MenuReportAsPicActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:139:9-141:66
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:141:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:140:13-61
+activity#com.cmccpoc.activity.MenuReportAsVidActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:142:9-144:66
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:144:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:143:13-61
+activity#com.cmccpoc.activity.MenuNoticeActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:145:9-147:66
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:147:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:146:13-56
+activity#com.cmccpoc.activity.MenuManualActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:148:9-151:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:151:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:150:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:149:13-56
+activity#com.cmccpoc.activity.MenuSettingPttActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:152:9-155:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:155:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:154:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:153:13-60
+activity#com.cmccpoc.activity.MenuSettingSessionVideoActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:156:9-159:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:159:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:158:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:157:13-69
+activity#com.cmccpoc.activity.MenuHelpActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:160:9-163:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:163:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:162:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:161:13-54
+activity#com.cmccpoc.activity.MenuTaskCaseListActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:164:9-166:66
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:166:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:165:13-62
+activity#com.cmccpoc.activity.MenuTaskCaseDetailActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:167:9-169:66
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:169:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:168:13-64
+activity#com.cmccpoc.activity.ActivityImagePager
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:170:9-172:66
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:172:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:171:13-56
+activity#com.cmccpoc.activity.VideoSessionActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:173:9-176:47
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:176:13-44
+	android:configChanges
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:175:13-63
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:174:13-58
+activity#com.cmccpoc.widget.VideoCamera
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:177:9-181:57
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:180:13-47
+	android:label
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:179:13-50
+	android:windowSoftInputMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:181:13-54
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:178:13-47
+activity#com.cmccpoc.widget.PhotoCamera
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:183:9-187:57
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:186:13-47
+	android:label
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:185:13-50
+	android:windowSoftInputMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:187:13-54
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:184:13-47
+activity#com.cmccpoc.activity.MapPointBaiduActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:188:9-192:57
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:191:13-49
+	android:label
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:190:13-50
+	android:windowSoftInputMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:192:13-54
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:189:13-59
+activity#com.cmccpoc.activity.ActivityLocationMap
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:193:9-197:57
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:196:13-49
+	android:label
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:195:13-50
+	android:windowSoftInputMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:197:13-54
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:194:13-57
+activity#com.cmccpoc.activity.ActivityLocationSearch
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:198:9-202:68
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:201:13-49
+	android:label
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:200:13-50
+	android:windowSoftInputMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:202:13-65
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:199:13-60
+activity#com.cmccpoc.activity.MenuSettingChannelActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:203:9-207:57
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:206:13-49
+	android:label
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:205:13-50
+	android:windowSoftInputMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:207:13-54
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:204:13-64
+activity#com.cmccpoc.activity.ActivityVideoPlayer
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:208:9-212:57
+	android:label
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:210:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:211:13-44
+	android:windowSoftInputMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:212:13-54
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:209:13-57
+activity#com.cmccpoc.activity.ActivityPresetGroup
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:213:9-217:57
+	android:label
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:215:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:216:13-44
+	android:windowSoftInputMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:217:13-54
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:214:13-57
+activity#com.cmccpoc.activity.MapShareActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:218:9-221:52
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:221:13-49
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:220:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:219:13-54
+activity#com.cmccpoc.activity.FirstActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:222:9-225:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:225:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:224:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:223:13-51
+activity#com.cmccpoc.activity.SettingActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:226:9-229:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:229:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:228:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:227:13-53
+activity#com.cmccpoc.activity.home.ChannelListActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:230:9-233:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:233:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:232:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:231:13-62
+activity#com.cmccpoc.activity.home.MultichannelSettingActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:234:9-237:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:237:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:236:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:235:13-70
+activity#com.cmccpoc.activity.home.MultichannelSettingList
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:238:9-241:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:241:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:240:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:239:13-66
+activity#com.cmccpoc.activity.ChargeActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:242:9-245:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:245:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:244:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:243:13-52
+activity#com.cmccpoc.activity.LightActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:246:9-249:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:249:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:248:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:247:13-51
+activity#com.cmccpoc.activity.BroadcastSettingActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:250:9-253:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:253:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:252:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:251:13-62
+activity#com.cmccpoc.activity.NetWorkSettingsActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:254:9-257:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:257:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:256:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:255:13-61
+activity#com.cmccpoc.activity.home.ResetDeviceActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:258:9-261:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:261:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:260:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:259:13-62
+activity#com.cmccpoc.activity.home.MemberListActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:262:9-265:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:265:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:264:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:263:13-61
+activity#com.cmccpoc.activity.AllMemberActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:266:9-269:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:269:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:268:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:267:13-55
+activity#com.cmccpoc.activity.PttSettingsActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:270:9-273:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:273:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:272:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:271:13-57
+activity#com.cmccpoc.activity.TerminalStatusActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:274:9-277:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:277:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:276:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:275:13-60
+activity#com.cmccpoc.activity.home.ShowTestActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:278:9-281:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:281:13-50
+	android:launchMode
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:280:13-44
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:279:13-59
+activity#com.cmccpoc.activity.InputActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:282:9-284:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:284:13-50
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:283:13-51
+activity#com.cmccpoc.activity.LoginActivity
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:285:9-287:53
+	android:screenOrientation
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:287:13-50
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:286:13-51
+service#com.cmccpoc.services.AirServices
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:289:9-298:19
+	android:enabled
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:291:13-35
+	android:label
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:293:13-40
+	android:exported
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:292:13-37
+	android:targetPackage
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:294:13-48
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:290:13-49
+intent-filter#com.cmccpoc.services.AirServices
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:295:13-297:29
+	android:priority
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:295:28-51
+action#com.cmccpoc.services.AirServices
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:296:17-75
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:296:25-72
+service#com.cmccpoc.services.PttKeyServices
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:299:9-307:19
+	android:enabled
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:301:13-35
+	android:exported
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:302:13-37
+	android:targetPackage
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:303:13-48
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:300:13-52
+intent-filter#com.cmccpoc.services.PttKeyServices
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:304:13-306:29
+	android:priority
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:304:28-51
+action#com.cmccpoc.services.PttKeyServices
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:305:17-78
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:305:25-75
+service#com.baidu.location.f
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:308:9-311:41
+	android:enabled
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:310:13-35
+	android:process
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:311:13-38
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:309:13-48
+service#com.cmcc.sso.service.SsoService
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:312:9-314:49
+	android:process
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:314:13-46
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:313:13-59
+receiver#com.airtalkee.sdk.engine.AirTimer
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:330:9-70
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:330:19-67
+receiver#com.cmccpoc.util.AirMmiTimer
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:331:9-54
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:331:19-51
+receiver#com.cmccpoc.receiver.ReceiverPhoneState
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:333:9-338:20
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:333:19-62
+intent-filter#android.intent.action.NEW_OUTGOING_CALL+android.intent.action.PHONE_STATE
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:334:13-337:29
+action#android.intent.action.PHONE_STATE
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:335:17-76
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:335:25-73
+action#android.intent.action.NEW_OUTGOING_CALL
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:336:17-82
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:336:25-79
+receiver#com.cmccpoc.receiver.ReceiverMediaButton
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:340:9-66
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:340:19-63
+receiver#com.cmccpoc.receiver.ReceiverBoot
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:343:9-348:20
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:343:19-56
+intent-filter#android.intent.action.ACTION_SHUTDOWN+android.intent.action.BOOT_COMPLETED
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:344:13-347:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:345:17-79
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:345:25-76
+action#android.intent.action.ACTION_SHUTDOWN
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:346:17-80
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:346:25-77
+receiver#com.cmccpoc.receiver.ReceiverScreenOff
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:351:9-355:20
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:351:19-61
+intent-filter#android.intent.action.SCREEN_OFF
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:352:13-354:29
+	android:priority
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:352:28-52
+action#android.intent.action.SCREEN_OFF
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:353:17-75
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:353:25-72
+receiver#com.cmccpoc.receiver.ReceiverSprdUsb
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:356:9-361:20
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:356:19-59
+intent-filter#android.hardware.usb.action.USB_STATE+android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:357:13-360:29
+action#android.hardware.usb.action.USB_STATE
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:358:17-80
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:358:25-77
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:359:17-90
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:359:25-87
+receiver#com.cmccpoc.receiver.ReceiverDeviceAdmin
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:364:9-375:20
+	android:permission
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:366:13-70
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:365:13-57
+meta-data#android.app.device_admin
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:367:13-369:56
+	android:resource
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:369:17-53
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:368:17-56
+intent-filter#android.app.action.DEVICE_ADMIN_DISABLED+android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:371:13-374:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:372:17-82
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:372:25-79
+action#android.app.action.DEVICE_ADMIN_DISABLED
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:373:17-83
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:373:25-80
+receiver#com.cmccpoc.receiver.ReceiverExtSamsung
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:378:9-382:20
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:378:19-62
+intent-filter#edm.intent.action.license.status
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:379:13-381:29
+action#edm.intent.action.license.status
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:380:17-75
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:380:25-72
+receiver#com.cmccpoc.receiver.ReceiverNotification
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:385:9-67
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:385:19-64
+meta-data#UMENG_APPKEY
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:387:9-389:56
+	android:value
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:389:13-53
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:388:13-40
+meta-data#UMENG_CHANNEL
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:390:9-392:37
+	android:value
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:392:13-34
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:391:13-41
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:394:9-396:64
+	android:value
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:396:13-61
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:395:13-52
+meta-data#com.amap.api.v2.apikey
+ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:398:9-400:64
+	android:value
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:400:13-61
+	android:name
+		ADDED from Y:\G17A\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\packages\apps\cmcc\POC\src\main\AndroidManifest.xml:399:13-50
+activity#com.cmcc.sso.sdk.securitycode.SsoSecurityCodeActivity
+ADDED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:20:9-25:20
+	android:launchMode
+		ADDED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:23:13-43
+	android:configChanges
+		ADDED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:22:13-74
+	android:theme
+		ADDED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:24:13-72
+	android:name
+		ADDED from [:cmcc-sso-sdk:] C:\Users\Administrator\.android\build-cache\5bb30a3e8299085db1156e7a471e78ddd1484d06\output\AndroidManifest.xml:21:13-81

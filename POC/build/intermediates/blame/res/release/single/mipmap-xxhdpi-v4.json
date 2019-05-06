@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\sso_toast_err_icon.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\mipmap-xxhdpi-v4\\sso_toast_err_icon.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\sso_icon_delete.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b297ddaedf3c0fa5952abb41ab89c04da4f852f9\\output\\res\\mipmap-xxhdpi-v4\\sso_icon_delete.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\sso_icon_delete.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\mipmap-xxhdpi-v4\\sso_icon_delete.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\sso_toast_warn_icon.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\mipmap-xxhdpi-v4\\sso_toast_warn_icon.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\sso_toast_ok_icon.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b297ddaedf3c0fa5952abb41ab89c04da4f852f9\\output\\res\\mipmap-xxhdpi-v4\\sso_toast_ok_icon.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\sso_toast_err_icon.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b297ddaedf3c0fa5952abb41ab89c04da4f852f9\\output\\res\\mipmap-xxhdpi-v4\\sso_toast_err_icon.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\sso_secur_icon_back.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\mipmap-xxhdpi-v4\\sso_secur_icon_back.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\sso_secur_icon_back.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b297ddaedf3c0fa5952abb41ab89c04da4f852f9\\output\\res\\mipmap-xxhdpi-v4\\sso_secur_icon_back.png"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\sso_toast_ok_icon.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5bb30a3e8299085db1156e7a471e78ddd1484d06\\output\\res\\mipmap-xxhdpi-v4\\sso_toast_ok_icon.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi-v4\\sso_toast_warn_icon.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b297ddaedf3c0fa5952abb41ab89c04da4f852f9\\output\\res\\mipmap-xxhdpi-v4\\sso_toast_warn_icon.png"
+    }
+]

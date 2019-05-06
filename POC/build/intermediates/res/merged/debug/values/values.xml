@@ -1,0 +1,1522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gps_frequence">
+		<item>高精度模式</item>
+		<item>1分钟</item>
+		<item>5分钟</item>
+		<item>15分钟</item>
+		<item>30分钟</item>
+		<item>60分钟</item>
+	</string-array>
+    <string-array name="gps_state">
+		<item>开启</item>
+		<item>关闭</item>
+	</string-array>
+    <string-array name="handle_message_send_fail">
+		<item>清空全部</item>
+		<item>删除</item>
+		<item>重发</item>
+		<item>复制</item>
+	</string-array>
+    <string-array name="handle_message_send_fail1">
+		<item>清空全部</item>
+		<item>删除</item>
+		<item>重发</item>
+	</string-array>
+    <string-array name="handle_message_txt">
+		<item>清空全部</item>
+		<item>删除</item>
+		<item>复制</item>
+	</string-array>
+    <string-array name="handle_message_txt1">
+		<item>清空全部</item>
+		<item>删除</item>
+	</string-array>
+    <string-array name="handle_report">
+		<item>查看</item>
+		<item>删除</item>
+	</string-array>
+    <string-array name="handle_session_operation">
+		<item>删除此对话</item>
+	</string-array>
+    <string-array name="hb_setting">
+		<item>高性能</item>
+		<item>较快</item>
+		<item>中等</item>
+		<item>正常模式</item>
+	</string-array>
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="multi_select_list_preference_default_value"/>
+    <string-array name="picture_quality">
+		<item>@string/talk_unscathed</item>
+		<item>@string/talk_scathed</item>
+	</string-array>
+    <string-array name="play_mode">
+		<item>@string/talk_tools_setting_voice_mode_earphone</item>
+		<item>@string/talk_tools_setting_voice_mode_speaker</item>
+		<item>@string/talk_tools_setting_voice_mode_bluetooth</item>
+	</string-array>
+    <string-array name="pref_entries_pixel_format">
+        <item>Auto Select</item>
+        <item>RGB 565</item>
+        <item>RGB 888</item>
+        <item>RGBX 8888</item>
+        <item>YV12</item>
+        <item>OpenGL ES2</item>
+    </string-array>
+    <string-array name="pref_entry_summaries_pixel_format">
+        <item>Auto Select</item>
+        <item>RGB 565</item>
+        <item>RGB 888</item>
+        <item>RGBX 8888</item>
+        <item>YV12</item>
+        <item>OpenGL ES2</item>
+    </string-array>
+    <string-array name="pref_entry_values_pixel_format">
+        <item/>
+        <item>fcc-rv16</item>
+        <item>fcc-rv24</item>
+        <item>fcc-rv32</item>
+        <item>fcc-yv12</item>
+        <item>fcc-_es2</item>
+    </string-array>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="smiley_code_array">
+        <item>(图片)</item>
+        <item>(录音)</item>
+        <item>(呼叫未接)</item>
+        <item>(呼叫拒接)</item>
+        <item>(呼入)</item>
+        <item>(呼出)</item>
+    </string-array>
+    <array name="smiley_resid_array">
+        <item/>
+        <!-- <item>@drawable/icon_images</item> -->
+        <item>@drawable/icon_sound</item>
+        <item>@drawable/ic_call_missed</item>
+        <item>@drawable/ic_call_rejected</item>
+        <item>@drawable/ic_call_incoming</item>
+        <item>@drawable/ic_call_outgoing</item>
+    </array>
+    <attr format="reference" name="entrySummaries"/>
+    <attr format="reference" name="theme_audio_phone"/>
+    <attr format="reference" name="theme_audio_speaker"/>
+    <attr format="reference" name="theme_bg_input"/>
+    <attr format="reference" name="theme_bg_title"/>
+    <attr format="reference" name="theme_btn_check"/>
+    <attr format="reference" name="theme_btn_check_new"/>
+    <attr format="reference" name="theme_btn_listen_mode"/>
+    <attr format="reference" name="theme_btn_more"/>
+    <attr format="reference" name="theme_btn_pic_check"/>
+    <attr format="reference" name="theme_btn_send"/>
+    <attr format="reference" name="theme_btn_tool_update"/>
+    <attr format="reference" name="theme_button"/>
+    <attr format="reference" name="theme_button_1"/>
+    <attr format="reference" name="theme_button_1px"/>
+    <attr format="color" name="theme_button_album"/>
+    <attr format="color" name="theme_button_commit"/>
+    <attr format="reference" name="theme_button_logout"/>
+    <attr format="reference" name="theme_button_new"/>
+    <attr format="color" name="theme_button_refresh"/>
+    <attr format="color" name="theme_button_text_color"/>
+    <attr format="reference" name="theme_call_center"/>
+    <attr format="reference" name="theme_call_in_member"/>
+    <attr format="reference" name="theme_color_group_bg"/>
+    <attr format="color" name="theme_color_hint"/>
+    <attr format="color" name="theme_color_logo_text"/>
+    <attr format="color" name="theme_color_text"/>
+    <attr format="color" name="theme_color_text1"/>
+    <attr format="reference" name="theme_color_title"/>
+    <attr format="reference" name="theme_divider_h"/>
+    <attr format="reference" name="theme_divider_login"/>
+    <attr format="reference" name="theme_divider_title"/>
+    <attr format="reference" name="theme_divider_v"/>
+    <attr format="reference" name="theme_group_all"/>
+    <attr format="reference" name="theme_group_me"/>
+    <attr format="reference" name="theme_group_others"/>
+    <attr format="reference" name="theme_ic_done"/>
+    <attr format="reference" name="theme_ic_refresh"/>
+    <attr format="reference" name="theme_ic_search"/>
+    <attr format="reference" name="theme_ic_t_shit"/>
+    <attr format="reference" name="theme_ic_topbar_back"/>
+    <attr format="reference" name="theme_ic_topbar_camera"/>
+    <attr format="reference" name="theme_ic_topbar_clean"/>
+    <attr format="reference" name="theme_ic_topbar_close"/>
+    <attr format="reference" name="theme_ic_topbar_setting"/>
+    <attr format="reference" name="theme_label_left"/>
+    <attr format="reference" name="theme_label_member"/>
+    <attr format="reference" name="theme_label_msg"/>
+    <attr format="reference" name="theme_label_msg_new"/>
+    <attr format="reference" name="theme_label_right"/>
+    <attr format="reference" name="theme_login_pwd"/>
+    <attr format="reference" name="theme_login_user"/>
+    <attr format="reference" name="theme_main_bg"/>
+    <attr format="reference" name="theme_media_idle"/>
+    <attr format="reference" name="theme_media_listen"/>
+    <attr format="reference" name="theme_media_manager"/>
+    <attr format="reference" name="theme_media_setting"/>
+    <attr format="reference" name="theme_media_talk"/>
+    <attr format="reference" name="theme_media_talk_wait"/>
+    <attr format="reference" name="theme_menu_bg"/>
+    <attr format="reference" name="theme_menu_cancel"/>
+    <attr format="reference" name="theme_menu_del"/>
+    <attr format="reference" name="theme_menu_gps_set"/>
+    <attr format="reference" name="theme_menu_left_icon"/>
+    <attr format="reference" name="theme_menu_left_icon1"/>
+    <attr format="reference" name="theme_menu_manual"/>
+    <attr format="reference" name="theme_menu_msg"/>
+    <attr format="reference" name="theme_menu_msg1"/>
+    <attr format="reference" name="theme_menu_name_set"/>
+    <attr format="reference" name="theme_menu_notice_normal"/>
+    <attr format="reference" name="theme_menu_ptt_set"/>
+    <attr format="reference" name="theme_menu_pwd_set"/>
+    <attr format="reference" name="theme_menu_right_icon"/>
+    <attr format="reference" name="theme_msg_audio_play"/>
+    <attr format="reference" name="theme_msg_audio_stop"/>
+    <attr format="reference" name="theme_msg_recv"/>
+    <attr format="reference" name="theme_msg_send"/>
+    <attr format="reference" name="theme_msg_send_new"/>
+    <attr format="reference" name="theme_nav_contact_selected"/>
+    <attr format="reference" name="theme_nav_unread_bg"/>
+    <attr format="reference" name="theme_org_icon"/>
+    <attr format="reference" name="theme_playvideo_tools_background"/>
+    <attr format="reference" name="theme_pop_up_pannel"/>
+    <attr format="reference" name="theme_radio_check"/>
+    <attr format="dimension" name="theme_report_drawable_right_padding"/>
+    <attr format="reference" name="theme_report_retry"/>
+    <attr format="reference" name="theme_selector_group_item"/>
+    <attr format="reference" name="theme_selector_group_item_select"/>
+    <attr format="reference" name="theme_sider_bg"/>
+    <attr format="color" name="theme_sider_title_bg"/>
+    <attr format="color" name="theme_sider_title_bg_report"/>
+    <attr format="reference" name="theme_system_msg_bg"/>
+    <attr format="reference" name="theme_talk_button"/>
+    <attr format="reference" name="theme_talk_button_pressed"/>
+    <attr format="reference" name="theme_talk_call_idle"/>
+    <attr format="reference" name="theme_talk_call_ing"/>
+    <attr format="reference" name="theme_talk_idle"/>
+    <attr format="reference" name="theme_talk_none"/>
+    <attr format="reference" name="theme_talk_panel"/>
+    <attr format="reference" name="theme_talk_press"/>
+    <attr format="reference" name="theme_talk_speak"/>
+    <attr format="color" name="theme_text_color"/>
+    <attr format="dimension" name="theme_title_divider_height"/>
+    <attr format="dimension" name="theme_title_menu_pading"/>
+    <attr format="reference" name="theme_tool_call"/>
+    <attr format="reference" name="theme_tool_gps"/>
+    <attr format="reference" name="theme_tool_pti"/>
+    <attr format="reference" name="theme_tool_report"/>
+    <attr format="reference" name="theme_user"/>
+    <attr format="reference" name="theme_user_dialog"/>
+    <attr format="reference" name="theme_user_head"/>
+    <attr format="reference" name="theme_user_icon_offline"/>
+    <attr format="reference" name="theme_user_icon_online"/>
+    <attr format="reference" name="theme_user_icon_online_bg"/>
+    <attr format="reference" name="theme_video_share"/>
+    <color name="black">#282828</color>
+    <color name="black_gray">#787878</color>
+    <color name="button_text_color">#ff9a00</color>
+    <color name="color_hint_dark">#4A4A4A</color>
+    <color name="color_hint_dark1">#5fffffff</color>
+    <color name="color_main_bg_dark">#F0F0F0</color>
+    <color name="color_orange_dark">#ff9a02</color>
+    <color name="color_sider_bg_dark">#161616</color>
+    <color name="color_system_msg_bg">#2f000000</color>
+    <color name="color_text_white_dark">#282828</color>
+    <color name="color_tv1">#fffdbf01</color>
+    <color name="color_tv1_pressed">#affdbf01</color>
+    <color name="radiobutton_text_gray">#9B9B9B</color>
+    <color name="sso_color_dark_gray">#a6a6a6</color>
+    <color name="sso_color_light_gray">#bcc6ca</color>
+    <color name="sso_color_main_black">#262626</color>
+    <color name="sso_color_main_blue">#1979bc</color>
+    <color name="sso_color_transparent">#66000000</color>
+    <color name="sso_color_white">#ffffff</color>
+    <color name="text_gray">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="update_text_ing">#FF9400</color>
+    <color name="update_text_new">#555555</color>
+    <color name="update_text_none">#999999</color>
+    <color name="white">#000000</color>
+    <color name="white_1">#5f000000</color>
+    <color name="yellow">#e2992a</color>
+    <declare-styleable name="BtConfig"><attr format="string" name="deviceName"/><attr format="string" name="keyP"/><attr format="string" name="keyR"/><attr format="string" name="ackSpeakTalk"/><attr format="string" name="ackSpeakRelease"/><attr format="boolean" name="encrypt"/><attr format="boolean" name="onlyspp"/></declare-styleable>
+    <declare-styleable name="IjkListPreference"><attr name="entrySummaries"/></declare-styleable>
+    <declare-styleable name="PageIndicator"><attr format="dimension" name="indicator_spacing"/><attr format="enum" name="indicator_type">
+            <enum name="circle" value="0"/>
+            <enum name="fraction" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="PttConfig"><attr format="string" name="model"/><attr format="reference" name="theme"/><attr format="boolean" name="tts"/><attr format="boolean" name="allowFirstLaunch"/><attr format="boolean" name="bootLaunch"/><attr format="boolean" name="pttEarphoneLongPress"/><attr format="integer" name="pttEarphoneKeycode"/><attr format="boolean" name="pttEarphonePlug"/><attr format="boolean" name="pttVisible"/><attr format="string" name="pttButtonAction"/><attr format="string" name="pttButtonActionUpDownCode"/><attr format="string" name="pttButtonActionUp"/><attr format="string" name="pttButtonActionDown"/><attr format="integer" name="pttButtonKeycode">
+            <flag name="KEYCODE_SOFT_LEFT" value="1"/>
+            <flag name="KEYCODE_CAMERA" value="27"/>
+            <flag name="KEYCODE_ALT_LEFT" value="57"/>
+            <flag name="KEYCODE_SEARCH" value="84"/>
+            <flag name="KEYCODE_RG210" value="230"/>
+            <flag name="KEYCODE_RG220" value="231"/>
+            <flag name="KEYCODE_MSM8226" value="142"/>
+        </attr><attr format="boolean" name="screenAlwaysPtt"/><attr format="integer" name="screenOrientation">
+            <flag name="UnSpecified" value="-1"/>
+            <flag name="Landscape" value="0"/>
+            <flag name="Portrait" value="1"/>
+        </attr><attr format="boolean" name="audioAmplifierEnabled"/><attr format="boolean" name="pttButtonScreen"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout"><attr format="dimension" name="umanoPanelHeight"/><attr format="dimension" name="umanoShadowHeight"/><attr format="dimension" name="umanoParalaxOffset"/><attr format="color" name="umanoFadeColor"/><attr format="integer" name="umanoFlingVelocity"/><attr format="reference" name="umanoDragView"/><attr format="reference" name="umanoScrollableView"/><attr format="boolean" name="umanoOverlay"/><attr format="boolean" name="umanoClipPanel"/><attr format="float" name="umanoAnchorPoint"/><attr format="enum" name="umanoInitialState">
+            <enum name="expanded" value="0"/>
+            <enum name="collapsed" value="1"/>
+            <enum name="anchored" value="2"/>
+            <enum name="hidden" value="3"/>
+        </attr></declare-styleable>
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="mac_width">250dip</dimen>
+    <dimen name="main_header_height">0dip</dimen>
+    <dimen name="main_menu_btn_width">35dip</dimen>
+    <dimen name="main_padding_right">120dip</dimen>
+    <dimen name="main_padding_widht">0dip</dimen>
+    <dimen name="main_volume_height">140dip</dimen>
+    <dimen name="msg_pic_height">240dip</dimen>
+    <dimen name="msg_pic_height_width">78dip</dimen>
+    <dimen name="msg_pic_widht">140dip</dimen>
+    <dimen name="pop_menu_tools_height">50dip</dimen>
+    <dimen name="pop_menu_tools_width">58dip</dimen>
+    <dimen name="pop_tools_column_width">45dip</dimen>
+    <dimen name="text_normal_size">15px</dimen>
+    <dimen name="text_small_size">13px</dimen>
+    <drawable name="black_alpha_transparent">#5f000000</drawable>
+    <drawable name="btn_press">#161616</drawable>
+    <drawable name="btn_selected">#65c473</drawable>
+    <drawable name="btn_unselected">#f3f3f3</drawable>
+    <item name="edit_btn_press" type="drawable">#2f0d1923</item>
+    <drawable name="group_item_selected">#f5f5f5</drawable>
+    <drawable name="group_item_unselected">#e5e5e5</drawable>
+    <drawable name="image_default">#af000000</drawable>
+    <drawable name="main_bg_dark">#ffffffff</drawable>
+    <drawable name="member_selected">#161616</drawable>
+    <drawable name="member_unselected">#00000000</drawable>
+    <drawable name="nowplaying_item_bg_dark">#161616</drawable>
+    <drawable name="tab_selected">#e5e5e5</drawable>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="update_drawable_disable">#aaaaaa</drawable>
+    <drawable name="update_drawable_normal">#61c016</drawable>
+    <drawable name="update_drawable_pressed">#4fa80f</drawable>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+    <item name="layout_bottom" type="id">false</item>
+    <item name="lgoin_bottom" type="id">false</item>
+    <item name="talk_attendance_button" type="id">false</item>
+    <item name="talk_attendance_button_layout" type="id">false</item>
+    <item name="talk_attendance_content_layout" type="id">false</item>
+    <item name="talk_attendance_list" type="id">false</item>
+    <item name="talk_attendance_title" type="id">false</item>
+    <item name="talk_attendance_work" type="id">false</item>
+    <item name="talk_btn_call_center" type="id">false</item>
+    <item name="talk_btn_call_center_ptt" type="id">false</item>
+    <item name="talk_btn_channel_add" type="id">false</item>
+    <item name="talk_btn_channel_canncel" type="id">false</item>
+    <item name="talk_btn_channel_create" type="id">false</item>
+    <item name="talk_btn_channel_delete" type="id">false</item>
+    <item name="talk_btn_channel_edit_name" type="id">false</item>
+    <item name="talk_btn_dialog_hangup" type="id">false</item>
+    <item name="talk_btn_dialog_talk" type="id">false</item>
+    <item name="talk_btn_layout" type="id">false</item>
+    <item name="talk_btn_layout_alert_channel" type="id">false</item>
+    <item name="talk_btn_layout_call_center" type="id">false</item>
+    <item name="talk_btn_login" type="id">false</item>
+    <item name="talk_btn_session" type="id">false</item>
+    <item name="talk_btn_session_call" type="id">false</item>
+    <item name="talk_btn_session_call_icon" type="id">false</item>
+    <item name="talk_btn_session_cancel" type="id">false</item>
+    <item name="talk_btn_session_delete" type="id">false</item>
+    <item name="talk_btn_session_msg" type="id">false</item>
+    <item name="talk_btn_session_on_video" type="id">false</item>
+    <item name="talk_btn_video_close" type="id">false</item>
+    <item name="talk_btn_video_open" type="id">false</item>
+    <item name="talk_cb_group_member" type="id">false</item>
+    <item name="talk_cb_group_member_cnt" type="id">false</item>
+    <item name="talk_channel_check" type="id">false</item>
+    <item name="talk_channel_del" type="id">false</item>
+    <item name="talk_channel_icon" type="id">false</item>
+    <item name="talk_channel_text" type="id">false</item>
+    <item name="talk_copyright_logo" type="id">false</item>
+    <item name="talk_copyright_text" type="id">false</item>
+    <item name="talk_dialog_ascess_network" type="id">false</item>
+    <item name="talk_dialog_channel_delete" type="id">false</item>
+    <item name="talk_dialog_connect_fail" type="id">false</item>
+    <item name="talk_dialog_connect_waiting" type="id">false</item>
+    <item name="talk_dialog_exit" type="id">false</item>
+    <item name="talk_dialog_group_get_wait" type="id">false</item>
+    <item name="talk_dialog_login_fail" type="id">false</item>
+    <item name="talk_dialog_login_single" type="id">false</item>
+    <item name="talk_dialog_login_waiting" type="id">false</item>
+    <item name="talk_dialog_member_delete" type="id">false</item>
+    <item name="talk_dialog_message_txt" type="id">false</item>
+    <item name="talk_dialog_message_txt_send_fail" type="id">false</item>
+    <item name="talk_dialog_network_error" type="id">false</item>
+    <item name="talk_dialog_send_sms" type="id">false</item>
+    <item name="talk_dialog_version_tip" type="id">false</item>
+    <item name="talk_dialog_waiting" type="id">false</item>
+    <item name="talk_et_channel_name" type="id">false</item>
+    <item name="talk_et_channel_title" type="id">false</item>
+    <item name="talk_et_ipocid" type="id">false</item>
+    <item name="talk_et_ipocpwd" type="id">false</item>
+    <item name="talk_gps_frequence_item" type="id">false</item>
+    <item name="talk_gps_state_item" type="id">false</item>
+    <item name="talk_iv_dialog_icon" type="id">false</item>
+    <item name="talk_iv_group_checkbox" type="id">false</item>
+    <item name="talk_iv_group_icon" type="id">false</item>
+    <item name="talk_iv_group_member_status" type="id">false</item>
+    <item name="talk_iv_group_presence" type="id">false</item>
+    <item name="talk_iv_group_role" type="id">false</item>
+    <item name="talk_iv_presence" type="id">false</item>
+    <item name="talk_iv_session_speaker" type="id">false</item>
+    <item name="talk_layout_channel_create" type="id">false</item>
+    <item name="talk_layout_channel_edit" type="id">false</item>
+    <item name="talk_layout_content" type="id">false</item>
+    <item name="talk_layout_dialog_header" type="id">false</item>
+    <item name="talk_layout_dialog_talk" type="id">false</item>
+    <item name="talk_layout_group" type="id">false</item>
+    <item name="talk_layout_group_checkbox" type="id">false</item>
+    <item name="talk_layout_group_item" type="id">false</item>
+    <item name="talk_layout_group_member" type="id">false</item>
+    <item name="talk_layout_hide_panel" type="id">false</item>
+    <item name="talk_layout_list" type="id">false</item>
+    <item name="talk_layout_media_queue" type="id">false</item>
+    <item name="talk_layout_meida_icon" type="id">false</item>
+    <item name="talk_layout_meida_icon_add" type="id">false</item>
+    <item name="talk_layout_meida_icon_del" type="id">false</item>
+    <item name="talk_layout_meida_icon_edit" type="id">false</item>
+    <item name="talk_layout_meida_status" type="id">false</item>
+    <item name="talk_layout_meida_status1" type="id">false</item>
+    <item name="talk_layout_normal" type="id">false</item>
+    <item name="talk_layout_notice_comment" type="id">false</item>
+    <item name="talk_layout_notice_comment_send" type="id">false</item>
+    <item name="talk_layout_notice_comment_text" type="id">false</item>
+    <item name="talk_layout_notice_content" type="id">false</item>
+    <item name="talk_layout_notice_list" type="id">false</item>
+    <item name="talk_layout_notice_progress" type="id">false</item>
+    <item name="talk_layout_record" type="id">false</item>
+    <item name="talk_layout_session" type="id">false</item>
+    <item name="talk_layout_session_content" type="id">false</item>
+    <item name="talk_layout_session_d_bottom" type="id">false</item>
+    <item name="talk_layout_session_delete" type="id">false</item>
+    <item name="talk_layout_session_dialog" type="id">false</item>
+    <item name="talk_layout_session_header" type="id">false</item>
+    <item name="talk_layout_session_m_bottom" type="id">false</item>
+    <item name="talk_layout_session_main" type="id">false</item>
+    <item name="talk_layout_session_member" type="id">false</item>
+    <item name="talk_layout_session_null" type="id">false</item>
+    <item name="talk_layout_session_null_retry" type="id">false</item>
+    <item name="talk_layout_session_null_select" type="id">false</item>
+    <item name="talk_layout_session_tab" type="id">false</item>
+    <item name="talk_layout_title" type="id">false</item>
+    <item name="talk_layout_video" type="id">false</item>
+    <item name="talk_layout_webbrowser" type="id">false</item>
+    <item name="talk_layout_webbrowser_progress" type="id">false</item>
+    <item name="talk_login_layout_input" type="id">false</item>
+    <item name="talk_login_layout_logo" type="id">false</item>
+    <item name="talk_lv_group" type="id">false</item>
+    <item name="talk_lv_session_call" type="id">false</item>
+    <item name="talk_lv_session_member" type="id">false</item>
+    <item name="talk_lv_session_member_online" type="id">false</item>
+    <item name="talk_lv_session_queue" type="id">false</item>
+    <item name="talk_lv_tool_call" type="id">false</item>
+    <item name="talk_lv_tool_call_divider" type="id">false</item>
+    <item name="talk_lv_tool_defect" type="id">false</item>
+    <item name="talk_lv_tool_defect_divider" type="id">false</item>
+    <item name="talk_lv_tool_exit" type="id">false</item>
+    <item name="talk_lv_tool_gps" type="id">false</item>
+    <item name="talk_lv_tool_gps_divider" type="id">false</item>
+    <item name="talk_lv_tool_infosys" type="id">false</item>
+    <item name="talk_lv_tool_infosys_divider" type="id">false</item>
+    <item name="talk_lv_tool_manual" type="id">false</item>
+    <item name="talk_lv_tool_manual_divider" type="id">false</item>
+    <item name="talk_lv_tool_report" type="id">false</item>
+    <item name="talk_lv_tool_report_divider" type="id">false</item>
+    <item name="talk_lv_tool_update" type="id">false</item>
+    <item name="talk_lv_tool_update_divider" type="id">false</item>
+    <item name="talk_menu_channel" type="id">false</item>
+    <item name="talk_menu_exit" type="id">false</item>
+    <item name="talk_menu_exit_channel" type="id">false</item>
+    <item name="talk_menu_right" type="id">false</item>
+    <item name="talk_menu_right_button" type="id">false</item>
+    <item name="talk_scroll_login" type="id">false</item>
+    <item name="talk_session_main" type="id">false</item>
+    <item name="talk_session_member_add" type="id">false</item>
+    <item name="talk_setting_answer" type="id">false</item>
+    <item name="talk_setting_answer_check" type="id">false</item>
+    <item name="talk_setting_hb" type="id">false</item>
+    <item name="talk_setting_hb_line" type="id">false</item>
+    <item name="talk_setting_hb_text" type="id">false</item>
+    <item name="talk_setting_isb" type="id">false</item>
+    <item name="talk_setting_isb_check" type="id">false</item>
+    <item name="talk_setting_ptt_click" type="id">false</item>
+    <item name="talk_setting_ptt_click_check" type="id">false</item>
+    <item name="talk_setting_ptt_click_line" type="id">false</item>
+    <item name="talk_setting_ptt_volume" type="id">false</item>
+    <item name="talk_setting_ptt_volume_check" type="id">false</item>
+    <item name="talk_setting_ptt_volume_line" type="id">false</item>
+    <item name="talk_setting_pwd" type="id">false</item>
+    <item name="talk_setting_rename" type="id">false</item>
+    <item name="talk_setting_voice" type="id">false</item>
+    <item name="talk_setting_voice_amplifier" type="id">false</item>
+    <item name="talk_setting_voice_amplifier_check" type="id">false</item>
+    <item name="talk_setting_voice_mode" type="id">false</item>
+    <item name="talk_setting_voice_mode_off" type="id">false</item>
+    <item name="talk_setting_voice_mode_on" type="id">false</item>
+    <item name="talk_setting_voice_mode_text" type="id">false</item>
+    <item name="talk_setting_voice_volume" type="id">false</item>
+    <item name="talk_setting_vox" type="id">false</item>
+    <item name="talk_setting_vox_check" type="id">false</item>
+    <item name="talk_setting_vox_line" type="id">false</item>
+    <item name="talk_title_tools" type="id">false</item>
+    <item name="talk_tv_dialog_speaker" type="id">false</item>
+    <item name="talk_tv_group_item" type="id">false</item>
+    <item name="talk_tv_group_member" type="id">false</item>
+    <item name="talk_tv_group_member_id" type="id">false</item>
+    <item name="talk_tv_group_member_org" type="id">false</item>
+    <item name="talk_tv_group_name" type="id">false</item>
+    <item name="talk_tv_group_presence" type="id">false</item>
+    <item name="talk_tv_group_speaker" type="id">false</item>
+    <item name="talk_tv_group_title" type="id">false</item>
+    <item name="talk_tv_logo" type="id">false</item>
+    <item name="talk_tv_session_dialog" type="id">false</item>
+    <item name="talk_tv_session_queue" type="id">false</item>
+    <item name="talk_tv_session_speaker" type="id">false</item>
+    <item name="talk_tv_session_speaker_icon" type="id">false</item>
+    <item name="talk_tv_session_speaker_time" type="id">false</item>
+    <item name="talk_tv_session_title" type="id">false</item>
+    <item name="talk_tv_statistic" type="id">false</item>
+    <item name="talk_tv_statistic_bytes" type="id">false</item>
+    <item name="talk_tv_statistic_time" type="id">false</item>
+    <item name="talk_tv_user_all" type="id">false</item>
+    <item name="talk_tv_user_id" type="id">false</item>
+    <item name="talk_tv_user_name" type="id">false</item>
+    <item name="talk_tv_user_name_panel" type="id">false</item>
+    <item name="talk_tv_version" type="id">false</item>
+    <item name="talk_user_member_opr" type="id">false</item>
+    <item name="talk_v_session_m_bottom" type="id">false</item>
+    <item name="talk_video_bottom_layout" type="id">false</item>
+    <item name="talk_video_panel" type="id">false</item>
+    <item name="talk_video_ptt_panel" type="id">false</item>
+    <item name="talk_video_status_panel" type="id">false</item>
+    <item name="talk_video_surface_player" type="id">false</item>
+    <item name="talk_video_surface_recorder" type="id">false</item>
+    <item name="tv_group" type="id">false</item>
+    <item name="tv_session" type="id">false</item>
+    <string name="Fence_warning">围栏告警</string>
+    <string name="First_network_type">首选网络类型</string>
+    <string name="N_A">N/A</string>
+    <string name="TrackType_audio">Audio</string>
+    <string name="TrackType_metadata">Meta data</string>
+    <string name="TrackType_subtitle">Subtitle</string>
+    <string name="TrackType_timedtext">Timed text</string>
+    <string name="TrackType_unknown">Unknown</string>
+    <string name="TrackType_video">Video</string>
+    <string name="VideoView_ar_16_9_fit_parent">16:9 / Fit parent</string>
+    <string name="VideoView_ar_4_3_fit_parent">4:3 / Fit parent</string>
+    <string name="VideoView_ar_aspect_fill_parent">Aspect / Fill parent</string>
+    <string name="VideoView_ar_aspect_fit_parent">Aspect / Fit parent</string>
+    <string name="VideoView_ar_aspect_wrap_content">Aspect / Wrap content</string>
+    <string name="VideoView_ar_match_parent">Free / Fill parent</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Invalid progressive playback</string>
+    <string name="VideoView_error_text_unknown">Unknown</string>
+    <string name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer</string>
+    <string name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer</string>
+    <string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer</string>
+    <string name="VideoView_player_none">Player: None</string>
+    <string name="VideoView_render_none">Render: None</string>
+    <string name="VideoView_render_surface_view">Render: SurfaceView</string>
+    <string name="VideoView_render_texture_view">Render: TextureView</string>
+    <string name="a_cache">a-cache</string>
+    <string name="account_forbidden">终端限制</string>
+    <string name="add_member">添加</string>
+    <string name="all_channel_member_title_text">全部成员</string>
+    <string name="app_dex_crc">1846606769</string>
+    <string name="app_name">SDK</string>
+    <string name="app_name_cmcc">和对讲</string>
+    <string name="app_name_pic">远程定损</string>
+    <string name="before_reset_mind">系统将恢复出厂设置\n此操作确认后不可撤销\n是否继续</string>
+    <string name="bit_rate">bit_rate</string>
+    <string name="blues_setting">蓝牙</string>
+    <string name="broadcast_listen_setting">广播收听设置</string>
+    <string name="button_auto">本机号码一键登录</string>
+    <string name="button_back">返回</string>
+    <string name="button_manual">账号密码登录</string>
+    <string name="button_ok">确定</string>
+    <string name="call_center_fail">呼叫调度台失败</string>
+    <string name="call_limit">呼叫限制</string>
+    <string name="cancel_channel_listen">取消监听</string>
+    <string name="cancle">取消</string>
+    <string name="channel_list_title_text">频道列表</string>
+    <string name="channel_listen">频道监听</string>
+    <string name="channel_member_title_text">频道成员</string>
+    <string name="channel_talk_text">频道对讲</string>
+    <string name="charge_finish">充电完成</string>
+    <string name="charging">正在充电...</string>
+    <string name="close">Close</string>
+    <string name="close_broadcast_listen">关闭广播收听</string>
+    <string name="copyright"/>
+    <string name="copyright_cmcc1">Copyright 2014-2020 中国移动</string>
+    <string name="copyright_cmcc2">中国移动 版权所有</string>
+    <string name="cpu_info_summary_factory">厂家：展讯</string>
+    <string name="cpu_info_summary_kenels">核数：双核</string>
+    <string name="cpu_info_summary_mainfq">主频：</string>
+    <string name="cpu_info_summary_model">型号：SC9820E</string>
+    <string name="cpu_info_tile">CPU信息</string>
+    <string name="edittext_password">密码：</string>
+    <string name="edittext_phone">手机号：</string>
+    <string name="exit">Exit</string>
+    <string name="fps">fps</string>
+    <string name="heart_bt_10">10s</string>
+    <string name="heart_bt_40">40s</string>
+    <string name="heart_bt_60">60s</string>
+    <string name="heart_settings">心跳设置</string>
+    <string name="imei_info">设备IMEI:</string>
+    <string name="insert_sd_card">请您插入存储卡!</string>
+    <string name="last_update">上次更新</string>
+    <string name="lcd_info_summary_compar">对比度 >= 400:1</string>
+    <string name="lcd_info_summary_light">亮度 >= 300Cd/m2</string>
+    <string name="lcd_info_summary_res">分辨率 128*160</string>
+    <string name="lcd_info_title">LCD分辨率</string>
+    <string name="linked_apn_name">接入点名称(APN)</string>
+    <string name="load_completed">已全部加载</string>
+    <string name="load_cost">load-cost</string>
+    <string name="location_setting">位置信息</string>
+    <string name="login_fail_sso">鉴权未通过</string>
+    <string name="main_close">关闭</string>
+    <string name="main_default_message">没有新的消息</string>
+    <string name="main_menu">功能</string>
+    <string name="main_setting">设置</string>
+    <string name="media_information">Media Information</string>
+    <string name="member_list_text">成员列表</string>
+    <string name="mi__selected_audio_track">*</string>
+    <string name="mi__selected_subtitle_track">*</string>
+    <string name="mi__selected_video_track">*</string>
+    <string name="mi_bit_rate">Bit rate</string>
+    <string name="mi_channels">Channels</string>
+    <string name="mi_codec">Codec</string>
+    <string name="mi_frame_rate">Frame rate</string>
+    <string name="mi_language">Language</string>
+    <string name="mi_length">Length</string>
+    <string name="mi_media">Media</string>
+    <string name="mi_pixel_format">Pixel format</string>
+    <string name="mi_player">Player</string>
+    <string name="mi_profile_level">Profile level</string>
+    <string name="mi_resolution">Resolution</string>
+    <string name="mi_sample_rate">Sample rate</string>
+    <string name="mi_stream_fmt1">Stream #%d</string>
+    <string name="mi_type">Type</string>
+    <string name="more_about_version">关于版本</string>
+    <string name="more_account_info">账户信息</string>
+    <string name="more_backup">恢复出厂设置</string>
+    <string name="more_channel_listen">多频道监听</string>
+    <string name="more_channel_listen_setting">多频道监听设置</string>
+    <string name="more_finalport_status">终端状态</string>
+    <string name="more_net_settings">网络设置</string>
+    <string name="more_port_status">终端状态</string>
+    <string name="more_ptt_talk_settings">对讲设置</string>
+    <string name="more_show_test_menu">演示测试</string>
+    <string name="network_connected">已连接</string>
+    <string name="network_no_connect">未连接</string>
+    <string name="network_not_avilable">网络不可用，请稍后...</string>
+    <string name="no_simcard_hint">请插入SIM卡</string>
+    <string name="not_channel_session_hint">请联系管理员，创建频道会话！</string>
+    <string name="open_broadcast_listen">开启广播收听</string>
+    <string name="other_outline">对方不在线</string>
+    <string name="other_refuse_call">对方已拒接</string>
+    <string name="phone_number">本机号码:</string>
+    <string name="phone_system_info">系统版本</string>
+    <string name="port_mobile_net_model">网络类型:</string>
+    <string name="port_mobile_net_status">终端状态:</string>
+    <string name="port_model">终端型号:</string>
+    <string name="port_network">网络:</string>
+    <string name="port_signal_strength">信号强度:</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_key_enable_background_play">pref.enable_background_play</string>
+    <string name="pref_key_enable_detached_surface_texture">pref.enable_detached_surface_texture</string>
+    <string name="pref_key_enable_no_view">pref.enable_no_view</string>
+    <string name="pref_key_enable_surface_view">pref.enable_surface_view</string>
+    <string name="pref_key_enable_texture_view">pref.enable_texture_view</string>
+    <string name="pref_key_last_directory"/>
+    <string name="pref_key_media_codec_handle_resolution_change">pref.media_codec_handle_resolution_change</string>
+    <string name="pref_key_pixel_format">pref.pixel_format</string>
+    <string name="pref_key_player">pref.player</string>
+    <string name="pref_key_using_android_player">pref.using_android_player</string>
+    <string name="pref_key_using_media_codec">pref.using_media_codec</string>
+    <string name="pref_key_using_media_codec_auto_rotate">pref.using_media_codec_auto_rotate</string>
+    <string name="pref_key_using_mediadatasource">pref.using_mediadatasource</string>
+    <string name="pref_key_using_opensl_es">pref.using_opensl_es</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_summary_enable_background_play">need Android 4.0+</string>
+    <string name="pref_summary_enable_detached_surface_texture"/>
+    <string name="pref_summary_enable_no_view"/>
+    <string name="pref_summary_enable_surface_view"/>
+    <string name="pref_summary_enable_texture_view"/>
+    <string name="pref_summary_media_codec_handle_resolution_change"/>
+    <string name="pref_summary_using_android_player"/>
+    <string name="pref_summary_using_media_codec"/>
+    <string name="pref_summary_using_media_codec_auto_rotate"/>
+    <string name="pref_summary_using_mediadatasource"/>
+    <string name="pref_summary_using_opensl_es"/>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_title_enable_background_play">Enable background play</string>
+    <string name="pref_title_enable_detached_surface_texture">Enable detached SurfaceTexture</string>
+    <string name="pref_title_enable_no_view">Enable NoView</string>
+    <string name="pref_title_enable_surface_view">Enable SurfaceView</string>
+    <string name="pref_title_enable_texture_view">Enable TextureView</string>
+    <string name="pref_title_general">General</string>
+    <string name="pref_title_ijkplayer_audio">Audio: ijkplayer</string>
+    <string name="pref_title_ijkplayer_video">Video: ijkplayer</string>
+    <string name="pref_title_media_codec_handle_resolution_change">MediaCodec handle resolution change</string>
+    <string name="pref_title_misc">Misc</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_pixel_format">Pixel Format</string>
+    <string name="pref_title_player">Choose Player</string>
+    <string name="pref_title_render_view">RenderView</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_title_using_android_player">Using system player</string>
+    <string name="pref_title_using_media_codec">Using MediaCodec</string>
+    <string name="pref_title_using_media_codec_auto_rotate">Using MediaCodec auto rotate</string>
+    <string name="pref_title_using_mediadatasource">Using MediaDataSource</string>
+    <string name="pref_title_using_opensl_es">Using OpenSL ES</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pull_refresh">下拉刷新</string>
+    <string name="pwd_chage_success">密码修改成功！</string>
+    <string name="pwd_change_failed">密码修改失败！</string>
+    <string name="pwd_change_format">请输入6~15位数字或字母</string>
+    <string name="pwd_lenth_erro">密码长度不能小于6位！</string>
+    <string name="pwd_no_same">原密码不正确，请重新输入!</string>
+    <string name="pwd_outof_lenth">密码长度不能大于15位！</string>
+    <string name="pwd_same_of_old">你输入的新密码不可以和原密码相同!</string>
+    <string name="recent">Recent</string>
+    <string name="requesting">处理中,请耐心等待...</string>
+    <string name="reseting_mind">恢复出厂设置中\n请保持开机状态\n系统将自动重启</string>
+    <string name="sample">Sample</string>
+    <string name="seek_cost">seek_cost</string>
+    <string name="seek_load_cost">seek_load_cost</string>
+    <string name="serial_number_info">序列号:</string>
+    <string name="session_with_center">与调度台通话中</string>
+    <string name="settings">Settings</string>
+    <string name="show_info">Info</string>
+    <string name="show_test_title">演示测试</string>
+    <string name="software_number">系统版本号</string>
+    <string name="speaker_calling">广播呼叫中</string>
+    <string name="speaker_contral">调度员</string>
+    <string name="sso_string_input_seccode_title">请输入统一认证安全码</string>
+    <string name="sso_string_net_system_exception">请检查网络连接</string>
+    <string name="sso_string_operator_limited">操作频繁，请稍后再试</string>
+    <string name="sso_string_seccode_error">安全码错误</string>
+    <string name="sso_string_seccode_manager_forget_pwd">忘记密码？</string>
+    <string name="sso_string_seccode_manager_login_username">登录用户: </string>
+    <string name="sso_string_seccode_manager_tips">开启安全码二次鉴权，增强隐私数据安全性</string>
+    <string name="sso_string_seccode_set_success">设置成功</string>
+    <string name="sso_string_seccode_success_confirm">确认</string>
+    <string name="sso_string_seccode_valify_success">验证成功</string>
+    <string name="sso_string_service_exception_retry">服务异常，请稍后再试</string>
+    <string name="sso_string_set_seccode_title">请设置统一认证安全码</string>
+    <string name="talk_account">帐号：</string>
+    <string name="talk_account_bind_error">你的设备尚未绑定帐号，请联系客服</string>
+    <string name="talk_account_checking">正在检查帐号</string>
+    <string name="talk_account_get_error">帐号获取异常</string>
+    <string name="talk_account_isnotnull">账号或密码不能为空</string>
+    <string name="talk_account_match">网络连接错误！</string>
+    <string name="talk_account_other">您的账号已在另一台设备上登录！请重新登录！</string>
+    <string name="talk_album">相册</string>
+    <string name="talk_app_amap">高德地图</string>
+    <string name="talk_app_baidumap">百度地图</string>
+    <string name="talk_app_map_tip">使用以下方式得到路线</string>
+    <string name="talk_app_running">正在运行中...</string>
+    <string name="talk_attend_tip_failed_location">获取您的坐标位置失败，不能进行考勤记录，请重新尝试！</string>
+    <string name="talk_attend_tip_failed_operation">考勤操作失败，请重新尝试！</string>
+    <string name="talk_attend_tip_failed_state">获取您的考勤记录失败，请重新尝试！</string>
+    <string name="talk_attend_tip_ok_operation">操作成功！</string>
+    <string name="talk_attend_tip_opr_doing">正在进行操作...</string>
+    <string name="talk_attend_tip_opr_locating">正在获取位置坐标...</string>
+    <string name="talk_attend_tip_start_late">迟到 </string>
+    <string name="talk_attend_tip_start_normal">正常上班 </string>
+    <string name="talk_attend_tip_start_ontime_but_location_incorrect">准时上班但位置有偏离 </string>
+    <string name="talk_attend_tip_stop_leave_early">早退</string>
+    <string name="talk_attend_tip_stop_normal">正常下班 </string>
+    <string name="talk_attend_tip_stop_ontime_but_location_incorrect">准时下班但位置有偏差 </string>
+    <string name="talk_attend_tip_stop_overtime">加班 </string>
+    <string name="talk_attend_tip_stop_overtime_but_location_incorrect">加班但位置有偏差</string>
+    <string name="talk_attend_title_rule">规则：</string>
+    <string name="talk_attend_title_work_start_result">上班情况： </string>
+    <string name="talk_attend_title_work_start_time">上班时间：</string>
+    <string name="talk_attend_title_work_stop_result">下班情况： </string>
+    <string name="talk_attend_title_work_stop_time">下班时间：</string>
+    <string name="talk_attend_work_start">上班</string>
+    <string name="talk_attend_work_stop">下班</string>
+    <string name="talk_auto_login">下次自动登录</string>
+    <string name="talk_call_center_text">调度台</string>
+    <string name="talk_call_leave_msg">前去留言</string>
+    <string name="talk_call_offline_tip">呼叫的用户暂时不在线</string>
+    <string name="talk_call_state_incoming_call">(呼入)呼入</string>
+    <string name="talk_call_state_missed_call">(呼叫未接)未接呼叫</string>
+    <string name="talk_call_state_missed_call_short">未接呼叫</string>
+    <string name="talk_call_state_outgoing_call">(呼出)呼出</string>
+    <string name="talk_call_state_rejected_call">(呼叫拒接)拒接呼叫</string>
+    <string name="talk_call_state_rejected_call_short">拒接呼叫</string>
+    <string name="talk_calling_fail">呼叫建立失败，请稍后再试！</string>
+    <string name="talk_calling_frequently">抱歉，您呼叫太频繁了！</string>
+    <string name="talk_calling_noanswer">呼叫的用户未接听！</string>
+    <string name="talk_calling_offline">呼叫的用户目前不在线!</string>
+    <string name="talk_calling_server_deny">抱歉，您呼叫的用户屏蔽了陌生人！</string>
+    <string name="talk_camera_open_failed">相机启动失败，请检查是否已开启权限！</string>
+    <string name="talk_change_theme">切换主题</string>
+    <string name="talk_channel_action_cancel">取消</string>
+    <string name="talk_channel_action_create">创建</string>
+    <string name="talk_channel_action_delete">删除</string>
+    <string name="talk_channel_add">添加成员</string>
+    <string name="talk_channel_add_fail">成员添加失败</string>
+    <string name="talk_channel_add_success">成员添加成功</string>
+    <string name="talk_channel_attach_tip">选择一个频道，作为下次登陆默认显示的频道</string>
+    <string name="talk_channel_btn_send_msg">发送</string>
+    <string name="talk_channel_build_fail">频道连接失败</string>
+    <string name="talk_channel_building">正在连接频道，请稍候…</string>
+    <string name="talk_channel_complete_add">添加</string>
+    <string name="talk_channel_complete_create">创建</string>
+    <string name="talk_channel_complete_edit">修改</string>
+    <string name="talk_channel_contact">请从下表中选择频道成员</string>
+    <string name="talk_channel_create_fail">频道创建失败</string>
+    <string name="talk_channel_create_full">您的频道个数已超最大限制，不可以在再创建了</string>
+    <string name="talk_channel_create_member_del">删除</string>
+    <string name="talk_channel_create_success">频道创建成功</string>
+    <string name="talk_channel_create_tip">提示：</string>
+    <string name="talk_channel_delete_fail">频道%s删除失败</string>
+    <string name="talk_channel_delete_success">频道%s删除成功</string>
+    <string name="talk_channel_edit_name">编辑名称</string>
+    <string name="talk_channel_editname_fail">名称修改失败</string>
+    <string name="talk_channel_editname_success">名称修改成功</string>
+    <string name="talk_channel_get_wait">频道列表加载中，请稍候...</string>
+    <string name="talk_channel_idle">频道未连接</string>
+    <string name="talk_channel_list_getfail">频道列表获取失败</string>
+    <string name="talk_channel_lock_tip">锁定频道\r\n默认只收听当前频道的对讲信息</string>
+    <string name="talk_channel_member_delete">确认删除选中的成员？</string>
+    <string name="talk_channel_name_tip">请输入名称</string>
+    <string name="talk_channel_no_member_tip">请选择频道成员！</string>
+    <string name="talk_channel_select">选择频道</string>
+    <string name="talk_channel_send_tip">由于你选择的联系人（%s），还未安装对讲，发条短信赶快通知他们吧！</string>
+    <string name="talk_channel_tip_create">您已被加入%s</string>
+    <string name="talk_channel_tip_delete">您已被移出%s</string>
+    <string name="talk_channel_tip_media_exception">当前网络不佳，服务器收回了您的话语权！</string>
+    <string name="talk_channel_tip_media_interruptted">您的讲话被高级别用户打断！</string>
+    <string name="talk_channel_tip_media_listen_only">您没有讲话的权限！</string>
+    <string name="talk_channel_tip_media_queue_in">您已进入讲话队列，请等待</string>
+    <string name="talk_channel_tip_media_queue_out">您已退出讲话队列</string>
+    <string name="talk_channel_tip_media_speak_full">申请发言权失败</string>
+    <string name="talk_channel_tip_media_timeout">当前网络不佳，一直未申请到话语权！</string>
+    <string name="talk_channel_tip_media_timeup">您的讲话时间已到！</string>
+    <string name="talk_channel_tip_member_append">频道（%1$s）有新成员（%2$s）被加入</string>
+    <string name="talk_channel_tip_member_delete">频道（%1$s）成员（%2$s）被移除</string>
+    <string name="talk_channel_tip_member_update">频道（%1$s）成员（%2$s）信息被修改</string>
+    <string name="talk_channel_title_add">添加频道成员</string>
+    <string name="talk_channel_title_create">创建频道</string>
+    <string name="talk_channel_title_edit">修改频道名称</string>
+    <string name="talk_channel_try">重新连接</string>
+    <string name="talk_channel_unlock_tip">取消锁定频道</string>
+    <string name="talk_click_applying">申请中...</string>
+    <string name="talk_click_releasing">释放中...</string>
+    <string name="talk_click_stop">停止讲话</string>
+    <string name="talk_click_talk">点击或按住 讲话</string>
+    <string name="talk_click_talk1">按住留言</string>
+    <string name="talk_click_talk_hold">按住讲话</string>
+    <string name="talk_close">关闭</string>
+    <string name="talk_complete">完成</string>
+    <string name="talk_complete_register">完成注册</string>
+    <string name="talk_current_battery">当前剩余电量</string>
+    <string name="talk_current_channel">当前所在频道,</string>
+    <string name="talk_current_user">当前用户:%s</string>
+    <string name="talk_delete_tip">确认删除</string>
+    <string name="talk_deleteing">正在删除...</string>
+    <string name="talk_dialog_no">否</string>
+    <string name="talk_dialog_yes">是</string>
+    <string name="talk_download">下载</string>
+    <string name="talk_exit">退出</string>
+    <string name="talk_exit_channel">断开频道</string>
+    <string name="talk_exit_tip">确定要退出登录?</string>
+    <string name="talk_fence_warning_tip">请注意，您跨越了电子围栏设定的区域！</string>
+    <string name="talk_fence_warning_title">告警</string>
+    <string name="talk_gps_data">定位数据：</string>
+    <string name="talk_gps_data_error">获取位置信息失败！</string>
+    <string name="talk_gps_data_h">高度：</string>
+    <string name="talk_gps_data_lat">纬度：</string>
+    <string name="talk_gps_data_long">经度：</string>
+    <string name="talk_gps_data_o">方向：</string>
+    <string name="talk_gps_data_s">速度：</string>
+    <string name="talk_gps_data_t">最近上报：</string>
+    <string name="talk_gps_frequence">回传频率(20秒)</string>
+    <string name="talk_gps_frequence_high">高精度模式</string>
+    <string name="talk_gps_high_tip">当前您选择的是“高精度”位置回传模式，这将耗费较多的电量，并且要求GPS一直处于开启状态！</string>
+    <string name="talk_gps_message">最近定位信息</string>
+    <string name="talk_gps_setting">设置</string>
+    <string name="talk_gps_state">回传状态：</string>
+    <string name="talk_gps_state_close">关闭</string>
+    <string name="talk_gps_state_open">开启</string>
+    <string name="talk_group_no_connect">[无频道]</string>
+    <string name="talk_group_title">频道</string>
+    <string name="talk_had_idel">对讲已断开！</string>
+    <string name="talk_in_temp_session_tip">进入该会话，当前会话将会挂断</string>
+    <string name="talk_incoming">请求呼入...</string>
+    <string name="talk_incoming_accept">接听</string>
+    <string name="talk_incoming_channel_alert_accept">进入</string>
+    <string name="talk_incoming_channel_alert_message">呼叫你进入此频道</string>
+    <string name="talk_incoming_channel_alert_owner_tip">管理员要求进入指定频道，系统已为您自动切换！</string>
+    <string name="talk_incoming_channel_alert_reject">忽略</string>
+    <string name="talk_incoming_channel_alert_send_tip">是否要通知频道内所有在线成员进入会话？</string>
+    <string name="talk_incoming_channel_alert_sending">正在通知频道成员...</string>
+    <string name="talk_incoming_channel_alert_sent_tip_err">通知失败，请重新尝试！</string>
+    <string name="talk_incoming_channel_alert_sent_tip_ok">已通知频道内的所有在线成员进入此会话！</string>
+    <string name="talk_incoming_channel_alert_tip"> 邀请您进入频道 (%s) 进行通话，是否进入？</string>
+    <string name="talk_incoming_reject">拒接</string>
+    <string name="talk_incoming_tip"> 按BACK或MENU键可关闭振铃声音</string>
+    <string name="talk_incoming_video">视频邀请</string>
+    <string name="talk_incoming_video_tip">调度台邀请您进行实时视频回传</string>
+    <string name="talk_input_channel_name">输入频道名称</string>
+    <string name="talk_input_id">帐号/手机号码</string>
+    <string name="talk_input_isnotnull">输入项不能为空！</string>
+    <string name="talk_input_name">输入您的名称</string>
+    <string name="talk_input_phone">输入手机号码</string>
+    <string name="talk_input_pwd">密码</string>
+    <string name="talk_input_validate">输入验证码</string>
+    <string name="talk_insert_sd_card">请您插入存储卡!</string>
+    <string name="talk_line_busy">您所呼叫的用户正忙，请稍后再试！</string>
+    <string name="talk_line_reject">对方拒绝了您的对讲！</string>
+    <string name="talk_listen_mode_earphone">听筒</string>
+    <string name="talk_listen_mode_speaker">外放</string>
+    <string name="talk_location_share">位置共享</string>
+    <string name="talk_location_share_back_tip">返回会话后，位置共享将继续进行，若要退出，请轻触结束按钮</string>
+    <string name="talk_location_share_count"> 人在共享位置</string>
+    <string name="talk_location_share_end"> 结束了位置共享</string>
+    <string name="talk_location_share_exit_no">后台共享</string>
+    <string name="talk_location_share_exit_tip">确定要结束位置共享?</string>
+    <string name="talk_location_share_exit_yes">确认结束</string>
+    <string name="talk_location_share_join_tip">加入位置共享，会话中其他人也能看到你的位置，确认加入？</string>
+    <string name="talk_location_share_me">我正在共享位置</string>
+    <string name="talk_location_share_start"> 发起了位置共享</string>
+    <string name="talk_location_share_tip">临时会话未建立，不能位置共享</string>
+    <string name="talk_location_sharing">正在共享位置</string>
+    <string name="talk_login">登录</string>
+    <string name="talk_login_account">请输入用户名和密码</string>
+    <string name="talk_login_cancel">取消</string>
+    <string name="talk_login_fail">登录失败，请检查您的网络是否可用！</string>
+    <string name="talk_login_fail_sso">获取鉴权信息失败，请手动登录！</string>
+    <string name="talk_login_failed_general">登录失败！</string>
+    <string name="talk_login_failed_invalid">此账号无效！</string>
+    <string name="talk_login_failed_nouser">此帐号不可用，请检查您的帐号输入是否正确！</string>
+    <string name="talk_login_failed_server">服务器处理出现异常！请重新尝试！</string>
+    <string name="talk_login_loading">正在更新频道信息...</string>
+    <string name="talk_login_login_failed_forbidden">因违规行为，该账户已被禁用！</string>
+    <string name="talk_login_login_failed_not_acceptable">此账户为调度管理账户，不允许通过客户端登录！</string>
+    <string name="talk_login_login_failed_pwd_duplicate">此手机号码绑定了不止一个密码相同的账户，请使用帐号进行登录！</string>
+    <string name="talk_login_login_failed_single">此账户刚刚在另一个设备上登录成功，这台设备将被自动登出！</string>
+    <string name="talk_login_login_failed_user_or_password">帐号或密码不正确！</string>
+    <string name="talk_login_no_network">网络异常，请稍后...</string>
+    <string name="talk_login_retry">重新登录</string>
+    <string name="talk_login_sso">正在获取鉴权信息...</string>
+    <string name="talk_logining">正在登录，请稍候...</string>
+    <string name="talk_me">我</string>
+    <string name="talk_member_del_fail">成员删除失败</string>
+    <string name="talk_mode_changing">正在切换模式...</string>
+    <string name="talk_mode_in_call">已切到听筒模式</string>
+    <string name="talk_mode_normal">已切到扬声器模式</string>
+    <string name="talk_msg_new">条新消息</string>
+    <string name="talk_msg_no_local_file">您的SD卡目前不可用！</string>
+    <string name="talk_msg_pic">，收到了新的图片消息</string>
+    <string name="talk_msg_playback_none">无回放记录</string>
+    <string name="talk_msg_ptt">未收听的语音</string>
+    <string name="talk_msg_rec">，收到了新的语音留言</string>
+    <string name="talk_msg_remove_all_confirm">是否删除此会话中所有消息？</string>
+    <string name="talk_msg_text">，收到了新消息</string>
+    <string name="talk_name_digits"> 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="talk_network_connected">网络已连接</string>
+    <string name="talk_network_error">当前网络不佳，请稍后再试！</string>
+    <string name="talk_network_error_hint">网络连接错误，请检查您的网络设置，您需要使用net作为默认接入点！</string>
+    <string name="talk_network_scaning">搜索网络</string>
+    <string name="talk_network_warning">网络或服务中断，正在尝试恢复...</string>
+    <string name="talk_new_pwd">新密码</string>
+    <string name="talk_new_pwd_confirm">确认新密码</string>
+    <string name="talk_next_step">下一步</string>
+    <string name="talk_no">取消</string>
+    <string name="talk_no_tip">不再提示</string>
+    <string name="talk_ok">确认</string>
+    <string name="talk_ok_2">好</string>
+    <string name="talk_ok_3">确定</string>
+    <string name="talk_old_pwd">原密码</string>
+    <string name="talk_permission_deny">权限未开启，请尝试打开权限！</string>
+    <string name="talk_phonenum_error">请输入正确的手机号码！</string>
+    <string name="talk_photo_selected_tip">发送</string>
+    <string name="talk_photo_unselected_tip">未选择</string>
+    <string name="talk_please_input_validate">请输入验证码</string>
+    <string name="talk_presence_bgline">后台在线</string>
+    <string name="talk_presence_channel_online">前台在线</string>
+    <string name="talk_presence_offline">离线</string>
+    <string name="talk_presence_online">后台在线</string>
+    <string name="talk_preset_group">预设组</string>
+    <string name="talk_preset_group_select">选择一个预设组</string>
+    <string name="talk_protocol">在使用对讲应用时需要访问移动网络或无线网络并读取位置信息，是否同意？</string>
+    <string name="talk_ptt_broadcast_doing">广播中</string>
+    <string name="talk_ptt_broadcast_idle">发起广播呼叫</string>
+    <string name="talk_ptt_broadcast_start">现在发起</string>
+    <string name="talk_ptt_broadcast_stop">结束广播</string>
+    <string name="talk_pwd_confirm_not_equals">两次密码输入不一致 \n 请重新输入</string>
+    <string name="talk_pwd_error">密码长度不能小于6位！</string>
+    <string name="talk_pwd_find_bind_phone">已绑定手机号</string>
+    <string name="talk_pwd_find_exit_tip">是否放弃找回密码？</string>
+    <string name="talk_pwd_find_failed">密码更新失败，请重试！</string>
+    <string name="talk_pwd_find_get_verify_code">获取验证码</string>
+    <string name="talk_pwd_find_get_verify_confirm">确认</string>
+    <string name="talk_pwd_find_re_get">重新获取验证码（%ds）</string>
+    <string name="talk_pwd_find_re_get_again">重新获取验证码</string>
+    <string name="talk_pwd_find_save">保存</string>
+    <string name="talk_pwd_find_success">密码设置成功，请使用新密码重新登录</string>
+    <string name="talk_pwd_find_tip_not_phone">您输入的手机号码不正确！</string>
+    <string name="talk_pwd_find_tip_verify_error">验证码错误！</string>
+    <string name="talk_pwd_find_user_not_found">此手机号码不是有效绑定账户！</string>
+    <string name="talk_pwd_find_verify_code_failed">验证码已失效，请重新获取！</string>
+    <string name="talk_pwd_find_verifying">验证中...</string>
+    <string name="talk_pwd_outof_lenth">密码长度不能大于15位！</string>
+    <string name="talk_quality_select">回传图片质量选择</string>
+    <string name="talk_rec_cancel">移到此处取消</string>
+    <string name="talk_rec_release">松开取消</string>
+    <string name="talk_rec_result_cancel_str">录音已取消</string>
+    <string name="talk_rec_result_err_small">录音时间太短！</string>
+    <string name="talk_rec_result_error">录音遇到错误：（</string>
+    <string name="talk_register">账户注册或找回</string>
+    <string name="talk_register_fail">注册失败！</string>
+    <string name="talk_release_queue">取消排队</string>
+    <string name="talk_report_upload">上报</string>
+    <string name="talk_report_upload_capture_time">[拍摄时间]</string>
+    <string name="talk_report_upload_cleanall">清理记录</string>
+    <string name="talk_report_upload_cleanall_tip">确定要清除所有已完成的任务吗？</string>
+    <string name="talk_report_upload_err_space_overflow">抱歉，服务器上报存储空间已达到上限，暂时不能上报！请联系您的管理员</string>
+    <string name="talk_report_upload_getting_gps">正在获取位置信息...</string>
+    <string name="talk_report_upload_init">点击输入信息，最多可输入140个字符！</string>
+    <string name="talk_report_upload_list_empty">没有上报资料的历史记录</string>
+    <string name="talk_report_upload_no_content">(无描述)</string>
+    <string name="talk_report_upload_pic">上传图像：</string>
+    <string name="talk_report_upload_pic_browse">本地图片</string>
+    <string name="talk_report_upload_pic_capture">拍照</string>
+    <string name="talk_report_upload_pic_err">图像上报失败，请重新尝试！</string>
+    <string name="talk_report_upload_pic_err_select_pic">请选择拍照或本地图片！</string>
+    <string name="talk_report_upload_pic_info">信息描述：</string>
+    <string name="talk_report_upload_pic_ok">图像上报成功！</string>
+    <string name="talk_report_upload_pic_up">确认上报</string>
+    <string name="talk_report_upload_record">上报记录</string>
+    <string name="talk_report_upload_resend">再次上报</string>
+    <string name="talk_report_upload_retry">重试</string>
+    <string name="talk_report_upload_vid">上传视频：</string>
+    <string name="talk_report_upload_vid_browse">本地视频</string>
+    <string name="talk_report_upload_vid_capture">拍摄</string>
+    <string name="talk_report_upload_vid_err">视频上报失败，请重新尝试！</string>
+    <string name="talk_report_upload_vid_err_select_pic">请选择拍摄或本地视频！</string>
+    <string name="talk_report_upload_vid_err_size">文件尺寸过大，请尝试录制时间短些！</string>
+    <string name="talk_report_upload_vid_info">信息描述：</string>
+    <string name="talk_report_upload_vid_ok">视频上报成功！</string>
+    <string name="talk_report_upload_vid_up">确认上报</string>
+    <string name="talk_report_uploading">上报中，请稍后...</string>
+    <string name="talk_scathed">压缩回传</string>
+    <string name="talk_secret_nocard">未插入有效的加密卡！</string>
+    <string name="talk_selection">请选择</string>
+    <string name="talk_session_alert_channel">呼入成员</string>
+    <string name="talk_session_back">再按一次将挂断会话</string>
+    <string name="talk_session_building">正在连接...</string>
+    <string name="talk_session_call">呼叫</string>
+    <string name="talk_session_call_add">邀请</string>
+    <string name="talk_session_call_add_tip">邀请会话成员</string>
+    <string name="talk_session_call_cancel">取消</string>
+    <string name="talk_session_call_fail">呼叫添加失败!</string>
+    <string name="talk_session_call_title">会话邀请</string>
+    <string name="talk_session_calling">呼叫中...</string>
+    <string name="talk_session_del_confirm">是否确认要删除选中的会话？</string>
+    <string name="talk_session_end_call">挂断</string>
+    <string name="talk_session_idle">状态：空闲</string>
+    <string name="talk_session_member">频道成员</string>
+    <string name="talk_session_msg">消息</string>
+    <string name="talk_session_queue_see">查看全部排队</string>
+    <string name="talk_session_speak_idle">空闲</string>
+    <string name="talk_session_title">会话</string>
+    <string name="talk_session_video_bye">　挂断　</string>
+    <string name="talk_session_video_message">我发起了实时视频</string>
+    <string name="talk_session_video_message_time">实时视频时长</string>
+    <string name="talk_session_video_share">视频分享</string>
+    <string name="talk_session_video_start">开始录制</string>
+    <string name="talk_session_video_stop">结束录制</string>
+    <string name="talk_set_network">设置网络</string>
+    <string name="talk_show_password">显示密码</string>
+    <string name="talk_speak_me">我 在讲话</string>
+    <string name="talk_speaking"> 在讲话</string>
+    <string name="talk_special_forbid_invite">此会话不能邀请他人加入！</string>
+    <string name="talk_statistic_bytes">流量消耗：</string>
+    <string name="talk_statistic_time">运行时长：</string>
+    <string name="talk_statistic_tip">统计数据已清空！</string>
+    <string name="talk_system_limit_call_in">您被管理员限制临时呼叫呼入！</string>
+    <string name="talk_system_limit_call_out">您被管理员限制临时呼叫呼出！</string>
+    <string name="talk_system_limit_channel">您被管理员限制进行所有频道通话！</string>
+    <string name="talk_system_limit_channel_item">您被管理员限制在频道（%s）中通话！</string>
+    <string name="talk_system_user_ctl_turn_off">您的账户被管理员遥毙，程序将会自动退出！</string>
+    <string name="talk_system_user_ctl_turn_reset">管理员要求您重新登录鉴权！</string>
+    <string name="talk_task_action_confirm_start">确认开始此任务？</string>
+    <string name="talk_task_action_confirm_stop">结束任务后，将不能在进行上报操作，确认结束此任务？</string>
+    <string name="talk_task_action_start">开始任务</string>
+    <string name="talk_task_action_stop">任务结束</string>
+    <string name="talk_task_action_upload">任务上报</string>
+    <string name="talk_task_case_add">案件创建</string>
+    <string name="talk_task_case_list">案件列表</string>
+    <string name="talk_task_content">详情：</string>
+    <string name="talk_task_details_creater">派发人：</string>
+    <string name="talk_task_details_desc">任务描述：</string>
+    <string name="talk_task_details_leader">负责人：</string>
+    <string name="talk_task_details_name">任务名：</string>
+    <string name="talk_task_dispatch_title">您有新任务</string>
+    <string name="talk_task_status_close">已完成</string>
+    <string name="talk_task_status_doing">进行中</string>
+    <string name="talk_task_status_notstart">未开始</string>
+    <string name="talk_task_title">标题：</string>
+    <string name="talk_tempcode_expire">验证码无效或已经过期！</string>
+    <string name="talk_tempcode_get_fail">临时码获取失败，请重新获取！</string>
+    <string name="talk_tip_operation_fast">您的操作过于频繁！</string>
+    <string name="talk_tip_session_call">请选择邀请的成员</string>
+    <string name="talk_tip_session_members_max">加入成员失败，可能是已超过最大限30人</string>
+    <string name="talk_tip_waiting">请稍候...</string>
+    <string name="talk_tip_waiting_take_photo">正在进行压缩计算，请稍候...</string>
+    <string name="talk_title_location">位置</string>
+    <string name="talk_title_location_msg">位置信息</string>
+    <string name="talk_title_location_search">搜索位置</string>
+    <string name="talk_title_location_send_error">位置消息发送失败，请重试</string>
+    <string name="talk_title_task">任务列表</string>
+    <string name="talk_title_task_details">任务详情</string>
+    <string name="talk_tools">更多</string>
+    <string name="talk_tools_about">关于版本</string>
+    <string name="talk_tools_attend">考勤</string>
+    <string name="talk_tools_call_center">调度管理中心</string>
+    <string name="talk_tools_call_center_admin">呼调度员</string>
+    <string name="talk_tools_call_center_attendence">呼叫坐席</string>
+    <string name="talk_tools_call_center_confirm">确定呼叫调度管理中心?</string>
+    <string name="talk_tools_call_center_usage_video">视频呼叫</string>
+    <string name="talk_tools_call_center_usage_voice">语音呼叫</string>
+    <string name="talk_tools_channel">频道附着设置</string>
+    <string name="talk_tools_defect">意见反馈</string>
+    <string name="talk_tools_defect_report">反馈</string>
+    <string name="talk_tools_defect_report_error">网络连接失败，请重新尝试！</string>
+    <string name="talk_tools_defect_report_tip">感谢您的反馈，我们会尽快处理您提出的问题或建议，再次感谢！</string>
+    <string name="talk_tools_defect_title">告诉我们您在使用中遇到的问题或宝贵建议：</string>
+    <string name="talk_tools_help">帮助和反馈</string>
+    <string name="talk_tools_infosys">信息采集</string>
+    <string name="talk_tools_infosys_null">请下载信息采集系统客户端，下载安装后便可使用！</string>
+    <string name="talk_tools_know">知道了</string>
+    <string name="talk_tools_location">位置回传</string>
+    <string name="talk_tools_location_tip">打开后，定期回传我的位置信息</string>
+    <string name="talk_tools_manual">使用手册</string>
+    <string name="talk_tools_notice">广播</string>
+    <string name="talk_tools_notice_comment_send">发表</string>
+    <string name="talk_tools_notice_comment_tip">输入您的评论</string>
+    <string name="talk_tools_pwd_find">找回密码</string>
+    <string name="talk_tools_pwd_update">修改密码</string>
+    <string name="talk_tools_report">现场上报</string>
+    <string name="talk_tools_report_click">点击重发</string>
+    <string name="talk_tools_report_compress">压缩</string>
+    <string name="talk_tools_report_continue">继续上传</string>
+    <string name="talk_tools_report_date">上报时间</string>
+    <string name="talk_tools_report_description">描述</string>
+    <string name="talk_tools_report_fail">上传失败</string>
+    <string name="talk_tools_report_fail_tip">已经保存到本地，建议稍后去更多-上报记录页继续上传</string>
+    <string name="talk_tools_report_high">高清</string>
+    <string name="talk_tools_report_pic">图像上报</string>
+    <string name="talk_tools_report_success">上传成功，可在更多界面查看</string>
+    <string name="talk_tools_report_uploading">正在上报..</string>
+    <string name="talk_tools_report_vid">视频上报</string>
+    <string name="talk_tools_report_waiting">等待上报..</string>
+    <string name="talk_tools_session">会话管理</string>
+    <string name="talk_tools_session_video_confirm">检测到当前为2G网络，确定进行视频回传吗?</string>
+    <string name="talk_tools_setting">设置</string>
+    <string name="talk_tools_setting_answer_mode">自动应答</string>
+    <string name="talk_tools_setting_answer_mode_tip">有对讲来电时，将自动应答。</string>
+    <string name="talk_tools_setting_case">保险案件</string>
+    <string name="talk_tools_setting_hb">心跳频率</string>
+    <string name="talk_tools_setting_hb_tip">越高频率的心跳将耗费更多的电量和流量，但可提升对讲语音通话的性能</string>
+    <string name="talk_tools_setting_isb">免打扰</string>
+    <string name="talk_tools_setting_isb_tip">开启此项后，所有的对讲来电将会自动拒接</string>
+    <string name="talk_tools_setting_ptt_click">屏幕PTT按键</string>
+    <string name="talk_tools_setting_ptt_click_tip">点击PTT对讲按钮开始对讲，再次点击结束对讲。同时仍支持长按对讲。</string>
+    <string name="talk_tools_setting_ptt_volume">音量按键</string>
+    <string name="talk_tools_setting_ptt_volume_tip">开启后，按住上下音量键任意一个，即可进行PTT对讲。</string>
+    <string name="talk_tools_setting_task">任务派单</string>
+    <string name="talk_tools_setting_voice">对讲设置</string>
+    <string name="talk_tools_setting_voice_amplifier">声音放大器</string>
+    <string name="talk_tools_setting_voice_amplifier_tip">启用放大器可将外放音量适当增大</string>
+    <string name="talk_tools_setting_voice_listen_mode">收听模式</string>
+    <string name="talk_tools_setting_voice_mode_bluetooth">蓝牙模式</string>
+    <string name="talk_tools_setting_voice_mode_earphone">听筒模式</string>
+    <string name="talk_tools_setting_voice_mode_speaker">扬声器模式</string>
+    <string name="talk_tools_setting_voice_volume">音量</string>
+    <string name="talk_tools_setting_vox">VOX侦测</string>
+    <string name="talk_tools_setting_vox_tip">开启此项后，自动识别声音并开启对讲</string>
+    <string name="talk_tools_sso">一键登录</string>
+    <string name="talk_tools_task">任务派单</string>
+    <string name="talk_tools_task_view">查看</string>
+    <string name="talk_tools_video">实时视频设置</string>
+    <string name="talk_tools_video_fps">帧率</string>
+    <string name="talk_tools_video_fps_tip">帧率越高，视频画面越流畅，也越消耗流量。</string>
+    <string name="talk_tools_video_quality">清晰度</string>
+    <string name="talk_tools_video_quality_tip">清晰度由分辨率、帧率、码率三种参数组成</string>
+    <string name="talk_tools_video_rate">分辨率</string>
+    <string name="talk_tools_video_rate_tip">分辨率越高，视频越清晰，也越消耗流量。</string>
+    <string name="talk_typewriter_init">在此输入文字</string>
+    <string name="talk_unscathed">无损回传</string>
+    <string name="talk_update1">修改</string>
+    <string name="talk_user_account_manage">账户管理</string>
+    <string name="talk_user_info_update_name">更改名称</string>
+    <string name="talk_user_info_update_name_doing">正在更新...</string>
+    <string name="talk_user_info_update_name_error">名称长度需不能超过15</string>
+    <string name="talk_user_info_update_name_fail">名称更改失败，请重新尝试！</string>
+    <string name="talk_user_info_update_name_ok">名称更改成功！</string>
+    <string name="talk_user_ipocid">用户ID:</string>
+    <string name="talk_user_login">用户登录</string>
+    <string name="talk_user_password">密码</string>
+    <string name="talk_user_search_key_empty">请输入要搜索的用户ID或名称！</string>
+    <string name="talk_user_search_org">所在组织：</string>
+    <string name="talk_user_search_org_no">（未分组）</string>
+    <string name="talk_user_search_result_empty">未找到您要搜索的用户！</string>
+    <string name="talk_user_search_tip">用户ID或名称</string>
+    <string name="talk_user_temp_code_expire">验证码无效或已经过期！</string>
+    <string name="talk_user_title">全体成员</string>
+    <string name="talk_user_username">名称:</string>
+    <string name="talk_user_username_edit">编辑名称</string>
+    <string name="talk_userlogin_login_expired">您的账户已经过期，请到“用户中心”进行续费，非常感谢您的我们的支持！</string>
+    <string name="talk_userlogin_login_forbidden">您所使用的账户已经被禁用，或被管理员遥毙！</string>
+    <string name="talk_userlogin_register_failed_in_blacklist">操作失败，您的手机号码已被系统禁用！</string>
+    <string name="talk_userlogin_register_failed_limited">操作失败，您注册的账号过多了！</string>
+    <string name="talk_userlogin_text">请耐心等待以短信方式发来的临时验证码</string>
+    <string name="talk_verion_cancel">下次再说 </string>
+    <string name="talk_verion_check">检查更新</string>
+    <string name="talk_verion_latest">已经是最新版本</string>
+    <string name="talk_verion_title">版本更新 </string>
+    <string name="talk_verion_upeate">现在更新</string>
+    <string name="talk_version">版本：</string>
+    <string name="talk_version_new">有新版本</string>
+    <string name="talk_video_addr_error">视频地址无效！</string>
+    <string name="talk_video_connect_fail">连接失败</string>
+    <string name="talk_video_connecting">正在连接</string>
+    <string name="talk_video_forward_content"> 的实时视频，是否观看？</string>
+    <string name="talk_video_forward_real">实时视频</string>
+    <string name="talk_video_forward_store">录制视频转发</string>
+    <string name="talk_video_idle">长按开始和管理员对讲</string>
+    <string name="talk_video_listen">在讲话</string>
+    <string name="talk_video_me">我在讲话</string>
+    <string name="talk_video_player_no_choose">请选择播放</string>
+    <string name="talk_video_player_none">不播放视频</string>
+    <string name="talk_video_stop">已停止</string>
+    <string name="talk_video_tio_to_close">是否要关闭视频？</string>
+    <string name="talk_video_tio_to_open">确认开始实时视频回传？</string>
+    <string name="talk_video_tip_error">远端视频加载失败！</string>
+    <string name="talk_video_tip_fast_toggle">您的切换过快！</string>
+    <string name="talk_video_tip_no_connection">未连接会话！</string>
+    <string name="talk_video_tip_play_loading">正在加载...</string>
+    <string name="talk_video_tip_playing">播放中</string>
+    <string name="talk_video_tip_pull_video">您正在进行上拉视频回传，如果结束会话也将同时结束，是否继续？</string>
+    <string name="talk_video_tip_take_fast">您的操作过快！</string>
+    <string name="talk_video_tip_take_picture">远程照片拍摄已完成！</string>
+    <string name="talk_video_uploading">正在实时回传</string>
+    <string name="talk_video_voice_active">关闭环境音</string>
+    <string name="talk_video_voice_inactive">开启环境音</string>
+    <string name="talk_video_voice_none">屏蔽环境音</string>
+    <string name="talk_volume">媒体音量（%d） </string>
+    <string name="talk_volume_max">媒体音量已是最大 </string>
+    <string name="talk_volume_min">媒体音量已是最小 </string>
+    <string name="tcp_speed">tcp_speed</string>
+    <string name="temp_session_on">临时会话中</string>
+    <string name="temp_session_text">临时会话</string>
+    <string name="text_incomeing">呼入中...</string>
+    <string name="title_activity_port_status">Settings</string>
+    <string name="toast_finish">完成</string>
+    <string name="toggle_player">Player</string>
+    <string name="toggle_ratio">Scale</string>
+    <string name="toggle_render">Render</string>
+    <string name="torch_tv_text">手电筒</string>
+    <string name="tracks">Tracks</string>
+    <string name="update">更新</string>
+    <string name="userlogin_account_isnull">账号或密码不能为空</string>
+    <string name="userlogin_pwd_isnull">密码不能为空</string>
+    <string name="userlogin_tem_isnull">输入项不能为空！</string>
+    <string name="v_cache">v-cache</string>
+    <string name="vdec">vdec</string>
+    <string name="version_update">版本更新</string>
+    <string name="version_update_install">安装</string>
+    <string name="version_update_pro">下载进度（%d/100）</string>
+    <string name="version_url_error">错误的URL</string>
+    <string name="volume_test_start_btn">开始</string>
+    <string name="volume_test_stop_btn">停止</string>
+    <string name="volume_test_tile">音量测试</string>
+    <style name="AppTheme_Dark" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/main_bg_dark</item>
+        <item name="android:windowNoTitle">true</item>
+       <!-- <item name="android:listSelector">@drawable/list_item_bg</item>  -->
+        <item name="android:listViewStyle">@style/comm_listview_style </item>
+        <item name="android:windowAnimationStyle">@style/fade</item>
+        <item name="theme_color_title">@color/color_orange_dark</item>
+        <item name="theme_main_bg">@color/color_main_bg_dark</item>
+        <item name="theme_sider_bg">@color/color_main_bg_dark</item>
+        <item name="theme_color_hint">@color/color_hint_dark</item>
+        <item name="theme_color_text">@color/color_text_white_dark</item>
+        <item name="theme_color_text1">@color/color_hint_dark</item>
+        <!-- <item name="theme_sider_title_bg">@color/white</item> -->
+        <item name="theme_sider_title_bg">@drawable/selector_sider_title_bg</item>
+        <item name="theme_sider_title_bg_report">@color/white</item>
+        <item name="theme_bg_input">@drawable/shape_cmcc_bg</item>
+        <item name="theme_bg_title">@drawable/title_bg_dark</item>
+        <item name="theme_divider_login">@drawable/login_line</item>
+        <item name="theme_selector_group_item">@drawable/selector_group_item_dark</item>
+        <item name="theme_color_group_bg">@drawable/exp_group</item>
+        <item name="theme_talk_panel">@drawable/talk_panel_bg</item>
+        <item name="theme_color_logo_text">@color/color_text_white_dark</item>
+        <item name="theme_button_text_color">@color/black</item>
+        <item name="theme_button_commit">@drawable/selector_button_commit</item>
+        <item name="theme_button_refresh">@drawable/selector_button_refresh</item>
+        <item name="theme_report_retry">@drawable/selector_report_retry</item>
+        <item name="theme_text_color">@color/color_hint_dark</item>
+        <item name="theme_button">@drawable/selector_button</item>
+        <item name="theme_button_new">@drawable/selector_button_new</item>
+        <item name="theme_button_logout">@drawable/selector_button_logout</item>
+        <item name="theme_button_1px">@drawable/selector_button</item>
+        <item name="theme_button_1">@drawable/selector_btn_nav</item>
+        <item name="theme_menu_left_icon">@drawable/ic_topbar_more</item>
+        <item name="theme_menu_left_icon1">@drawable/ic_topbar_more</item>
+        <item name="theme_menu_right_icon">@drawable/info</item>
+        <item name="theme_button_album">@drawable/selector_button_album</item>
+        <item name="theme_menu_bg">@drawable/selector_btn_nav</item>
+        <item name="theme_divider_h">@drawable/dicider_line2</item>
+        <item name="theme_divider_v">@drawable/v_divider_line</item>
+        <item name="theme_divider_title">@drawable/left_divider_line</item>
+        <item name="theme_msg_audio_play">@drawable/msg_audio_play</item>
+        <item name="theme_msg_audio_stop">@drawable/msg_audio_stop_new</item>
+        <item name="theme_media_setting">@drawable/media_setting</item>
+        <item name="theme_media_manager">@drawable/media_manager</item>
+        <item name="theme_user_icon_offline">@drawable/user_icon_offline</item>
+        <item name="theme_user_icon_online">@drawable/user_icon_online</item>
+        <item name="theme_user_icon_online_bg">@drawable/user_icon_online_bg</item>
+        <item name="theme_talk_button">@drawable/ptt_talk_button</item>
+        <item name="theme_talk_button_pressed">@drawable/ptt_talk_button_pressed</item>
+        <item name="theme_btn_more">@drawable/msg_more</item>
+        <item name="theme_btn_send">@drawable/msg_send0</item>
+        <item name="theme_msg_recv">@drawable/selector_chat_from</item>
+        <item name="theme_msg_send">@drawable/selector_chat_to</item>
+        <item name="theme_msg_send_new">@drawable/bg_msgbox_send_normal_new</item>
+        <!-- <item name="theme_user_head">@drawable/user_head</item> -->
+        <item name="theme_user_head">@drawable/head_portrait</item>
+        <item name="theme_group_me">@drawable/group_me</item>
+        <item name="theme_group_others">@drawable/group_others</item>
+        <item name="theme_group_all">@drawable/group_all</item>
+        <item name="theme_user_dialog">@drawable/user_dialog</item>
+        <item name="theme_ic_topbar_back">@drawable/btn_back</item>
+        <item name="theme_ic_topbar_close">@drawable/ic_close</item>
+        <item name="theme_ic_topbar_camera">@drawable/ic_camera</item>
+        <item name="theme_ic_topbar_clean">@drawable/ic_fun_cancel</item>
+        <item name="theme_ic_topbar_setting">@drawable/ic_setting</item>
+        <!-- <item name="theme_ic_topbar_back">@drawable/ic_topbar_back</item> -->
+        <item name="theme_ic_refresh">@drawable/ic_refresh</item>
+        <item name="theme_system_msg_bg">@color/color_system_msg_bg</item>
+        <item name="theme_nav_contact_selected">@drawable/nav_contact_selected</item>
+        <item name="theme_tool_call">@drawable/selector_btn_call</item>
+        <item name="theme_btn_tool_update">@drawable/selector_btn_tool_update</item>
+        <item name="theme_menu_notice_normal">@drawable/selector_btn_tool_notice</item>
+        <item name="theme_menu_msg">@drawable/selector_btn_tool_msg</item>
+        <item name="theme_tool_report">@drawable/selector_btn_tool_report</item>
+        <item name="theme_menu_manual">@drawable/selector_btn_tool_manual</item>
+        <item name="theme_tool_gps">@drawable/selector_btn_tool_gps</item>
+        <item name="theme_tool_pti">@drawable/selector_btn_tool_infosys</item>
+        <item name="theme_ic_search">@drawable/ic_search</item>
+        <item name="theme_selector_group_item_select">@drawable/selector_group_item_select_dark</item>
+        <item name="theme_ic_t_shit">@drawable/selector_btn_t_shir</item>
+        <item name="theme_media_idle">@drawable/media_idle</item>
+        <item name="theme_media_listen">@drawable/media_listen</item>
+        <item name="theme_media_talk">@drawable/media_talk</item>
+        <item name="theme_media_talk_wait">@drawable/media_talk_wait</item>
+        <item name="theme_nav_unread_bg">@drawable/nav_unread_bg</item>
+        <item name="theme_ic_done">@drawable/ic_done</item>
+        <item name="theme_call_center">@drawable/tool_call</item>
+        <item name="theme_call_in_member">@drawable/tool_pti</item>
+        <item name="theme_menu_msg1">@drawable/menu_msg</item>
+        <item name="theme_menu_del">@drawable/menu_pwd_normal</item>
+        <item name="theme_menu_cancel">@drawable/menu_cancel</item>
+        <item name="theme_menu_gps_set">@drawable/tool_gps</item>
+        <item name="theme_menu_ptt_set">@drawable/menu_rank_normal</item>
+        <item name="theme_menu_name_set">@drawable/menu_contact_normal</item>
+        <item name="theme_menu_pwd_set">@drawable/menu_pwd_normal</item>
+        <item name="theme_playvideo_tools_background">@drawable/playvideo_tools_background</item>
+        <item name="theme_pop_up_pannel">@drawable/pop_up_pannel</item>
+        <item name="theme_org_icon">@drawable/group_others</item>
+        <item name="theme_user">@drawable/login_user</item>
+        <item name="theme_video_share">@drawable/tool_video_share</item>
+        <item name="theme_login_pwd">@drawable/login_pwd</item>
+        <item name="theme_login_user">@drawable/login_user</item>
+        <item name="theme_btn_check">@drawable/selector_btn_check</item>
+        <item name="theme_btn_check_new">@drawable/selector_btn_check_new</item>
+        <item name="theme_btn_pic_check">@drawable/selector_btn_pic_check</item>
+        <item name="theme_btn_listen_mode">@drawable/selector_btn_listen_mode</item>
+        <item name="theme_radio_check">@drawable/selector_radio_check</item>
+        <item name="theme_title_menu_pading">4dip</item>
+        <item name="theme_title_divider_height">1dip</item>
+        <item name="theme_report_drawable_right_padding">10dip</item>
+    </style>
+    <style name="CustomProgressStyle" parent="@android:style/Widget.ProgressBar.Small.Inverse">
+        <item name="android:minWidth">28dip</item>
+        <item name="android:maxWidth">28dip</item>
+        <item name="android:minHeight">28dip</item>
+        <item name="android:maxHeight">28dip</item>
+    </style>
+    <style name="EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:ems">18</item>
+    </style>
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style mce_bogus="1" name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+    <style name="RadioButton" parent="@android:style/Widget.CompoundButton">
+        <item name="android:button">@null</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">1dip</item>
+    </style>
+    <style name="RadioButton2">
+        <item name="android:button">@null</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="alert_dialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/bg_alert_dialog</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="comm_listview_style">
+        <item name="android:listSelector">@drawable/list_item_bg</item>
+    </style>
+    <style name="fade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+    </style>
+    <style name="friendlist_bg_divider_default">
+        <item name="android:childDivider">@drawable/divider2</item>
+        <item name="android:divider">@drawable/transparent</item>
+    </style>
+    <style name="loadingStyle" parent="@android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@anim/loading</item>
+    </style>
+    <style name="menudialog">
+        <item name="android:windowEnterAnimation">@anim/menu_in</item>
+        <item name="android:windowExitAnimation">@anim/menu_out</item>
+    </style>
+    <style name="rb_style">
+        <item name="android:layout_height">20px</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:paddingLeft">5px</item>
+        <item name="android:drawablePadding">5px</item>
+        <item name="android:background">@drawable/list_item_bg</item>
+        <item name="android:drawableLeft">@drawable/radio_button_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">@dimen/text_normal_size</item>
+        <item name="android:textColor">@color/focuse_item_color</item>
+    </style>
+    <style name="sso_style_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground"> @android:color/transparent </item>
+    </style>
+    <style name="sso_style_security_code">
+        <item name="android:layout_width">46dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:inputType">number</item>
+        <item name="android:background">@drawable/sso_shape_secur_code</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColor">#1979bc</item>
+    </style>
+    <style name="sso_style_transparent">
+        <item name="android:windowBackground">@color/sso_color_transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <style name="talk_theme" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="talkstyle" parent="@android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@anim/record_talking</item>
+    </style>
+    <style name="talkstyle1" parent="@android:style/Widget.ProgressBar.Small.Inverse">
+        <item name="android:indeterminateDrawable">@anim/voice_anim</item>
+        <item name="android:minWidth">28dip</item>
+        <item name="android:maxWidth">28dip</item>
+        <item name="android:minHeight">28dip</item>
+        <item name="android:maxHeight">28dip</item>
+    </style>
+</resources>

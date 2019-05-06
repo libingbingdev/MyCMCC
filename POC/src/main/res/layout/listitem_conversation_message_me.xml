@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/note"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:padding="2dip" >
+
+    <include layout="@layout/listitem_conversation_message_util" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="25dip"
+        android:singleLine="true"
+        android:text="我"
+        android:textColor="#afffffff" />
+
+    <LinearLayout
+        android:id="@+id/body_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|top"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:id="@+id/body_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="50dip"
+                android:layout_marginTop="1dip"
+                android:background="?theme_msg_send" >
+
+                <!-- text and picture Message -->
+
+                <RelativeLayout
+                    android:id="@+id/text_and_picture_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:minWidth="30dp"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/pic"
+                        android:layout_width="@dimen/msg_pic_widht"
+                        android:layout_height="@dimen/msg_pic_height"
+                        android:layout_centerVertical="true"
+                        android:scaleType="center"
+                        android:src="@drawable/msg_image" />
+
+                    <TextView
+                        android:id="@+id/body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:bufferType="spannable"
+                        android:gravity="left"
+                        android:minWidth="50dip"
+                        android:textColor="#cfffffff"
+                        android:textSize="14dip" />
+
+                    <ProgressBar
+                        android:id="@+id/pro_load"
+                        style="@style/CustomProgressStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:visibility="visible" />
+                </RelativeLayout>
+                <!-- text and picture Message -->
+                <!-- Record Message -->
+
+                <RelativeLayout
+                    android:id="@+id/record_layout"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:minHeight="30dip"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/loading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:src="@drawable/loading"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/record_pic"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:src="?theme_msg_audio_play" />
+
+                    <TextView
+                        android:id="@+id/record_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_toRightOf="@+id/record_pic"
+                        android:singleLine="true"
+                        android:text="2“"
+                        android:textColor="#cfffffff" />
+                </RelativeLayout>
+                <!-- Record Message -->
+                <!-- session video Message -->
+
+                <RelativeLayout
+                    android:id="@+id/session_video_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:minWidth="30dp" >
+
+                    <ImageView
+                        android:id="@+id/video_pic"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:src="@drawable/ic_session_video" />
+
+                    <TextView
+                        android:id="@+id/video_body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/video_pic"
+                        android:gravity="left"
+                        android:minWidth="50dip"
+                        android:paddingRight="10dp"
+                        android:textColor="#cfffffff"
+                        android:textSize="14dip" />
+                </RelativeLayout>
+                <!-- session video Message -->
+
+
+                <!-- location message -->
+
+                <RelativeLayout
+                    android:id="@+id/location_layout"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/mv_msg_location"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/map_location" />
+
+                    <LinearLayout
+                        android:id="@+id/rl_loction_bottom"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@id/mv_msg_location"
+                        android:background="@color/black"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_msg_location_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:layout_marginTop="3dip"
+                            android:gravity="left"
+                            android:singleLine="true"
+                            android:text="@string/talk_gps_message"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tv_msg_location_detail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:layout_marginTop="3dip"
+                            android:gravity="left"
+                            android:singleLine="true"
+                            android:text="@string/talk_gps_message"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <!-- location message -->
+
+                <!-- location share message -->
+
+                <LinearLayout
+                    android:id="@+id/location_share_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerVertical="true"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_fun_gps"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/tv_location_share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <!-- location share message -->
+
+
+                <!-- video message -->
+
+                <RelativeLayout
+                    android:id="@+id/video_layout"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:layout_centerVertical="true" >
+
+                    <ImageView
+                        android:id="@+id/iv_msg_video"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/iv_msg_video_play"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/im_video_store" />
+                </RelativeLayout>
+                <!-- video message -->
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/report_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/body_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="-15dip"
+                android:layout_marginTop="13dip"
+                android:src="@drawable/msg_state_send_error" />
+
+            <ImageView
+                android:id="@+id/msg_ptt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/body_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/msg_ptt"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.6"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="10:00:00"
+                android:textColor="#838383"
+                android:textSize="10dip" />
+
+            <ImageView
+                android:id="@+id/user_head"
+                android:layout_width="42dip"
+                android:layout_height="42dip"
+                android:src="?theme_user_head" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

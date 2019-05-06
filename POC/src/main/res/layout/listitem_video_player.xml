@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/baseview"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:background="#40000000"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="5dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_video_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_marginLeft="2dp"
+        android:drawableLeft="@drawable/ic_topbar_video_open"
+        android:drawablePadding="8dip"
+        android:textSize="17sp"
+        android:text="USER"/>
+
+</LinearLayout>

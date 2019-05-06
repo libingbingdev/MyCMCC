@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_header_height">0dip</dimen>
+    <dimen name="main_menu_btn_width">35dip</dimen>
+    <dimen name="main_padding_widht">0dip</dimen>
+    <dimen name="main_padding_right">120dip</dimen>
+    <dimen name="main_volume_height">140dip</dimen>
+    <dimen name="mac_width">250dip</dimen>
+    <dimen name="pop_menu_tools_width">58dip</dimen>
+    <dimen name="pop_menu_tools_height">50dip</dimen>
+    <dimen name="pop_tools_column_width">45dip</dimen>
+    <dimen name="msg_pic_widht">140dip</dimen>
+    <dimen name="msg_pic_height">240dip</dimen>
+    <dimen name="msg_pic_height_width">78dip</dimen>
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+
+    <dimen name="text_normal_size">15px</dimen>
+    <dimen name="text_small_size">13px</dimen>
+
+
+</resources>

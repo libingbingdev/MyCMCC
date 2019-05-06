@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/talk_layout_session_member"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?theme_sider_bg"
+    android:orientation="horizontal" >
+
+    <!-- 使用和帮助 -->
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/include_main_header" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/layout_bottom" >
+
+                <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dip"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@id/talk_lv_tool_manual"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="?theme_sider_title_bg"
+                            android:gravity="center_vertical"
+                            android:padding="10dip" >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:paddingLeft="10dip"
+                                    android:text="@string/talk_tools_manual"
+                                    android:textColor="?theme_color_text"
+                                    android:textSize="16dip" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/talk_tv_enter"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="10dip"
+                                android:background="@drawable/btn_enter" />
+                        </LinearLayout>
+
+                        <View
+                            android:id="@id/talk_lv_tool_manual_divider"
+                            android:layout_width="fill_parent"
+                            android:layout_height="1dip"
+                            android:background="@drawable/dicider_line2" />
+
+                        <LinearLayout
+                            android:id="@id/talk_lv_tool_defect"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="?theme_sider_title_bg"
+                            android:gravity="center_vertical"
+                            android:padding="10dip" >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:paddingLeft="10dip"
+                                    android:text="@string/talk_tools_defect"
+                                    android:textColor="?theme_color_text"
+                                    android:textSize="16dip" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@id/talk_tv_enter"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="10dip"
+                                android:background="@drawable/btn_enter" />
+                        </LinearLayout>
+
+                        <View
+                            android:id="@id/talk_lv_tool_defect_divider"
+                            android:layout_width="fill_parent"
+                            android:layout_height="1dip"
+                            android:background="@drawable/dicider_line2" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

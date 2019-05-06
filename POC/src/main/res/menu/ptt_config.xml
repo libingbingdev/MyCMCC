@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:model="http://schemas.android.com/apk/res/com.cmccpoc">
+
+	<item model:model="POC" 
+	    model:pttButtonKeycode="5" 
+	    model:pttButtonScreen="false"
+		model:pttButtonActionUp="android.intent.action.PTT.up"
+		model:pttButtonActionDown="android.intent.action.PTT.down"
+		/>
+	<item model:model="BXDS-23" 
+	    model:pttButtonKeycode="5"
+	    model:pttButtonScreen="false"
+		model:pttButtonActionUp="android.intent.action.PTT.up"
+		model:pttButtonActionDown="android.intent.action.PTT.down"
+		/>
+
+</menu>

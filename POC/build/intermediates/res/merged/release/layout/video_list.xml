@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/talk_video_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:visibility="gone"
+    >
+
+    <LinearLayout
+        android:id="@+id/talk_video_list"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true" >
+
+        <ImageView
+            android:id="@+id/talk_video_sider_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/video_sider1"/>
+
+        <LinearLayout
+            android:id="@+id/talk_video_list_main"
+            android:layout_width="180dip"
+            android:layout_height="match_parent"
+            android:background="#80000000"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/talk_video_list_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/talk_video_forward_real"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:padding="12dip"
+                android:gravity="center"
+                android:background="#FCA700"/>
+            <ListView
+                android:id="@+id/talk_video_list_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000"
+                android:groupIndicator="@null"
+                android:listSelector="@android:color/transparent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/talk_video_sider_open"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/video_sider"
+        android:layout_alignParentRight="true"/>
+
+    <RelativeLayout
+        android:id="@+id/talk_video_space"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/talk_video_list"/>
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From POC:
+* .DS_Store
+* .gitignore
+* ipoc_key
+* proguard.cfg
+From WepttSDK:
+* .DS_Store
+* .gitignore
+* .project.xml
+* proguard.cfg
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In WepttSDK:
+* AndroidManifest.xml => wepttSDK/src/main/AndroidManifest.xml
+* jni/ => wepttSDK/src/main/jni/
+* libs/armeabi/libairtalkee.so => wepttSDK/src/main/jniLibs/armeabi/libairtalkee.so
+* lint.xml => wepttSDK/lint.xml
+* res/ => wepttSDK/src/main/res/
+* src/ => wepttSDK/src/main/java/
+* src/.DS_Store => wepttSDK/src/main/resources/.DS_Store
+* src/com/.DS_Store => wepttSDK/src/main/resources/com/.DS_Store
+* src/com/airtalkee/.DS_Store => wepttSDK/src/main/resources/com/airtalkee/.DS_Store
+* src/com/airtalkee/sdk/.DS_Store => wepttSDK/src/main/resources/com/airtalkee/sdk/.DS_Store
+* src/com/airtalkee/sdk/video/.DS_Store => wepttSDK/src/main/resources/com/airtalkee/sdk/video/.DS_Store
+In POC:
+* AndroidManifest.xml => pOC/src/main/AndroidManifest.xml
+* assets/ => pOC/src/main/assets/
+* libs/AMap_2DMap_V2.8.1_20160202.jar => pOC/libs/AMap_2DMap_V2.8.1_20160202.jar
+* libs/BaiduLBS_Android.jar => pOC/libs/BaiduLBS_Android.jar
+* libs/IndoorscapeAlbumPlugin.jar => pOC/libs/IndoorscapeAlbumPlugin.jar
+* libs/android-support-v7-recyclerview.jar => pOC/libs/android-support-v7-recyclerview.jar
+* libs/armeabi/libBDSpeechDecoder_V1.so => pOC/src/main/jniLibs/armeabi/libBDSpeechDecoder_V1.so
+* libs/armeabi/libBaiduMapSDK_base_v4_2_0.so => pOC/src/main/jniLibs/armeabi/libBaiduMapSDK_base_v4_2_0.so
+* libs/armeabi/libBaiduMapSDK_bikenavi_v4_2_0.so => pOC/src/main/jniLibs/armeabi/libBaiduMapSDK_bikenavi_v4_2_0.so
+* libs/armeabi/libBaiduMapSDK_map_for_bikenavi_v4_2_0.so => pOC/src/main/jniLibs/armeabi/libBaiduMapSDK_map_for_bikenavi_v4_2_0.so
+* libs/armeabi/libapp_BaiduNaviApplib.so => pOC/src/main/jniLibs/armeabi/libapp_BaiduNaviApplib.so
+* libs/armeabi/libapp_BaiduPanoramaAppLib.so => pOC/src/main/jniLibs/armeabi/libapp_BaiduPanoramaAppLib.so
+* libs/armeabi/libapp_BaiduVIlib.so => pOC/src/main/jniLibs/armeabi/libapp_BaiduVIlib.so
+* libs/armeabi/libaudiomessage-jni.so => pOC/src/main/jniLibs/armeabi/libaudiomessage-jni.so
+* libs/armeabi/libbd_etts.so => pOC/src/main/jniLibs/armeabi/libbd_etts.so
+* libs/armeabi/libbds.so => pOC/src/main/jniLibs/armeabi/libbds.so
+* libs/armeabi/libbdtts.so => pOC/src/main/jniLibs/armeabi/libbdtts.so
+* libs/armeabi/libcurl.so => pOC/src/main/jniLibs/armeabi/libcurl.so
+* libs/armeabi/libetts_domain_data_builder.so => pOC/src/main/jniLibs/armeabi/libetts_domain_data_builder.so
+* libs/armeabi/libgnustl_shared.so => pOC/src/main/jniLibs/armeabi/libgnustl_shared.so
+* libs/armeabi/liblocSDK7.so => pOC/src/main/jniLibs/armeabi/liblocSDK7.so
+* libs/armeabi/liblocnaviSDK.so => pOC/src/main/jniLibs/armeabi/liblocnaviSDK.so
+* libs/hcicloud-3.9.jar => pOC/libs/hcicloud-3.9.jar
+* libs/hcicloud_player-3.9.jar => pOC/libs/hcicloud_player-3.9.jar
+* libs/httpmime-4.1.2.jar => pOC/libs/httpmime-4.1.2.jar
+* libs/nineoldandroids-2.4.0.jar => pOC/libs/nineoldandroids-2.4.0.jar
+* libs/samsung-edm.jar => pOC/libs/samsung-edm.jar
+* libs/samsung-license.jar => pOC/libs/samsung-license.jar
+* libs/samsung-rc.jar => pOC/libs/samsung-rc.jar
+* libs/umeng_sdk.jar => pOC/libs/umeng_sdk.jar
+* libs/universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar => pOC/libs/universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar
+* lint.xml => pOC/lint.xml
+* res/ => pOC/src/main/res/
+* src/ => pOC/src/main/java/
+* src/.DS_Store => pOC/src/main/resources/.DS_Store
+* src/com/.DS_Store => pOC/src/main/resources/com/.DS_Store
+* src/com/cmccpoc/.DS_Store => pOC/src/main/resources/com/cmccpoc/.DS_Store
+* src/com/cmccpoc/activity/.DS_Store => pOC/src/main/resources/com/cmccpoc/activity/.DS_Store
+* menu_icon.PNG => menu_icon.png
+* msg_send.PNG => msg_send.png
+* msg_send_a.PNG => msg_send_a.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

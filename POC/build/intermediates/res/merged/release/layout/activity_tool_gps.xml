@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_main_header" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="28px">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <!-- GPS状态 -->
+
+            <LinearLayout
+                android:id="@id/talk_gps_state_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:layout_marginBottom="10dip"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginBottom="3dip"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/talk_tools_location"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:gravity="left|center_vertical"
+                        android:textColor="#787878"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/talk_setting_gps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip" />
+
+                <!--android:button="?theme_btn_check_new" -->
+
+            </LinearLayout>
+            <!-- 回传频率 -->
+
+            <LinearLayout
+                android:id="@id/talk_gps_frequence_item"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/gps_frequence_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/talk_gps_frequence"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:layout_marginBottom="10dip"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/gps_frequence"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="left|center"
+                        android:text=""
+                        android:textColor="?theme_button_text_color"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/gps_frequence_selector"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dip"
+                        android:src="@drawable/point_item_white"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/gps_frequence_high_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/talk_gps_frequence_high"
+                    android:textColor="#787878"
+                    android:textSize="12sp" />
+
+                <CheckBox
+                    android:id="@+id/gps_frequence_high"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@id/talk_gps_frequence_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <RadioGroup
+                    android:id="@+id/rg_gps_frequence"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb_1_min"
+                        style="@style/rb_style"
+                        android:text="60秒" />
+
+                    <RadioButton
+                        android:id="@+id/rb_5_min"
+                        style="@style/rb_style"
+                        android:text="5分钟" />
+
+                    <RadioButton
+                        android:id="@+id/rb_15_min"
+                        style="@style/rb_style"
+                        android:text="15分钟" />
+
+                    <RadioButton
+                        android:id="@+id/rb_30_min"
+                        style="@style/rb_style"
+                        android:text="30分钟" />
+
+                    <RadioButton
+                        android:id="@+id/rb_60_min"
+                        style="@style/rb_style"
+                        android:text="60分钟" />
+
+                    <RadioButton
+                        android:id="@+id/rb_close"
+                        style="@style/rb_style"
+                        android:text="关闭" />
+                </RadioGroup>
+
+                <!-- <TextView
+                     android:id="@+id/tv_1_min"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerHorizontal="true"
+                     android:layout_marginRight="34dp"
+                     android:layout_marginTop="45dp"
+                     android:layout_toLeftOf="@+id/tv_5_min"
+                     android:text="1分钟"
+                     android:textColor="@color/radiobutton_text_gray"
+                     android:textSize="18dp" />
+
+                 <TextView
+                     android:id="@+id/tv_5_min"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerHorizontal="true"
+                     android:layout_marginRight="30dp"
+                     android:layout_marginTop="45dp"
+                     android:layout_toLeftOf="@+id/tv_15_min"
+                     android:text="5分钟"
+                     android:textColor="@color/radiobutton_text_gray"
+                     android:textSize="18dp" />
+
+                 <TextView
+                     android:id="@+id/tv_15_min"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerHorizontal="true"
+                     android:layout_marginTop="45dp"
+                     android:text="15分钟"
+                     android:textColor="@color/radiobutton_text_gray"
+                     android:textSize="18dp" />
+
+                 <TextView
+                     android:id="@+id/tv_30_min"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerHorizontal="true"
+                     android:layout_marginLeft="34dp"
+                     android:layout_marginTop="45dp"
+                     android:layout_toRightOf="@+id/tv_15_min"
+                     android:text="30分钟"
+                     android:textColor="@color/radiobutton_text_gray"
+                     android:textSize="18dp" />
+
+                 <TextView
+                     android:id="@+id/tv_60_min"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerHorizontal="true"
+                     android:layout_marginLeft="22dp"
+                     android:layout_marginTop="45dp"
+                     android:layout_toRightOf="@+id/tv_30_min"
+                     android:text="60分钟"
+                     android:textColor="@color/radiobutton_text_gray"
+                     android:textSize="18dp" />-->
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?theme_sider_title_bg"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:layout_marginBottom="10dip"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginBottom="3dip"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/talk_gps_message"
+                        android:textColor="#787878"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/gps_t_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginBottom="3dip"
+                        android:gravity="left|center_vertical"
+                        android:textColor="#282828"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/gps_t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="15dip"
+                        android:gravity="left|center_vertical"
+                        android:textColor="#282828"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/include_bottom_footer" />
+</FrameLayout>

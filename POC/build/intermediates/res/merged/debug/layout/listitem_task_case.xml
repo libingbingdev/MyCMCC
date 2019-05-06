@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?theme_selector_group_item"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/btn_enter" />
+
+        <TextView
+            android:id="@+id/talk_task_case_name"
+            android:layout_width="wrap_content"
+            android:layout_height="24dip"
+            android:layout_marginRight="10dp"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="?theme_color_text1"
+            android:textIsSelectable="true"
+            android:textSize="18dip" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dip"
+        android:gravity="center_vertical|right" 
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:id="@+id/talk_task_case_del"
+            android:layout_width="wrap_content"
+            android:layout_height="24dip"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_voice_del" />
+
+    </LinearLayout>
+
+</LinearLayout>

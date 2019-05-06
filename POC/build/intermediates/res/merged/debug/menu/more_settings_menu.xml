@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:id="@+id/more_button" android:title="更多" android:showAsAction="always" />-->
+    <item android:id="@+id/call_end" android:title="挂断" android:showAsAction="never"/>
+    <item android:id="@+id/channel_lock" android:title="频道锁" android:showAsAction="never"/>
+</menu>

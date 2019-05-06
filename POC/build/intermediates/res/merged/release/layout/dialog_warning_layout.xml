@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:layout_alignParentRight="true"
+    android:layout_alignParentLeft="true"
+    android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_alignParentRight="true"
+    android:layout_alignParentLeft="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/iv_call_image"
+            android:layout_marginTop="18px"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_warning"
+            />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="8px"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="14px" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginBottom="18px"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10px"
+            android:paddingRight="10px"
+            android:fontFamily="SourceHanSansCN-Regular"
+            android:background="@color/transparent"/>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:paddingLeft="10px"
+            android:paddingRight="10px"
+            android:layout_alignParentRight="true"
+            android:fontFamily="SourceHanSansCN-Regular"
+            android:background="@color/transparent"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

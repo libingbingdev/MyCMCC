@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom">
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:paddingLeft="10px"
+        android:paddingRight="10px"
+        android:textSize="@dimen/text_normal_size"
+        android:textColor="@color/focuse_item_color"
+        android:text="确定"
+        android:fontFamily="SourceHanSansCN-Regular"
+        android:background="@color/transparent"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:paddingLeft="10px"
+        android:paddingRight="10px"
+        android:textSize="@dimen/text_normal_size"
+        android:text="返回"
+        android:layout_alignParentRight="true"
+        android:fontFamily="SourceHanSansCN-Regular"
+        android:background="@color/transparent"
+        />
+</RelativeLayout>

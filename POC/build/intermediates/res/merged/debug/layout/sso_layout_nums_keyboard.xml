@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#E3E7EE" />
+
+    <GridView
+        android:id="@+id/sso_gv_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="1px"
+        android:numColumns="3"
+        android:background="#E3E7EE"
+        android:listSelector="@null"
+        android:cacheColorHint="#00000000"
+        android:scrollbars="none"
+        android:verticalSpacing="1px"
+        android:fadingEdge="none"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#E3E7EE" />
+
+</LinearLayout>

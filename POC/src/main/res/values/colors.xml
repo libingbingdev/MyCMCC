@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#000000</color>
+    <color name="white_1">#5f000000</color>
+    <color name="button_text_color">#ff9a00</color>
+    <color name="transparent">#00000000</color>
+    <color name="yellow">#e2992a</color>
+    <color name="black">#282828</color>
+    <color name="black_gray">#787878</color>
+    <color name="color_tv1">#fffdbf01</color>
+    <color name="color_tv1_pressed">#affdbf01</color>
+    <color name="text_gray">#000000</color>
+    <color name="radiobutton_text_gray">#9B9B9B</color>
+    <color name="update_text_new">#555555</color>
+    <color name="update_text_ing">#FF9400</color>
+    <color name="update_text_none">#999999</color>
+    
+</resources>

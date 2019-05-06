@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-1dip"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_main_header" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/talk_layout_task_detail_bottom"
+            android:background="?theme_sider_title_bg"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dip">
+
+                    <LinearLayout
+                        android:id="@+id/task_code_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dip">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="案件号："
+                            android:textColor="@color/black_gray"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/task_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="#000000"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/task_code_edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"/>
+
+                    <LinearLayout
+                        android:id="@+id/task_name_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dip"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/task_name_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="案件名称："
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/task_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/task_name_edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:id="@+id/task_car_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dip">
+
+                        <TextView
+                            android:id="@+id/task_car_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="案发地："
+                            android:textColor="@color/black_gray"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/task_car"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="#000000"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/task_car_edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/task_desc_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:layout_marginTop="10dip"
+                            android:text="案件详情："
+                            android:textColor="@color/black_gray"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/task_desc"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:layout_marginLeft="10dip"
+                            android:layout_marginRight="10dip"
+                            android:text=""
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/task_desc_edit"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="false" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/talk_layout_task_detail_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="?theme_sider_title_bg"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/line_divider"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentBottom="true"
+                android:background="?theme_divider_h" />
+
+            <LinearLayout
+                android:id="@+id/layout_task"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="6dip"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_task_report_select"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="6dip"
+                    android:layout_marginRight="3dip"
+                    android:layout_marginTop="6dip"
+                    android:layout_weight="1"
+                    android:background="?theme_button"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="选择图片"
+                    android:textColor="@color/white"
+                    android:textSize="14dip" />
+
+                <Button
+                    android:id="@+id/btn_task_report_pic"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="6dip"
+                    android:layout_marginRight="3dip"
+                    android:layout_marginTop="6dip"
+                    android:layout_weight="1"
+                    android:background="?theme_button"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="拍照"
+                    android:textColor="@color/white"
+                    android:textSize="14dip" />
+
+                <Button
+                    android:id="@+id/btn_task_report_vid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="6dip"
+                    android:layout_marginTop="6dip"
+                    android:layout_weight="1"
+                    android:background="?theme_button"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="录像"
+                    android:textColor="@color/white"
+                    android:textSize="14dip" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_task_call"
+                android:layout_width="fill_parent"
+                android:layout_height="46dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginBottom="6dip"
+                android:background="?theme_button"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="呼叫调度中心"
+                android:textColor="@color/white"
+                android:textSize="14dip" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-1dip"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_main_header" />
+    </LinearLayout>
+
+</LinearLayout>

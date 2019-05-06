@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cmccpoc.activity.home.ChannelListActivity">
+
+    <RelativeLayout
+        android:id="@+id/list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/channel_tile_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/channel_list_title_text"
+            android:textSize="24sp"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/gv_channels"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:layout_marginBottom="28px"
+        android:verticalSpacing="10dp" />
+
+    <include layout="@layout/include_bottom_footer"/>
+
+    <FrameLayout
+        android:id="@+id/member_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+    </FrameLayout>
+    <!---->
+</FrameLayout>

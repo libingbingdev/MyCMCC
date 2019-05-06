@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="gps_state">
+		<item>开启</item>
+		<item>关闭</item>
+	</string-array>
+	<string-array name="gps_frequence">
+		<item>高精度模式</item>
+		<item>1分钟</item>
+		<item>5分钟</item>
+		<item>15分钟</item>
+		<item>30分钟</item>
+		<item>60分钟</item>
+	</string-array>
+	<string-array name="hb_setting">
+		<item>高性能</item>
+		<item>较快</item>
+		<item>中等</item>
+		<item>正常模式</item>
+	</string-array>
+	<string-array name="handle_session_operation">
+		<item>删除此对话</item>
+	</string-array>
+	<string-array name="handle_message_send_fail">
+		<item>清空全部</item>
+		<item>删除</item>
+		<item>重发</item>
+		<item>复制</item>
+	</string-array>
+	<string-array name="handle_message_txt">
+		<item>清空全部</item>
+		<item>删除</item>
+		<item>复制</item>
+	</string-array>
+	<string-array name="handle_message_send_fail1">
+		<item>清空全部</item>
+		<item>删除</item>
+		<item>重发</item>
+	</string-array>
+	<string-array name="handle_message_txt1">
+		<item>清空全部</item>
+		<item>删除</item>
+	</string-array>
+	<string-array name="handle_report">
+		<item>查看</item>
+		<item>删除</item>
+	</string-array>
+	<string-array name="play_mode">
+		<item>@string/talk_tools_setting_voice_mode_earphone</item>
+		<item>@string/talk_tools_setting_voice_mode_speaker</item>
+		<item>@string/talk_tools_setting_voice_mode_bluetooth</item>
+	</string-array>
+	<string-array name="picture_quality">
+		<item>@string/talk_unscathed</item>
+		<item>@string/talk_scathed</item>
+	</string-array>
+	<!-- Smiley resource id array, must be one to one mapped to code array -->
+	 <string-array name="smiley_code_array">
+        <item>(图片)</item>
+        <item>(录音)</item>
+        <item>(呼叫未接)</item>
+        <item>(呼叫拒接)</item>
+        <item>(呼入)</item>
+        <item>(呼出)</item>
+    </string-array>
+    <array name="smiley_resid_array">
+        <item></item>
+        <!-- <item>@drawable/icon_images</item> -->
+        <item>@drawable/icon_sound</item>
+        <item>@drawable/ic_call_missed</item>
+        <item>@drawable/ic_call_rejected</item>
+        <item>@drawable/ic_call_incoming</item>
+        <item>@drawable/ic_call_outgoing</item>
+    </array>
+</resources>

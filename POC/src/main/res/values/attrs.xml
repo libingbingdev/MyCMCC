@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PttConfig">
+        <attr name="model" format="string" />
+        <attr name="theme" format="reference" />
+        <attr name="tts" format="boolean" />
+        <attr name="allowFirstLaunch" format="boolean" />
+        <attr name="bootLaunch" format="boolean" />
+        <attr name="pttEarphoneLongPress" format="boolean" />
+        <attr name="pttEarphoneKeycode" format="integer" />
+        <attr name="pttEarphonePlug" format="boolean" />
+        <attr name="pttVisible" format="boolean" />
+        <attr name="pttButtonAction" format="string" />
+        <attr name="pttButtonActionUpDownCode" format="string" />
+        <attr name="pttButtonActionUp" format="string" />
+        <attr name="pttButtonActionDown" format="string" />
+        <attr name="pttButtonKeycode" format="integer">
+            <flag name="KEYCODE_SOFT_LEFT" value="1" />
+            <flag name="KEYCODE_CAMERA" value="27" />
+            <flag name="KEYCODE_ALT_LEFT" value="57" />
+            <flag name="KEYCODE_SEARCH" value="84" />
+            <flag name="KEYCODE_RG210" value="230" />
+            <flag name="KEYCODE_RG220" value="231" />
+            <flag name="KEYCODE_MSM8226" value="142" />
+        </attr>
+        <attr name="screenAlwaysPtt" format="boolean" />
+        <attr name="screenOrientation" format="integer">
+            <flag name="UnSpecified" value="-1" />
+            <flag name="Landscape" value="0" />
+            <flag name="Portrait" value="1" />
+        </attr>
+        <attr name="audioAmplifierEnabled" format="boolean" />
+        <attr name="pttButtonScreen" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="BtConfig">
+        <attr name="deviceName" format="string" />
+        <attr name="keyP" format="string" />
+        <attr name="keyR" format="string" />
+        <attr name="ackSpeakTalk" format="string" />
+        <attr name="ackSpeakRelease" format="string" />
+        <attr name="encrypt" format="boolean" />
+        <attr name="onlyspp" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="PageIndicator">
+        <attr name="indicator_spacing" format="dimension" />
+        <attr name="indicator_type" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="fraction" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="umanoPanelHeight" format="dimension" />
+        <attr name="umanoShadowHeight" format="dimension" />
+        <attr name="umanoParalaxOffset" format="dimension" />
+        <attr name="umanoFadeColor" format="color" />
+        <attr name="umanoFlingVelocity" format="integer" />
+        <attr name="umanoDragView" format="reference" />
+        <attr name="umanoScrollableView" format="reference" />
+        <attr name="umanoOverlay" format="boolean" />
+        <attr name="umanoClipPanel" format="boolean" />
+        <attr name="umanoAnchorPoint" format="float" />
+        <attr name="umanoInitialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RecyclerView">
+
+        <!--
+        Class name of the Layout Manager to be used.
+        <p/>
+        The class must extend android.support.v7.widget.RecyclerView$LayoutManager
+        and have either a default constructor or constructor with the signature
+        (android.content.Context, android.util.AttributeSet, int, int).
+         <p/>
+         If the name starts with a '.', application package is prefixed.
+         Else, if the name contains a '.', the classname is assumed to be a full class name.
+         Else, the recycler view package name (android.support.v7.widget) is prefixed.
+        -->
+        <attr name="layoutManager" format="string" />
+
+        <!-- ============================= -->
+        <!-- Attributes for Layout Manager -->
+        <!-- ============================= -->
+        <eat-comment />
+
+        <attr name="android:orientation" />
+        <attr name="spanCount" format="integer" />
+        <attr name="reverseLayout" format="boolean" />
+        <attr name="stackFromEnd" format="boolean" />
+    </declare-styleable>
+
+    <attr name="entrySummaries" format="reference" />
+    <declare-styleable name="IjkListPreference">
+        <attr name="entrySummaries" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_call_dial.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_call_dial.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_knock.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_knock.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_callend.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_callend.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_other_on_low.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_other_on_low.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_me_off.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_me_off.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_me_on_low.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_me_on_low.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\wangfei.mp3",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\wangfei.mp3"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_rec_play_stop.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_rec_play_stop.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_me_off_low.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_me_off_low.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_call_dial.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_call_dial.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_call_dial_incoming.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_call_dial_incoming.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_msg_sent.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_msg_sent.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_take_photo.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_take_photo.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_error.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_error.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_take_photo.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_take_photo.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_me_on.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_me_on.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_me_off.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_me_off.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_other_on.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_other_on.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_pti.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_pti.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_knock.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_knock.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_other_on.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_other_on.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_other_on_low.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_other_on_low.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_rec_play_start.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_rec_play_start.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_me_off_low.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_me_off_low.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_callerror.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_callerror.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_msg_sent.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_msg_sent.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_pti.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_pti.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_sweep.mp3",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_sweep.mp3"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_callbegin.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_callbegin.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_talk_prepare.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_talk_prepare.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_rec_play_start.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_rec_play_start.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_talk_prepare.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_talk_prepare.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_error.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_error.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_me_on.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_me_on.ogg"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_other_off.ogg",
+        "source": "D:\\BaiduNetdiskDownload\\sso\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_other_off.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_call_dial_incoming.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_call_dial_incoming.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_sweep.mp3",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_sweep.mp3"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_rec_play_stop.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_rec_play_stop.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_callbegin.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_callbegin.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_callerror.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_callerror.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_other_off.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_other_off.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\wangfei.mp3",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\wangfei.mp3"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_media_me_on_low.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_media_me_on_low.ogg"
+    },
+    {
+        "merged": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\build\\intermediates\\res\\merged\\debug\\raw\\sound_callend.ogg",
+        "source": "Y:\\G17A\\MOCOR5_SFPHONE_17F_RLS1_W18.28.5\\packages\\apps\\cmcc\\POC\\src\\main\\res\\raw\\sound_callend.ogg"
+    }
+]

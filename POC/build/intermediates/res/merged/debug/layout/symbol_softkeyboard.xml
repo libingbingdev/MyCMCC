@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/symbol_softkeyboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonAdd"
+            android:text="+"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:focusable ="true"
+            android:focusableInTouchMode="true"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonDot"
+            android:text="."
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:focusable ="true"
+            android:focusableInTouchMode="true"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonSub"
+            android:text="-"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:focusable ="true"
+            android:focusableInTouchMode="true"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonLp"
+            android:text="("
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:focusable ="true"
+            android:focusableInTouchMode="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonAt"
+            android:text="\u0040"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:focusable ="true"
+            android:focusableInTouchMode="true"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonSpace"
+            android:text="\u2764"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:focusable ="true"
+            android:focusableInTouchMode="true"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonPound"
+            android:text="#"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:focusable ="true"
+            android:focusableInTouchMode="true"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonStar"
+            android:text="*"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:focusable ="true"
+            android:focusableInTouchMode="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include layout="@layout/loweren_key"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/buttonLowerenS"/>
+
+        <include layout="@layout/number_key"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/buttonNumberS"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:id="@+id/buttonLine"
+            android:text="_"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:focusable ="true"
+            android:focusableInTouchMode="true"/>
+
+        <include layout="@layout/delete_key"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/buttonDeleteS"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include layout="@layout/ok_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonOkS"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/buttonInvalidS1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/buttonInvalidS2"/>
+
+        <include layout="@layout/back_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBackS"/>
+
+    </LinearLayout>
+
+</LinearLayout>
